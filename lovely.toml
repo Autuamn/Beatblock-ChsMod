@@ -317,3 +317,176 @@ payload = "if not(self:isUnbreakChar(l)) and wrapLen > 0 then"
 times = 1
 match_indent = true
 
+[[patches]]
+[patches.pattern]
+target = "obj/GameManager.lua"
+pattern = "if cs.barelies == 0 and cs.misses == 0 then"
+position = "before"
+payload = '''
+if savedata.options.language == 'zh-cn' and (cs.vfx.glitchUIElements > 0 or cs.vfx.glitchCombo) and cs.vfx.useGlitchedFont then
+	originalLang = 'zh-cn'
+	loc.setLang('en')
+end
+'''
+times = 1
+match_indent = true
+
+[[patches]]
+[patches.pattern]
+target = "obj/GameManager.lua"
+pattern = "if cs.vfx.glitchUIElements > 0 or cs.vfx.glitchCombo then"
+position = "before"
+payload = '''
+if originalLang == 'zh-cn' then
+	loc.setLang('zh-cn')
+	originalLang = nil
+end
+'''
+times = 2
+match_indent = true
+
+[[patches]]
+[patches.pattern]
+target = "obj/GameManager.lua"
+pattern = 'local text_print = loc.get("comboExpanded")'
+position = "before"
+payload = '''
+if savedata.options.language == 'zh-cn' and (cs.vfx.glitchUIElements > 0 or cs.vfx.glitchCombo) and cs.vfx.useGlitchedFont then
+	originalLang = 'zh-cn'
+	loc.setLang('en')
+end
+'''
+times = 1
+match_indent = true
+
+[[patches]]
+[patches.pattern]
+target = "obj/GameManager.lua"
+pattern = 'local text_print = loc.get("accuracyExpanded")'
+position = "before"
+payload = '''
+if savedata.options.language == 'zh-cn' and (cs.vfx.glitchUIElements > 0 or cs.vfx.glitchCombo) and cs.vfx.useGlitchedFont then
+	originalLang = 'zh-cn'
+	loc.setLang('en')
+end
+'''
+times = 1
+match_indent = true
+
+[[patches]]
+[patches.pattern]
+target = "obj/GameManager.lua"
+pattern = "if cs.vfx.glitchUIElements > 1 or cs.vfx.glitchAccuracy then"
+position = "before"
+payload = '''
+if originalLang == 'zh-cn' then
+	loc.setLang('zh-cn')
+	originalLang = nil
+end
+'''
+times = 1
+match_indent = true
+
+[[patches]]
+[patches.pattern]
+target = "obj/GameManager.lua"
+pattern = "local str = cs.level.metadata.difficulty"
+position = "after"
+payload = '''
+if savedata.options.language == 'zh-cn' and (cs.vfx.glitchUIElements > 0 or cs.vfx.glitchCombo) and cs.vfx.useGlitchedFont then
+	originalLang = 'zh-cn'
+	loc.setLang('en')
+end
+'''
+times = 1
+match_indent = true
+
+[[patches]]
+[patches.pattern]
+target = "obj/GameManager.lua"
+pattern = "if cs.vfx.glitchUIElements > 3 or cs.vfx.glitchDifficulty then"
+position = "before"
+payload = '''
+if originalLang == 'zh-cn' then
+	loc.setLang('zh-cn')
+	originalLang = nil
+end
+'''
+times = 1
+match_indent = true
+
+[[patches]]
+[patches.pattern]
+target = "obj/Map.lua"
+pattern = "love.graphics.setFont(fonts.digitalDiscoGlitched)"
+position = "after"
+payload = '''
+if savedata.options.language == 'zh-cn' then
+	originalLang = 'zh-cn'
+	loc.setLang('en')
+end
+'''
+times = 1
+match_indent = true
+
+[[patches]]
+[patches.pattern]
+target = "obj/Map.lua"
+pattern = "love.graphics.setFont(fonts.digitalDisco)"
+position = "after"
+payload = '''
+if originalLang == 'zh-cn' then
+	loc.setLang('zh-cn')
+	originalLang = nil
+end
+'''
+times = 1
+match_indent = true
+
+[[patches]]
+[patches.pattern]
+target = "states/AtomMap.lua"
+pattern = "font = fonts.digitalDiscoGlitched"
+position = "after"
+payload = '''
+if savedata.options.language == 'zh-cn' then
+	originalLang = 'zh-cn'
+	loc.setLang('en')
+end
+'''
+times = 2
+match_indent = true
+
+[[patches]]
+[patches.pattern]
+target = "states/AtomMap.lua"
+pattern = '''
+			obj = self.SelectedAtom.nucleus
+		}
+'''
+position = "after"
+payload = '''
+if originalLang == 'zh-cn' then
+	loc.setLang('zh-cn')
+	originalLang = nil
+end
+'''
+times = 1
+match_indent = true
+
+[[patches]]
+[patches.pattern]
+target = "states/AtomMap.lua"
+pattern = '''
+					obj = obj
+				}
+'''
+position = "after"
+payload = '''
+if originalLang == 'zh-cn' then
+	loc.setLang('zh-cn')
+	originalLang = nil
+end
+'''
+times = 1
+match_indent = true

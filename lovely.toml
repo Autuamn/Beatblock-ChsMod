@@ -2,15 +2,12 @@
 version = "1.0.0"
 priority = 0
 
-[vars]
-new_languages = "{'zh-cn', 'en', 'owo'}"
-
 [[patches]]
 [patches.pattern]
 target = "states/Menu.lua"
 pattern = "langOption.languages = *"
-position = "at"
-payload = "langOption.languages = {{lovely:new_languages}}"
+position = "after"
+payload = "table.insert(langOption.languages, 'zh-cn')"
 match_indent = true
 times = 1
 
@@ -97,28 +94,30 @@ payload = '''
 	-- 加载自定义中文翻译
 	do
 		local lovely = require("lovely")
-		local custom_path = lovely.mod_dir .. "/ChsMod/localization.json"
-		print("Loading custom localization from: " .. custom_path)
+		local newLanguage = 'zh-cn'
+		local chsLocPath = lovely.mod_dir .. "/ChsMod/localization.json"
+		print("Loading " .. newLanguage .. " localization from: " .. chsLocPath)
 		
-		local file = io.open(custom_path, "r")
-		if file then
-			local content = file:read("*all")
-			file:close()
+		local chsLocFile = io.open(chsLocPath, "r")
+		if chsLocFile then
+			local chsLocJson = json.decode(chsLocFile:read("*all"))
+			chsLocFile:close()
 			
-			local custom_data = json.decode(content)
-			if custom_data then
+			if chsLocJson then
 				local count = 0
-				for key, translations in pairs(custom_data) do
-					if loc.json[key] then
-						for lang, text in pairs(translations) do
-							loc.json[key][lang] = text
-						end
+				for k, v in pairs(loc.json) do
+					if chsLocJson[k] and chsLocJson[k][newLanguage] then
+						loc.json[k][newLanguage] = chsLocJson[k][newLanguage]
+						count = count + 1
 					else
-						loc.json[key] = translations
+						loc.json[k][newLanguage] = loc.json[k]['en']
 					end
-					count = count + 1
 				end
-				print("Custom localization merged! Keys: " .. count)
+					loc.json['lang_' .. newLanguage] = {}
+					for k, v in pairs(loc.json.optionsLanguage) do
+						loc.json['lang_' .. newLanguage][k] = chsLocJson['lang_' .. newLanguage][newLanguage]
+				end
+				print(newLanguage .. " localization merged! Keys: " .. count)
 			else
 				print("Failed to decode custom JSON")
 			end

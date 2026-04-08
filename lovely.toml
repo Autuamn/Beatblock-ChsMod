@@ -1,0 +1,179 @@
+[manifest]
+version = "1.0.0"
+priority = 0
+
+[vars]
+new_languages = "{'zh-cn', 'en', 'owo'}"
+
+[[patches]]
+[patches.pattern]
+target = "states/Menu.lua"
+pattern = "langOption.languages = *"
+position = "at"
+payload = "langOption.languages = {{lovely:new_languages}}"
+match_indent = true
+times = 1
+
+[[patches]]
+[patches.pattern]
+target = "states/Menu.lua"
+pattern = "--self.optionsMenu:addOption('optionsLanguage','language',optionsHeight*1)"
+position = "at"
+payload = "self.optionsMenu:addOption('optionsLanguage','language',optionsHeight*1)"
+match_indent = true
+times = 1
+
+[[patches]]
+[patches.pattern]
+target = "states/Menu.lua"
+pattern = "self.optionsMenu:addOption('optionsAccessibility','accessibility',optionsHeight*1)"
+position = "at"
+payload = "self.optionsMenu:addOption('optionsAccessibility','accessibility',optionsHeight*2)"
+match_indent = true
+times = 1
+
+[[patches]]
+[patches.pattern]
+target = "states/Menu.lua"
+pattern = "self.optionsMenu:addOption('optionsGraphics','graphics',optionsHeight*2)"
+position = "at"
+payload = "self.optionsMenu:addOption('optionsGraphics','graphics',optionsHeight*3)"
+match_indent = true
+times = 1
+
+[[patches]]
+[patches.pattern]
+target = "states/Menu.lua"
+pattern = "self.optionsMenu:addOption('optionsAudio','audio',optionsHeight*3)"
+position = "at"
+payload = "self.optionsMenu:addOption('optionsAudio','audio',optionsHeight*4)"
+match_indent = true
+times = 1
+
+[[patches]]
+[patches.pattern]
+target = "states/Menu.lua"
+pattern = "self.optionsMenu:addOption('optionsGameplay','gameplay',optionsHeight*4)"
+position = "at"
+payload = "self.optionsMenu:addOption('optionsGameplay','gameplay',optionsHeight*5)"
+match_indent = true
+times = 1
+
+[[patches]]
+[patches.pattern]
+target = "states/Menu.lua"
+pattern = "self.optionsMenu:addOption('optionsKeybinds', 'keybinds', optionsHeight*5)"
+position = "at"
+payload = "self.optionsMenu:addOption('optionsKeybinds', 'keybinds', optionsHeight*6)"
+match_indent = true
+times = 1
+
+[[patches]]
+[patches.pattern]
+target = "main.lua"
+pattern = 'loc.load("data/localization.json")'
+position = "after"
+payload = '''
+
+	-- 加载自定义中文翻译
+	do
+		local lovely = require("lovely")
+		local custom_path = lovely.mod_dir .. "/ChsMod/localization.json"
+		print("Loading custom localization from: " .. custom_path)
+		
+		local file = io.open(custom_path, "r")
+		if file then
+			local content = file:read("*all")
+			file:close()
+			
+			local custom_data = json.decode(content)
+			if custom_data then
+				local count = 0
+				for key, translations in pairs(custom_data) do
+					if loc.json[key] then
+						for lang, text in pairs(translations) do
+							loc.json[key][lang] = text
+						end
+					else
+						loc.json[key] = translations
+					end
+					count = count + 1
+				end
+				print("Custom localization merged! Keys: " .. count)
+			else
+				print("Failed to decode custom JSON")
+			end
+		else
+			print("Custom localization file not found")
+		end
+	end
+'''
+match_indent = true
+times = 1
+
+[[patches]]
+[patches.pattern]
+target = "preload/fonts.lua"
+pattern = 'fonts = {'
+position = "before"
+payload = '''
+-- 加载中文字体
+print("=== Loading Chinese Font ===")
+local lovely = require("lovely")
+local custom_font_path = lovely.mod_dir .. "/ChsMod/chs_font.ttf"
+print("Font path: " .. custom_font_path)
+
+local font_file = io.open(custom_font_path, "rb")
+local custom_main_font = nil
+
+if font_file then
+	local font_data = font_file:read("*all")
+	font_file:close()
+	print("Font file read, size: " .. #font_data .. " bytes")
+	
+	local write_success = love.filesystem.write("custom_chinese_font.ttf", font_data)
+	
+	if write_success then
+		print("Font copied to love filesystem")
+		
+		local load_success, loaded_font = pcall(love.graphics.newFont, "custom_chinese_font.ttf", 16)
+		
+		if load_success then
+			custom_main_font = loaded_font
+			print("Chinese font loaded successfully!")
+		else
+			print("ERROR: Failed to load font: " .. tostring(loaded_font))
+		end
+	else
+		print("ERROR: Failed to write font to love filesystem")
+	end
+else
+	print("ERROR: Could not open font file")
+end
+
+if not custom_main_font then
+	print("Falling back to default font")
+	custom_main_font = love.graphics.newFont("assets/fonts/Axmolotl.ttf", 16)
+end
+
+'''
+match_indent = true
+times = 1
+
+[[patches]]
+[patches.pattern]
+target = "preload/fonts.lua"
+pattern = 'main = love.graphics.newFont*Axmolotl.ttf*, 16*'
+position = "at"
+payload = 'main = custom_main_font,'
+match_indent = true
+times = 1
+
+[[patches]]
+[patches.pattern]
+target = "preload/fonts.lua"
+pattern = 'digitalDisco = love.graphics.newFont*DigitalDisco-Thin.ttf*, 16*'
+position = "at"
+payload = 'digitalDisco = custom_main_font,'
+match_indent = true
+times = 1

@@ -1137,7 +1137,7 @@
     },
     "accuracyExpanded": {
         "en": "accuracy",
-        "zh-cn": "准确率",
+        "zh-cn": "精准度",
         "owo": "accuwwacy"
     },
     "accuracyBarelySingular": {
@@ -1220,7 +1220,7 @@
     },
     "accuracyShort": {
         "en": "Acc.:",
-        "zh-cn": "准确率："
+        "zh-cn": "精准度："
     },
     "misses": {
         "en": "Misses: @@1@@",
@@ -1273,7 +1273,7 @@
     },
     "accuracy": {
         "en": "Accuracy: @@1@@%",
-        "zh-cn": "准确率：@@1@@%",
+        "zh-cn": "精准度：@@1@@%",
         "owo": "accuwacy: @@1@@%! waow"
     },
     "charter": {
@@ -1308,7 +1308,7 @@
     },
     "marathonAcc": {
         "en": "Total accuracy:",
-        "zh-cn": "总体准确率："
+        "zh-cn": "总体精准度："
     },
     "marathonPerfect": {
         "en": "Incredible!!\nA perfect marathon!!",

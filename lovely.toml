@@ -246,3 +246,74 @@ end
 '''
 match_indent = true
 times = 1
+
+[[patches]]
+[patches.pattern]
+target = "lib/rtf.lua"
+pattern = "local rtf = {"
+position = "before"
+payload = '''
+local unbreakCharacterMap =
+	"!\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ\\[]^_`" ..
+	"abcdefghijklmnopqrstuvwxyz{}~¡¢£¤¥¦§¨©ª«¬？®¯°±²³´µ¶·¸¹º»¼½¾¿" ..
+	"ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõö÷øùúûüýþÿΩ" ..
+	"（“【《"
+
+local unbreakSymbolMap = "。，！？、…—）”】》"
+
+'''
+match_indent = true
+times = 1
+
+[[patches]]
+[patches.pattern]
+target = "lib/rtf.lua"
+pattern = "function rtf:update(dt)"
+position = "before"
+payload = '''
+function rtf:isUnbreakChar(char)
+	if not char or char == '' then return false end
+	if string.find(unbreakCharacterMap, char, 1, true) then return true end
+	return false
+end
+
+function rtf:followingUnbreakSym(text, startPos, chrOffset)
+	chrOffset = chrOffset + 1
+	local chr = rtf.sub(text, startPos + chrOffset, startPos + chrOffset)
+	if startPos + chrOffset <= utf8.len(text) and chr then
+		if string.find(unbreakSymbolMap, chr, 1, true) then return true end
+	end
+	return false
+end
+
+'''
+match_indent = true
+times = 1
+
+[[patches]]
+[patches.pattern]
+target = "lib/rtf.lua"
+pattern = "word = word .. chr"
+position = "after"
+payload = "if not(self:isUnbreakChar(chr)) and not(self:followingUnbreakSym(text, startPos, chrOffset)) then brk = true end"
+match_indent = true
+times = 1
+
+[[patches]]
+[patches.pattern]
+target = "lib/rtf.lua"
+pattern = "elseif l == ' ' and wrapLen > 0 then*"
+position = "at"
+payload = "elseif not(self:isUnbreakChar(l)) and wrapLen > 0 then"
+match_indent = true
+times = 2
+
+[[patches]]
+[patches.pattern]
+target = "lib/rtf.lua"
+pattern = "if l == ' ' and wrapLen > 0 then"
+position = "at"
+payload = "if not(self:isUnbreakChar(l)) and wrapLen > 0 then"
+times = 1
+match_indent = true
+

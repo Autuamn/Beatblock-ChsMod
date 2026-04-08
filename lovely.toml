@@ -70,6 +70,25 @@ times = 1
 
 [[patches]]
 [patches.pattern]
+target = "states/Menu.lua"
+pattern = '''
+		self.optionsMenu:addOption('optionsJokes',function()
+			self.jokesData = helpers.copytable(savedata.aprilFools,2)
+			self.optionsMenu:setSubmenu('jokes')
+		end,optionsHeight*6)
+'''
+position = "at"
+payload = '''
+		self.optionsMenu:addOption('optionsJokes',function()
+			self.jokesData = helpers.copytable(savedata.aprilFools,2)
+			self.optionsMenu:setSubmenu('jokes')
+		end,optionsHeight*7)
+'''
+match_indent = true
+times = 1
+
+[[patches]]
+[patches.pattern]
 target = "main.lua"
 pattern = 'loc.load("data/localization.json")'
 position = "after"

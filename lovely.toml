@@ -90,41 +90,39 @@ target = "main.lua"
 pattern = 'loc.load("data/localization.json")'
 position = "after"
 payload = '''
+-- 加载自定义中文翻译
+print("=== Loading Chinese Localization ===")
+local newLanguage = 'zh-cn'
+local chsModPath = love.filesystem.getSaveDirectory() .. "/Mods/ChsMod"
+print("Mounting " .. chsModPath .. " to " .. "ChsMod")
+local mountSuccess = love.filesystem.mountFullPath(chsModPath, "ChsMod")
+if mountSuccess then
+	local chsLocJson = dpf.loadJson("ChsMod/localization.json", {})
 
-	-- 加载自定义中文翻译
-	do
-		local lovely = require("lovely")
-		local newLanguage = 'zh-cn'
-		local chsLocPath = lovely.mod_dir .. "/ChsMod/localization.json"
-		print("Loading " .. newLanguage .. " localization from: " .. chsLocPath)
-		
-		local chsLocFile = io.open(chsLocPath, "r")
-		if chsLocFile then
-			local chsLocJson = json.decode(chsLocFile:read("*all"))
-			chsLocFile:close()
-			
-			if chsLocJson then
-				local count = 0
-				for k, v in pairs(loc.json) do
-					if chsLocJson[k] and chsLocJson[k][newLanguage] then
-						loc.json[k][newLanguage] = chsLocJson[k][newLanguage]
-						count = count + 1
-					else
-						loc.json[k][newLanguage] = loc.json[k]['en']
-					end
-				end
-					loc.json['lang_' .. newLanguage] = {}
-					for k, v in pairs(loc.json.optionsLanguage) do
-						loc.json['lang_' .. newLanguage][k] = chsLocJson['lang_' .. newLanguage][newLanguage]
-					end
-				print(newLanguage .. " localization merged! Keys: " .. count)
+	if chsLocJson then
+		local count = 0
+		for k, v in pairs(loc.json) do
+			if chsLocJson[k] and chsLocJson[k][newLanguage] then
+				loc.json[k][newLanguage] = chsLocJson[k][newLanguage]
+				count = count + 1
 			else
-				print("Failed to decode custom JSON")
+				loc.json[k][newLanguage] = loc.json[k]['en']
 			end
-		else
-			print("Custom localization file not found")
 		end
+		loc.json['lang_' .. newLanguage] = {}
+		for k, v in pairs(loc.json.optionsLanguage) do
+			loc.json['lang_' .. newLanguage][k] = chsLocJson['lang_' .. newLanguage][newLanguage]
+		end
+		print(newLanguage .. " localization merged! Keys: " .. count)
+	else
+		print("Failed to decode Json: ".. locPath)
 	end
+
+	print("Unmount " .. chsModPath)
+	love.filesystem.unmountFullPath(chsModPath)
+else
+	print("ERROR: Failed to mount path: " .. chsModPath)
+end
 '''
 match_indent = true
 times = 1
@@ -137,8 +135,7 @@ position = "before"
 payload = '''
 -- 加载中文字体
 print("=== Loading Chinese Font ===")
-local lovely = require("lovely")
-local chsModPath = lovely.mod_dir .. "/ChsMod"
+local chsModPath = love.filesystem.getSaveDirectory() .. "/Mods/ChsMod"
 print("Mounting " .. chsModPath .. " to " .. "ChsMod")
 local mountSuccess = love.filesystem.mountFullPath(chsModPath, "ChsMod")
 if mountSuccess then
@@ -165,8 +162,11 @@ if mountSuccess then
 			print("ERROR: Font file not exists: " .. pathToFontFile)
 		end
 	end
+
+	print("Unmount " .. chsModPath)
+	love.filesystem.unmountFullPath(chsModPath)
 else
-	print("ERROR: Failed to mount path: chsModPath")
+	print("ERROR: Failed to mount path: " .. chsModPath)
 end
 
 if fonts.changBanDianSong then fonts.changBanDianSong:setLineHeight(1.1) end

@@ -138,40 +138,35 @@ payload = '''
 -- 加载中文字体
 print("=== Loading Chinese Font ===")
 local lovely = require("lovely")
-local chineseFontPath = lovely.mod_dir .. "/ChsMod/fonts/"
-local chineseFontList = {
-	fusionPixel8 = {fontFileName = "fusion-pixel-8px-proportional-zh_hans.ttf", fontSize = 8},
-	fusionPixel12 = {fontFileName = "fusion-pixel-12px-proportional-zh_hans.ttf", fontSize = 12},
-	changBanDianSong = {fontFileName = "ChangBanDianSong-16-SC.ttf", fontSize = 16}
-}
-print("Font path: " .. chineseFontPath)
+local chsModPath = lovely.mod_dir .. "/ChsMod"
+print("Mounting " .. chsModPath .. " to " .. "ChsMod")
+local mountSuccess = love.filesystem.mountFullPath(chsModPath, "ChsMod")
+if mountSuccess then
+	local chineseFontPath = "ChsMod/fonts/"
+	local chineseFontList = {
+		fusionPixel8 = {fontFileName = "fusion-pixel-8px-proportional-zh_hans.ttf", fontSize = 8},
+		fusionPixel12 = {fontFileName = "fusion-pixel-12px-proportional-zh_hans.ttf", fontSize = 12},
+		changBanDianSong = {fontFileName = "ChangBanDianSong-16-SC.ttf", fontSize = 16}
+	}
 
-for fontName, fontInfo in pairs(chineseFontList) do
-	local fontFile = io.open(chineseFontPath .. fontInfo.fontFileName, "rb")
-	if fontFile then
-		local fontData = fontFile:read("*all")
-		fontFile:close()
-		print(fontInfo.fontFileName .. " read, size: " .. #fontData .. " bytes")
+	for fontName, fontInfo in pairs(chineseFontList) do
+		local pathToFontFile = chineseFontPath .. fontInfo.fontFileName
+		if love.filesystem.exists(pathToFontFile) then
+			print("Loading font: " .. fontInfo.fontFileName)
 
-		local writeSuccess = love.filesystem.write(fontInfo.fontFileName, fontData)
-
-		if writeSuccess then
-			print(fontInfo.fontFileName .. " copied to love filesystem")
-
-			local loadSuccess, loadedFont = pcall(love.graphics.newFont, fontInfo.fontFileName, fontInfo.fontSize)
-
+			local loadSuccess, loadedFont = pcall(love.graphics.newFont, pathToFontFile, fontInfo.fontSize)
 			if loadSuccess then
 				fonts[fontName] = loadedFont
-				print(fontInfo.fontFileName .. " loaded successfully!")
+				print("Loaded successfully: " .. fontInfo.fontFileName)
 			else
 				print("ERROR: Failed to load font: " .. tostring(loadedFont))
 			end
 		else
-			print("ERROR: Failed to write " .. fontInfo.fontFileName .. " to love filesystem")
+			print("ERROR: Font file not exists: " .. pathToFontFile)
 		end
-	else
-		print("ERROR: Could not open " .. fontInfo.fontFileName)
 	end
+else
+	print("ERROR: Failed to mount path: chsModPath")
 end
 
 if fonts.changBanDianSong then fonts.changBanDianSong:setLineHeight(1.1) end

@@ -138,7 +138,7 @@ payload = '''
 -- 加载中文字体
 print("=== Loading Chinese Font ===")
 local lovely = require("lovely")
-local chineseFontPath = lovely.mod_dir .. "/ChsMod/"
+local chineseFontPath = lovely.mod_dir .. "/ChsMod/fonts/"
 local chineseFontList = {
 	fusionPixel8 = {fontFileName = "fusion-pixel-8px-proportional-zh_hans.ttf", fontSize = 8},
 	fusionPixel12 = {fontFileName = "fusion-pixel-12px-proportional-zh_hans.ttf", fontSize = 12},

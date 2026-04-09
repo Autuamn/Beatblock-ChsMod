@@ -56,12 +56,12 @@
     },
     "Barely (plural is Barelies)": {
         "en": "Barely / Barelies",
-        "zh-cn": "Barely / Barelies",
+        "zh-cn": "Barely",
         "owo": "Bawewy / Bawewies"
     },
     "Miss (plural is Misses)": {
         "en": "Miss / Misses",
-        "zh-cn": "Miss / Misses",
+        "zh-cn": "Miss",
         "owo": "Miss umu / Misses umu"
     },
     "playdemolevels": {
@@ -115,7 +115,7 @@
     },
     "playEvent": {
         "en": "Event Mode",
-        "zh-cn": "事件模式"
+        "zh-cn": "竞赛模式"
     },
     "devLevelSelect": {
         "en": "Developer Level Select",
@@ -304,7 +304,7 @@
     },
     "optionsDisableClick": {
         "en": "Disable Clicking on Taps",
-        "zh-cn": "禁用点击判定",
+        "zh-cn": "禁用 Tap 判定",
         "owo": "Disable Clicking on Taps"
     },
     "optionsCustomCursorInMenu": {
@@ -794,7 +794,8 @@
         "zh-cn": "隐形挡板"
     },
     "resultsUsedSantaHat": {
-        "en": "Jolly Blocks"
+        "en": "Jolly Blocks",
+        "zh-cn": "欢乐 Block"
     },
     "resultsJokesActive": {
         "en": "April Fools",
@@ -948,7 +949,7 @@
     },
     "tutorial_mine_1": {
         "en": "MINES AHEAD!",
-        "zh-cn": "前方炸弹！",
+        "zh-cn": "前方地雷！",
         "owo": "MINES AHEAD!"
     },
     "tutorial_mine_2": {
@@ -1043,6 +1044,7 @@
     },
     "MapRootTitle": {
         "en": "Beatblock",
+        "zh-cn": "Beatblock",
         "owo": "Beatbwock"
     },
     "MapIntroTitle": {
@@ -1162,36 +1164,36 @@
     },
     "difficultySpecial": {
         "en": "Special",
-        "zh-cn": "特殊",
+        "zh-cn": "Special",
         "owo": "Speciaw"
     },
     "difficultyEasy": {
         "en": "Easy",
-        "zh-cn": "简单",
+        "zh-cn": "Easy",
         "owo": "Easy"
     },
     "difficultyHard": {
         "en": "Hard",
-        "zh-cn": "困难",
+        "zh-cn": "Hard",
         "owo": "Hard"
     },
     "difficultyChallenge": {
         "en": "Expert",
-        "zh-cn": "专家",
+        "zh-cn": "Expert",
         "owo": "Chawwenge"
     },
     "difficultyExpert": {
         "en": "Apocrypha",
-        "zh-cn": "外典",
+        "zh-cn": "Apocrypha",
         "owo": "Apowocrypha"
     },
     "difficultyTangent": {
         "en": "Tangent",
-        "zh-cn": "离题"
+        "zh-cn": "Tangent"
     },
     "difficultyPhantasm": {
         "en": "Phantasm",
-        "zh-cn": "幻影"
+        "zh-cn": "Phantasm"
     },
     "pauseHeader": {
         "en": "- PAUSED -",
@@ -1351,6 +1353,7 @@
     },
     "levelCodeRemixDescription": {
         "en": "01000010 01000101 01000001 01010100 \n01000010 01001100 01001111 01000011 01001011",
+        "zh-cn": "01000010 01000101 01000001 01010100 \n01000010 01001100 01001111 01000011 01001011",
         "owo": "song owiginawwy fwom heaven stuwdio.\n \nmechanics uwsed: sides"
     },
     "levelLawrenceDescription": {
@@ -1451,6 +1454,7 @@
     },
     "levelNISENENDescription": {
         "en": "出す\n\n清掃\n\n料理",
+        "zh-cn": "出す\n\n清掃\n\n料理",
         "owo": "ニャス\nネコウ\nニョウリ\n\n  ╱|、\n(˚ˎ 。7  \n |、˜〵     <ー ジャジー\nじしˍ,)ノ "
     },
     "levelCloudFactoryDescription": {
@@ -1479,7 +1483,7 @@
     },
     "levelUNDOUNDODescription": {
         "en": "\"if you make a mistake just hold the control button and hit Z\" - albert einstein",
-        "zh-cn": "“如果你犯了错，只需按住 Ctrl 键并按 Z” —— 阿尔伯特·爱因斯坦"
+        "zh-cn": "“如果你犯了错，只需按住 Ctrl 键并按 Z”——阿尔伯特·爱因斯坦"
     },
     "levelNightEchoFutureFunkMixDescription": {
         "en": "Soar over the skyline and learn the magic of bounces!",
@@ -1698,7 +1702,7 @@
     },
     "demoWarning": {
         "en": "This game is currently still in a demo phase, and acts as a preview of a small section of the experience. The difficulty curve is not representative of the full game's planned scope & difficulty, and anything in this demo is subject to change between now and release.\nThank you for your understanding!",
-        "zh-cn": "本游戏目前仍处于试玩阶段，仅作为完整体验的一小部分预览。其难度曲线并不代表完整版游戏的计划范畴和难度，且试玩版中的任何内容在正式发布前都可能发生变化。\\n感谢您的理解！",
+        "zh-cn": "本游戏目前仍处于试玩阶段，仅作为完整体验的一小部分预览。其难度曲线并不代表完整版游戏的计划范畴和难度，且试玩版中的任何内容在正式发布前都可能发生变化。\n感谢您的理解！",
         "owo": "This game is currently still in a demo phase, and acts as a preview of a small section of the experience. The difficulty curve is not representative of the full game's planned scope & difficulty, and anything in this demo is subject to change between now and release.\nThank you for your understanding!"
     },
     "eaWarning": {
@@ -1802,10 +1806,12 @@
         "owo": "Skipping..."
     },
     "novenaIntro_gate_1": {
-        "en": "DELAYED"
+        "en": "DELAYED",
+        "zh-cn": "延误"
     },
     "novenaIntro_gate_2": {
-        "en": "BOARDING"
+        "en": "BOARDING",
+        "zh-cn": "登机中"
     },
     "levelFishinDescription": {
         "en": "WOMEN WANT ME\nFISH FEAR ME",
@@ -1859,7 +1865,7 @@
     },
     "fish_rodneyQuote": {
         "en": "\"@@1@@\"\n\n- Rodney Fields, \"Rodney's Fishin' Rounds\"",
-        "zh-cn": "“@@1@@”\n\n- 罗德尼·菲尔兹，《罗德尼的钓鱼巡礼》",
+        "zh-cn": "“@@1@@”\n\n——罗德尼·菲尔兹，《罗德尼的钓鱼巡礼》",
         "owo": "\"@@1@@\"\n\n- rodnya fiewds, \"rodnya's fishin' rounds\""
     },
     "fish_caught": {
@@ -1909,7 +1915,7 @@
     },
     "fish_heeld_description": {
         "en": "The Common Heeld swims clumsily by wiggling its entire body, alerting all nearby creatures of its presence.\nIt may be placed above one's lip to mimic the appearance of a moustache.",
-        "zh-cn": "普通希尔德鱼通过扭动整个身体笨拙地游动，\n这会让附近的所有生物都注意到它的存在。\n可以把它放在嘴唇上方，模仿胡子的样子。",
+        "zh-cn": "普通希尔德鱼通过扭动整个身体笨拙地游动，这会让附近的所有生物都注意到它的存在。\n可以把它放在嘴唇上方，模仿胡子的样子。",
         "owo": "the common heewd swims cwumsiwy by wiggwing its entiwe body, awewting aww neawby cweatuwes of its pwesence.\nit may be pwaced above one's wip to mimic the appeawance of a moustache."
     },
     "fish_puffermine": {
@@ -1939,7 +1945,7 @@
     },
     "fish_inversalmon_description": {
         "en": "The Common Inversalmon has three primary habitats:\nThe Pacific Ocean, Orchid Lake, and ping-pong ball tossing games at carnivals worldwide.",
-        "zh-cn": "常见的逆行鲑有三个主要栖息地：\n太平洋、兰花湖，以及世界各地嘉年华上的乒乓球投掷游戏。",
+        "zh-cn": "常见的逆鲑有三个主要栖息地：\n太平洋、兰花湖，以及世界各地嘉年华上的乒乓球投掷游戏。",
         "owo": "the common invewsawmon has thwee pwimawy habitats:\nthe pacific ocean, owchid lake, and ping-pong baww tossing games at cawnivaws wowwdwide."
     },
     "fish_burbounce": {
@@ -2069,7 +2075,7 @@
     },
     "fish_orangeoarchid_description": {
         "en": "The Orange Oarchid was discovered by a man stranded on a raft,\nsuffering from a severe vitamin C deficiency.\nEnthralled by its vibrant colors, he became the leading expert\non the species after his eventual rescue.\nThat man's name? Albert Einstein.",
-        "zh-cn": "橙桨兰是由一个被困在木筏上的人发现的，\n他当时正严重缺乏维生素C。\n被其鲜艳的色彩所吸引，他在最终获救后成为了该物种的\n顶尖专家。\n那个人的名字？阿尔伯特·爱因斯坦。",
+        "zh-cn": "橙桨兰是由一个被困在木筏上的人发现的，\n他当时正严重缺乏维生素C。\n被其鲜艳的色彩所吸引，他在最终获救后成为了该物种的顶尖专家。\n那个人的名字？阿尔伯特·爱因斯坦。",
         "owo": "the owange oawchid was discovewed by a man stwanded on a waft,\nsuffewing fwom a sevewe vitamin c deficiency.\nenthwawwed by its vibwant cowows, he became the weading expewt\non the species aftew his eventuaw wescue.\nthat man's name? awbewt einstein."
     },
     "fish_suckerphish": {
@@ -2129,7 +2135,7 @@
     },
     "fish_deepcsmelt_description": {
         "en": "The Deep-C Smelt is a peaceful fish by nature, preferring to stay out of conflict. However, if cornered, it can unleash a brutally violent \"special attack\" through a series of quarter-circle rotations.",
-        "zh-cn": "深 C 胡瓜鱼天性平和，喜欢远离冲突。然而，如果被逼到绝境，它可以通过一系列的四分之一摇杆操作，释放出极其暴力的“特殊攻击”。",
+        "zh-cn": "深C胡瓜鱼天性平和，喜欢远离冲突。然而，如果被逼到绝境，它可以通过一系列的四分之一摇杆操作，释放出极其暴力的“特殊攻击”。",
         "owo": "codefish awe a noctuwnaw, sowitawy species that spends most\nof theiw awake houws wemaking its own base.\nrumows awe that they have been tempowawiwy empwoyed by bubbwetabby \nto wowk onthe highwy anticipated spin-off titwe, 'new supew cwanky dewuxe'."
     },
     "fish_sunnyfish": {
@@ -2169,6 +2175,7 @@
     },
     "fish_lefisheauchocolat_description": {
         "en": ":flag_fr:",
+        "zh-cn": ":flag_fr:",
         "owo": "codefish awe a noctuwnaw, sowitawy species that spends most\nof theiw awake houws wemaking its own base.\nrumows awe that they have been tempowawiwy empwoyed by bubbwetabby \nto wowk onthe highwy anticipated spin-off titwe, 'new supew cwanky dewuxe'."
     },
     "fish_falsechimaera": {
@@ -2228,7 +2235,7 @@
     },
     "fish_wholelobster_description": {
         "en": "TELL EM TO COOK THE LOBSTER\nWait, I don't think this is the right game...",
-        "zh-cn": "叫他们把龙虾煮了\n等等，我好像进错游戏了……",
+        "zh-cn": "叫 他 们 把 龙 虾 煮 了\n等等，我好像进错游戏了……",
         "owo": "TELL EM TO COOK THE LOBSTER\nwait, i don't think this is the wight game..."
     },
     "fish_groovecroakster": {
@@ -2496,7 +2503,8 @@
         "zh-cn": "猫耳"
     },
     "costume_catears_description": {
-        "en": "cta"
+        "en": "cta",
+        "zh-cn": "cta"
     },
     "costume_catears_unlock": {
         "en": "a!so stressed!",
@@ -2520,7 +2528,7 @@
     },
     "costume_mine_description": {
         "en": "Don't get blown up lmao",
-        "zh-cn": "可别被炸飞了（笑）"
+        "zh-cn": "别被炸飞了笑死"
     },
     "costume_mine_unlock": {
         "en": "a!Through The Static",
@@ -2620,7 +2628,8 @@
         "owo": "NULL"
     },
     "costume_huxley": {
-        "en": "Huxley J. Sidenote"
+        "en": "Huxley J. Sidenote",
+        "zh-cn": "Huxley J. Sidenote"
     },
     "costume_huxley_description": {
         "en": "The year was 1894...",
@@ -2711,7 +2720,8 @@
         "en": "a!Omelette Cafe By Road 38"
     },
     "costume_novena": {
-        "en": "John Novena"
+        "en": "John Novena",
+        "zh-cn": "John Novena"
     },
     "costume_novena_description": {
         "en": "Nothing beats a [offset=0,2][font=censorblock]XXXX[offset=0,0][font=digitalDisco] holiday!",
@@ -2815,6 +2825,7 @@
     },
     "costume_0ssembli": {
         "en": ":0SSEMBLI",
+        "zhcn": ":0SSEMBLI",
         "owo": "NULL"
     },
     "costume_0ssembli_description": {
@@ -2858,7 +2869,8 @@
         "zh-cn": "暂无"
     },
     "costume_jimspim": {
-        "en": "Jim Rhythm"
+        "en": "Jim Rhythm",
+        "zh-cn": "Jim Rhythm"
     },
     "costume_jimspim_description": {
         "en": "...how do those headphones stay on?",
@@ -2942,7 +2954,7 @@
     },
     "achievement_bounce_boss_rank": {
         "en": "Off the Rails",
-        "zh-cn": "疯狂脱轨"
+        "zh-cn": "脱轨"
     },
     "achievement_desc_bounce_boss_rank": {
         "en": "Score an S rank or higher on BEATROCK (get it?)",
@@ -2982,7 +2994,7 @@
     },
     "achievement_connection_established": {
         "en": "CONNEC+10N ES+ABL1SHED",
-        "zh-cn": "连接已建立"
+        "zh-cn": "辶车接已建竝"
     },
     "achievement_desc_connection_established": {
         "en": "Score an S rank or higher on +ERABY+E CONNEC+10N",
@@ -2990,7 +3002,7 @@
     },
     "achievement_end_of_an_era": {
         "en": "End of an Era",
-        "zh-cn": "一个时代的终结"
+        "zh-cn": "时代的终结"
     },
     "achievement_desc_end_of_an_era": {
         "en": "Score an S rank or higher on Era Chimæra",
@@ -3070,7 +3082,7 @@
     },
     "achievement_we_are_all_connected": {
         "en": "We Are All Connected",
-        "zh-cn": "万物相连"
+        "zh-cn": "万物互联"
     },
     "achievement_desc_we_are_all_connected": {
         "en": "Unlock +ERABY+E CONNEC+10N",
@@ -3078,7 +3090,7 @@
     },
     "achievement_unplanned_overtime": {
         "en": "Unplanned Overtime",
-        "zh-cn": "计划外的加班"
+        "zh-cn": "计划外加班"
     },
     "achievement_desc_unplanned_overtime": {
         "en": "Unlock NISENEN",
@@ -3114,7 +3126,7 @@
     },
     "achievement_desc_comedy_area": {
         "en": "Clear any Tangent variant",
-        "zh-cn": "通关任意离题难度"
+        "zh-cn": "通关任意 Tangent 难度"
     },
     "achievement_silver_lining": {
         "en": "Silver Lining",
@@ -3214,7 +3226,7 @@
     },
     "popupDeleteCurrentScoreBody": {
         "en": "Removes your saved score from the currently selected song.\\n\\nThis [shakeY=1]CANNOT BE REVERSED!",
-        "zh-cn": "从当前选中的歌曲中移除已保存的成绩。\\n\\n此操作[shakeY=1]无法撤销！"
+        "zh-cn": "从当前选中的歌曲中移除已保存的成绩。\\n\\n此操作 [shakeY=1]无 法 撤 销！"
     },
     "popupDeleteCurrentScoreAccept": {
         "en": "Yes, delete my score",

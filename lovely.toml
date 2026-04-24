@@ -301,7 +301,7 @@ pattern = "elseif l == ' ' and wrapLen > 0 then*"
 position = "at"
 payload = "elseif not(self:isUnbreakChar(l)) and wrapLen > 0 then"
 match_indent = true
-times = 2
+times = 3
 
 [[patches]]
 [patches.pattern]

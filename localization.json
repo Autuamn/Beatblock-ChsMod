@@ -3287,5 +3287,25 @@
     "collabOpenWebsite": {
         "en": "Click here to open their website!",
         "zh-cn": "点击打开他们的网站！"
+    },
+    "fishingEnergy": {
+        "en": "Stamina: @@1@@/@@2@@",
+        "zh-cn": "体力：@@1@@/@@2@@"
+    },
+    "fishingFishCaught": {
+        "en": "Fish: @@1@@/@@2@@",
+        "zh-cn": "鱼：@@1@@/@@2@@"
+    },
+    "fishingFishCaughtModded": {
+        "en": "Fish: @@1@@(+@@2@@)/@@3@@",
+        "zh-cn": "鱼：@@1@@(+@@2@@)/@@3@@"
+    },
+    "ttsMaxDifficultyCleared": {
+        "en": "Highest diff.\ncleared: @@1@@",
+        "zh-cn": "已通关的\n最高难度: @@1@@"
+    },
+    "ttsHealth": {
+        "en": "Health: @@1@@/@@2@@",
+        "zh-cn": "生命值：@@1@@/@@2@@"
     }
 }

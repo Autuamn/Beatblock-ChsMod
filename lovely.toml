@@ -143,7 +143,8 @@ if mountSuccess then
 	local chineseFontList = {
 		fusionPixel8 = {fontFileName = "fusion-pixel-8px-proportional-zh_hans.ttf", fontSize = 8},
 		fusionPixel12 = {fontFileName = "fusion-pixel-12px-proportional-zh_hans.ttf", fontSize = 12},
-		changBanDianSong = {fontFileName = "ChangBanDianSong-16-SC.ttf", fontSize = 16}
+		changBanDianSong = {fontFileName = "ChangBanDianSong-16-SC.ttf", fontSize = 16},
+		unifont = {fontFileName = "unifont-17.0.04.otf", fontSize = 16},
 	}
 
 	for fontName, fontInfo in pairs(chineseFontList) do
@@ -178,40 +179,13 @@ if fonts.fusionPixel8 then
 	fonts.main:setFallbacks(fonts.fusionPixel8)
 end
 if fonts.fusionPixel12 then
-	fonts.digitalDisco:setFallbacks(fonts.fusionPixel12, fonts.jfdot)
-	fonts.jfdot:setFallbacks(fonts.fusionPixel12)
+	fonts.digitalDisco:setFallbacks(fonts.fusionPixel12)
+	fonts.jfdot = fonts.fusionPixel12
+end
+if fonts.unifont then
+	fonts.jfdot2 = fonts.unifont
 end
 
-'''
-match_indent = true
-times = 1
-
-[[patches]]
-[patches.pattern]
-target = "states/IntroWarnings.lua"
-pattern = "love.graphics.setFont(fonts.jfdot)"
-position = "at"
-payload = '''
-if fonts.fusionPixel12 and savedata.options.language == 'zh_cn' then
-	love.graphics.setFont(fonts.fusionPixel12)
-else
-	love.graphics.setFont(fonts.jfdot)
-end
-'''
-match_indent = true
-times = 1
-
-[[patches]]
-[patches.pattern]
-target = "states/IntroWarnings.lua"
-pattern = "rtf:drawRich(loc.get(locString),project.res.cx,320,fonts.jfdot,2,2,1,project.res.x,'center')"
-position = "at"
-payload = '''
-if fonts.fusionPixel12 and savedata.options.language == 'zh_cn' then
-	rtf:drawRich(loc.get(locString),project.res.cx,320,fonts.fusionPixel12,2,2,1,project.res.x,'center')
-else
-	rtf:drawRich(loc.get(locString),project.res.cx,320,fonts.jfdot,2,2,1,project.res.x,'center')
-end
 '''
 match_indent = true
 times = 1

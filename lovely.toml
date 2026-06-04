@@ -7,7 +7,7 @@ priority = 0
 target = "states/Menu.lua"
 pattern = "langOption.languages = *"
 position = "after"
-payload = "table.insert(langOption.languages, 'zh-cn')"
+payload = "table.insert(langOption.languages, 'zh_cn')"
 match_indent = true
 times = 1
 
@@ -92,7 +92,7 @@ position = "after"
 payload = '''
 -- 加载自定义中文翻译
 print("=== Loading Chinese Localization ===")
-local newLanguage = 'zh-cn'
+local newLanguage = 'zh_cn'
 local chsModPath = love.filesystem.getSaveDirectory() .. "/Mods/ChsMod"
 print("Mounting " .. chsModPath .. " to " .. "ChsMod")
 local mountSuccess = love.filesystem.mountFullPath(chsModPath, "ChsMod")
@@ -192,7 +192,7 @@ target = "states/IntroWarnings.lua"
 pattern = "love.graphics.setFont(fonts.jfdot)"
 position = "at"
 payload = '''
-if fonts.fusionPixel12 and savedata.options.language == 'zh-cn' then
+if fonts.fusionPixel12 and savedata.options.language == 'zh_cn' then
 	love.graphics.setFont(fonts.fusionPixel12)
 else
 	love.graphics.setFont(fonts.jfdot)
@@ -207,7 +207,7 @@ target = "states/IntroWarnings.lua"
 pattern = "rtf:drawRich(loc.get(locString),project.res.cx,320,fonts.jfdot,2,2,1,project.res.x,'center')"
 position = "at"
 payload = '''
-if fonts.fusionPixel12 and savedata.options.language == 'zh-cn' then
+if fonts.fusionPixel12 and savedata.options.language == 'zh_cn' then
 	rtf:drawRich(loc.get(locString),project.res.cx,320,fonts.fusionPixel12,2,2,1,project.res.x,'center')
 else
 	rtf:drawRich(loc.get(locString),project.res.cx,320,fonts.jfdot,2,2,1,project.res.x,'center')
@@ -222,7 +222,7 @@ target = "states/Fishing.lua"
 pattern = "love.graphics.setFont(fonts.ancient)"
 position = "at"
 payload = '''
-if fonts.changBanDianSong and savedata.options.language == 'zh-cn' then
+if fonts.changBanDianSong and savedata.options.language == 'zh_cn' then
 	love.graphics.setFont(fonts.changBanDianSong)
 else
 	love.graphics.setFont(fonts.ancient)

@@ -143,7 +143,8 @@ if mountSuccess then
 	local chineseFontList = {
 		fusionPixel8 = {fontFileName = "fusion-pixel-8px-proportional-zh_hans.ttf", fontSize = 8},
 		fusionPixel12 = {fontFileName = "fusion-pixel-12px-proportional-zh_hans.ttf", fontSize = 12},
-		changBanDianSong = {fontFileName = "ChangBanDianSong-16-SC.ttf", fontSize = 16}
+		changBanDianSong = {fontFileName = "ChangBanDianSong-16-SC.ttf", fontSize = 16},
+		unifont = {fontFileName = "unifont-17.0.04.otf", fontSize = 16},
 	}
 
 	for fontName, fontInfo in pairs(chineseFontList) do
@@ -184,48 +185,19 @@ target = "main.lua"
 pattern = '--Demo save update code'
 position = "before"
 payload = '''
-if fonts.fusionPixel8 and savedata.options.language == 'zh_cn'  then
-	fonts.fusionPixel8:setLineHeight(0.75)
-	fonts.main = fonts.fusionPixel8
-elseif fonts.fusionPixel8 then
-	fonts.main:setFallbacks(fonts.fusionPixel8)
-end
-if fonts.fusionPixel12 and savedata.options.language == 'zh_cn' then
-	fonts.fusionPixel12:setLineHeight(0.75)
-	fonts.digitalDisco = fonts.fusionPixel12
-	fonts.jfdot2 = fonts.fusionPixel12
-elseif fonts.fusionPixel12 then
-	fonts.digitalDisco:setFallbacks(fonts.fusionPixel12, fonts.jfdot)
-end
-'''
-match_indent = true
-times = 1
-
-[[patches]]
-[patches.pattern]
-target = "states/IntroWarnings.lua"
-pattern = "love.graphics.setFont(fonts.jfdot)"
-position = "at"
-payload = '''
-if fonts.fusionPixel12 and savedata.options.language == 'zh_cn' then
-	love.graphics.setFont(fonts.fusionPixel12)
-else
-	love.graphics.setFont(fonts.jfdot)
-end
-'''
-match_indent = true
-times = 1
-
-[[patches]]
-[patches.pattern]
-target = "states/IntroWarnings.lua"
-pattern = "rtf:drawRich(loc.get(locString),project.res.cx,320,fonts.jfdot,2,2,1,project.res.x,'center')"
-position = "at"
-payload = '''
-if fonts.fusionPixel12 and savedata.options.language == 'zh_cn' then
-	rtf:drawRich(loc.get(locString),project.res.cx,320,fonts.fusionPixel12,2,2,1,project.res.x,'center')
-else
-	rtf:drawRich(loc.get(locString),project.res.cx,320,fonts.jfdot,2,2,1,project.res.x,'center')
+if savedata.options.language == 'zh_cn' then
+	if fonts.fusionPixel8 then
+		fonts.fusionPixel8:setLineHeight(0.75)
+		fonts.main = fonts.fusionPixel8
+	end
+	if fonts.fusionPixel12 then
+		fonts.fusionPixel12:setLineHeight(0.75)
+		fonts.digitalDisco = fonts.fusionPixel12
+		fonts.jfdot = fonts.fusionPixel12
+	end
+	if fonts.unifont then
+		fonts.jfdot2 = fonts.unifont
+	end
 end
 '''
 match_indent = true

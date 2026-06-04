@@ -7,7 +7,7 @@ priority = 0
 target = "states/Menu.lua"
 pattern = "langOption.languages = *"
 position = "after"
-payload = "table.insert(langOption.languages, 'zh-cn')"
+payload = "table.insert(langOption.languages, 'zh_cn')"
 match_indent = true
 times = 1
 
@@ -92,7 +92,7 @@ position = "after"
 payload = '''
 -- 加载自定义中文翻译
 print("=== Loading Chinese Localization ===")
-local newLanguage = 'zh-cn'
+local newLanguage = 'zh_cn'
 local chsModPath = love.filesystem.getSaveDirectory() .. "/Mods/ChsMod"
 print("Mounting " .. chsModPath .. " to " .. "ChsMod")
 local mountSuccess = love.filesystem.mountFullPath(chsModPath, "ChsMod")
@@ -180,13 +180,13 @@ target = "main.lua"
 pattern = '--Demo save update code'
 position = "before"
 payload = '''
-if fonts.fusionPixel8 and savedata.options.language == 'zh-cn'  then
+if fonts.fusionPixel8 and savedata.options.language == 'zh_cn'  then
 	fonts.fusionPixel8:setLineHeight(0.75)
 	fonts.main = fonts.fusionPixel8
 elseif fonts.fusionPixel8 then
 	fonts.main:setFallbacks(fonts.fusionPixel8)
 end
-if fonts.fusionPixel12 and savedata.options.language == 'zh-cn' then
+if fonts.fusionPixel12 and savedata.options.language == 'zh_cn' then
 	fonts.fusionPixel12:setLineHeight(0.75)
 	fonts.digitalDisco = fonts.fusionPixel12
 	fonts.jfdot2 = fonts.fusionPixel12
@@ -203,7 +203,7 @@ target = "states/IntroWarnings.lua"
 pattern = "love.graphics.setFont(fonts.jfdot)"
 position = "at"
 payload = '''
-if fonts.fusionPixel12 and savedata.options.language == 'zh-cn' then
+if fonts.fusionPixel12 and savedata.options.language == 'zh_cn' then
 	love.graphics.setFont(fonts.fusionPixel12)
 else
 	love.graphics.setFont(fonts.jfdot)
@@ -218,7 +218,7 @@ target = "states/IntroWarnings.lua"
 pattern = "rtf:drawRich(loc.get(locString),project.res.cx,320,fonts.jfdot,2,2,1,project.res.x,'center')"
 position = "at"
 payload = '''
-if fonts.fusionPixel12 and savedata.options.language == 'zh-cn' then
+if fonts.fusionPixel12 and savedata.options.language == 'zh_cn' then
 	rtf:drawRich(loc.get(locString),project.res.cx,320,fonts.fusionPixel12,2,2,1,project.res.x,'center')
 else
 	rtf:drawRich(loc.get(locString),project.res.cx,320,fonts.jfdot,2,2,1,project.res.x,'center')
@@ -233,7 +233,7 @@ target = "states/Fishing.lua"
 pattern = "love.graphics.setFont(fonts.ancient)"
 position = "at"
 payload = '''
-if fonts.changBanDianSong and savedata.options.language == 'zh-cn' then
+if fonts.changBanDianSong and savedata.options.language == 'zh_cn' then
 	love.graphics.setFont(fonts.changBanDianSong)
 else
 	love.graphics.setFont(fonts.ancient)
@@ -318,8 +318,8 @@ target = "obj/GameManager.lua"
 pattern = "if cs.barelies == 0 and cs.misses == 0 then"
 position = "before"
 payload = '''
-if savedata.options.language == 'zh-cn' and (cs.vfx.glitchUIElements > 0 or cs.vfx.glitchCombo) and cs.vfx.useGlitchedFont then
-	originalLang = 'zh-cn'
+if savedata.options.language == 'zh_cn' and (cs.vfx.glitchUIElements > 0 or cs.vfx.glitchCombo) and cs.vfx.useGlitchedFont then
+	originalLang = 'zh_cn'
 	loc.setLang('en')
 end
 '''
@@ -332,8 +332,8 @@ target = "obj/GameManager.lua"
 pattern = "if cs.vfx.glitchUIElements > 0 or cs.vfx.glitchCombo then"
 position = "before"
 payload = '''
-if originalLang == 'zh-cn' then
-	loc.setLang('zh-cn')
+if originalLang == 'zh_cn' then
+	loc.setLang('zh_cn')
 	originalLang = nil
 end
 '''
@@ -346,8 +346,8 @@ target = "obj/GameManager.lua"
 pattern = 'local text_print = loc.get("comboExpanded")'
 position = "before"
 payload = '''
-if savedata.options.language == 'zh-cn' and (cs.vfx.glitchUIElements > 0 or cs.vfx.glitchCombo) and cs.vfx.useGlitchedFont then
-	originalLang = 'zh-cn'
+if savedata.options.language == 'zh_cn' and (cs.vfx.glitchUIElements > 0 or cs.vfx.glitchCombo) and cs.vfx.useGlitchedFont then
+	originalLang = 'zh_cn'
 	loc.setLang('en')
 end
 '''
@@ -360,8 +360,8 @@ target = "obj/GameManager.lua"
 pattern = 'local text_print = loc.get("accuracyExpanded")'
 position = "before"
 payload = '''
-if savedata.options.language == 'zh-cn' and (cs.vfx.glitchUIElements > 0 or cs.vfx.glitchCombo) and cs.vfx.useGlitchedFont then
-	originalLang = 'zh-cn'
+if savedata.options.language == 'zh_cn' and (cs.vfx.glitchUIElements > 0 or cs.vfx.glitchCombo) and cs.vfx.useGlitchedFont then
+	originalLang = 'zh_cn'
 	loc.setLang('en')
 end
 '''
@@ -374,8 +374,8 @@ target = "obj/GameManager.lua"
 pattern = "if cs.vfx.glitchUIElements > 1 or cs.vfx.glitchAccuracy then"
 position = "before"
 payload = '''
-if originalLang == 'zh-cn' then
-	loc.setLang('zh-cn')
+if originalLang == 'zh_cn' then
+	loc.setLang('zh_cn')
 	originalLang = nil
 end
 '''
@@ -388,8 +388,8 @@ target = "obj/GameManager.lua"
 pattern = "local str = cs.level.metadata.difficulty"
 position = "after"
 payload = '''
-if savedata.options.language == 'zh-cn' and (cs.vfx.glitchUIElements > 0 or cs.vfx.glitchCombo) and cs.vfx.useGlitchedFont then
-	originalLang = 'zh-cn'
+if savedata.options.language == 'zh_cn' and (cs.vfx.glitchUIElements > 0 or cs.vfx.glitchCombo) and cs.vfx.useGlitchedFont then
+	originalLang = 'zh_cn'
 	loc.setLang('en')
 end
 '''
@@ -402,8 +402,8 @@ target = "obj/GameManager.lua"
 pattern = "if cs.vfx.glitchUIElements > 3 or cs.vfx.glitchDifficulty then"
 position = "before"
 payload = '''
-if originalLang == 'zh-cn' then
-	loc.setLang('zh-cn')
+if originalLang == 'zh_cn' then
+	loc.setLang('zh_cn')
 	originalLang = nil
 end
 '''
@@ -416,8 +416,8 @@ target = "obj/Map.lua"
 pattern = "love.graphics.setFont(fonts.digitalDiscoGlitched)"
 position = "after"
 payload = '''
-if savedata.options.language == 'zh-cn' then
-	originalLang = 'zh-cn'
+if savedata.options.language == 'zh_cn' then
+	originalLang = 'zh_cn'
 	loc.setLang('en')
 end
 '''
@@ -430,8 +430,8 @@ target = "obj/Map.lua"
 pattern = "love.graphics.setFont(fonts.digitalDisco)"
 position = "after"
 payload = '''
-if originalLang == 'zh-cn' then
-	loc.setLang('zh-cn')
+if originalLang == 'zh_cn' then
+	loc.setLang('zh_cn')
 	originalLang = nil
 end
 '''
@@ -444,8 +444,8 @@ target = "states/AtomMap.lua"
 pattern = "font = fonts.digitalDiscoGlitched"
 position = "after"
 payload = '''
-if savedata.options.language == 'zh-cn' then
-	originalLang = 'zh-cn'
+if savedata.options.language == 'zh_cn' then
+	originalLang = 'zh_cn'
 	loc.setLang('en')
 end
 '''
@@ -461,8 +461,8 @@ pattern = '''
 '''
 position = "after"
 payload = '''
-if originalLang == 'zh-cn' then
-	loc.setLang('zh-cn')
+if originalLang == 'zh_cn' then
+	loc.setLang('zh_cn')
 	originalLang = nil
 end
 '''
@@ -478,8 +478,8 @@ pattern = '''
 '''
 position = "after"
 payload = '''
-if originalLang == 'zh-cn' then
-	loc.setLang('zh-cn')
+if originalLang == 'zh_cn' then
+	loc.setLang('zh_cn')
 	originalLang = nil
 end
 '''

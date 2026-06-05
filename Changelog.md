@@ -1,3 +1,12 @@
+### v3.0
+ - 更新本地化文件至`1.6.0 (Early Access)[2880b4a6]`
+ - 使用 `font.setFallbacks()` 方法为 main、digitalDisco、digitalDiscoGlitched、mainGlitched 字体设置中文回退字体，而不是替换它们
+ - 用 unifont 字体替换 JF-Dot-jiskan16s-2000 字体；用 fusion-pixel-12px 字体替换 JF-Dot-K14-2004 字体
+ - 对于 Glitched 字体不支持渲染中文文本导致的崩溃，修改了修复的方法。改为为 Glitched 字体设置回退使其支持中文
+ - 修复渲染 Glitched 界面时用 `#` 按字节切割中文而产生非法字符
+#### 已知问题
+ - 因 LOVE2D 引擎的 bug，使用回退字体时字符顺序会错乱（[love2d/love#1990](https://github.com/love2d/love/issues/1990)），引擎已修复（[love2d/love#2277](https://github.com/love2d/love/pull/2277)），需要游戏更新引擎版本
+
 ### v2.1
  - 修改加载本地化文件的方法，不再依赖 lovely 获取 mod 目录
 

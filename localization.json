@@ -518,6 +518,10 @@
         "zh_cn": "手柄灯光",
         "owo": "Controller Lights"
     },
+    "optionsSaveScoresWithAccessibilitySettings": {
+        "en": "Save scores with accessibility settings",
+        "zh_cn": "保存带有辅助功能设置的分数"
+    },
     "optionsJokes": {
         "en": "Jokes",
         "zh_cn": "玩笑"
@@ -753,6 +757,10 @@
         "en": "No Barelies",
         "zh_cn": "无 Barely",
         "owo": "No Bawewies"
+    },
+    "resultsNotSaved": {
+        "en": "NOT SAVED",
+        "zh_cn": "未保存"
     },
     "resultsRateDisplay": {
         "en": "@@1@@x speed",
@@ -2889,8 +2897,8 @@
         "zh_cn": "红"
     },
     "costume_rfandf_description": {
-        "en": "Mama always told me that Paddles keep wolves away...\nWishlist Red: Flame & Fable on Steam!",
-        "zh_cn": "妈妈总是告诉我，Paddles 能驱赶狼群……\n在 Steam 上将《Red: Flame & Fable》加入愿望单吧！"
+        "en": "Mama always told me that Paddles keep wolves away...\nPlay Red: Flame & Fable on Steam for free!",
+        "zh_cn": "妈妈总是告诉我，Paddles 能驱赶狼群……\n在 Steam 上免费游玩《Red: Flame & Fable》吧！"
     },
     "costume_rfandf_unlock": {
         "en": "CURRENTLY NONE",

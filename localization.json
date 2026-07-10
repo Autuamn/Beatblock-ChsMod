@@ -223,8 +223,8 @@
         "owo": "Hitsouwnds"
     },
     "optionsInputOffset": {
-        "en": "Input offset: @@1@@ ms",
-        "zh_cn": "输入延迟：@@1@@ ms",
+        "en": "Input offset",
+        "zh_cn": "输入延迟",
         "owo": "Inpuwt offset: @@1@@ ms"
     },
     "optionsCalibrate": {
@@ -233,13 +233,13 @@
         "owo": "Cawibwate"
     },
     "optionsSfxVolume": {
-        "en": "SFX volume: @@1@@",
-        "zh_cn": "音效音量：@@1@@",
+        "en": "SFX volume",
+        "zh_cn": "音效音量",
         "owo": "Sfx vowuwme: @@1@@"
     },
     "optionsMusicVolume": {
-        "en": "Music volume: @@1@@",
-        "zh_cn": "音乐音量：@@1@@",
+        "en": "Music volume",
+        "zh_cn": "音乐音量",
         "owo": "Muwsic vowuwme: @@1@@"
     },
     "optionsFullscreen": {
@@ -248,8 +248,8 @@
         "owo": "Fuwwwscween"
     },
     "optionsWindowScale": {
-        "en": "Window scale: @@1@@x",
-        "zh_cn": "窗口缩放：@@1@@x",
+        "en": "Window scale",
+        "zh_cn": "窗口缩放",
         "owo": "Window scawe: @@1@@x"
     },
     "optionsPlayMenuMusic": {
@@ -292,13 +292,13 @@
         "owo": "Fowce mouwse+keyboawd"
     },
     "optionsCircleSnap": {
-        "en": "Circle Snap: @@1@@",
-        "zh_cn": "圆形吸附：@@1@@",
+        "en": "Circle Snap",
+        "zh_cn": "圆形吸附",
         "owo": "Ciwcwe snap: @@1@@"
     },
     "optionsCircleSnapRadius": {
-        "en": "Circle Snap Radius: @@1@@",
-        "zh_cn": "圆形吸附半径：@@1@@"
+        "en": "Circle Snap Radius",
+        "zh_cn": "圆形吸附半径"
     },
     "optionsLockToWindow": {
         "en": "Lock Mouse to Window",
@@ -306,8 +306,8 @@
         "owo": "Lock mouwse to window"
     },
     "optionsCursorMode": {
-        "en": "In-game Cursor mode: @@1@@",
-        "zh_cn": "游戏内光标模式：@@1@@",
+        "en": "In-game Cursor mode",
+        "zh_cn": "游戏内光标样式",
         "owo": "In-game cuwwsow mode: @@1@@"
     },
     "optionsDisableClick": {
@@ -318,6 +318,10 @@
     "optionsCustomCursorInMenu": {
         "en": "Use Custom Cursor in Menu",
         "zh_cn": "在菜单中使用自定义光标"
+    },
+    "optionsSaved": {
+        "en": "Saved!",
+        "zh_cn": "已保存！"
     },
     "enumCircleSnapDisabled": {
         "en": "Disabled",
@@ -342,7 +346,7 @@
     },
     "enumCursorLarge": {
         "en": "Large",
-        "zh_cn": "大",
+        "zh_cn": "大号",
         "owo": "Lawge"
     },
     "enumCursorInvert": {
@@ -351,8 +355,8 @@
         "owo": "Invewt"
     },
     "optionsHUD": {
-        "en": "HUD Mode: @@1@@",
-        "zh_cn": "HUD 模式：@@1@@",
+        "en": "HUD Mode",
+        "zh_cn": "HUD 样式",
         "owo": "Hud mode: @@1@@"
     },
     "enumHUDDefault": {
@@ -366,8 +370,8 @@
         "owo": "Expanded"
     },
     "enumHUDExpandedPlus": {
-        "en": "Expanded (w/ Miss & Barely display)",
-        "zh_cn": "扩展（显示 Miss 和 Barely）",
+        "en": "Complex",
+        "zh_cn": "复杂",
         "owo": "Expanded (w/ Miss & Barely display) (owo)"
     },
     "enumHUDNone": {
@@ -381,7 +385,7 @@
         "owo": "VSync"
     },
     "optionsMineholdStyle": {
-        "en": "Minehold Style: ",
+        "en": "Minehold Style:",
         "zh_cn": "Minehold 样式：",
         "owo": "Minehold Style: "
     },
@@ -394,6 +398,10 @@
         "en": "Fancy",
         "zh_cn": "花哨",
         "owo": "Fancy"
+    },
+    "enumCalibrate": {
+        "en": "Start Calibration",
+        "zh_cn": "开始校准"
     },
     "fancyMineholdWarning": {
         "en": "Warning! Fancy Mineholds are known to cause\nperformance issues on some devices.",
@@ -409,6 +417,10 @@
         "en": "VFX: @@1@@",
         "zh_cn": "视觉特效：@@1@@",
         "owo": "Vfx: @@1@@"
+    },
+    "newOptionsVFX": {
+        "en": "VFX",
+        "zh_cn": "视觉特效"
     },
     "optionsVFXFull": {
         "en": "Full",
@@ -430,14 +442,26 @@
         "zh_cn": "Tap：@@1@@",
         "owo": "Taps: @@1@@"
     },
+    "newOptionsTaps": {
+        "en": "Taps",
+        "zh_cn": "Tap"
+    },
     "optionsSides": {
         "en": "Sides: @@1@@",
         "zh_cn": "Side：@@1@@",
         "owo": "Sides: @@1@@"
     },
+    "newOptionsSides": {
+        "en": "Sides",
+        "zh_cn": "Side"
+    },
     "optionsBarelies": {
         "en": "Barelies: @@1@@",
         "zh_cn": "Barely：@@1@@"
+    },
+    "newOptionsBarelies": {
+        "en": "Barelies",
+        "zh_cn": "Barely"
     },
     "optionsNotesDefault": {
         "en": "Default",
@@ -459,18 +483,18 @@
         "zh_cn": "严格"
     },
     "optionsSaturation": {
-        "en": "Saturation: @@1@@%",
-        "zh_cn": "饱和度：@@1@@%",
+        "en": "Saturation",
+        "zh_cn": "饱和度",
         "owo": "Saturation: @@1@@%"
     },
     "optionsStrainReduction": {
-        "en": "Eyestrain Reduction: @@1@@%",
-        "zh_cn": "视疲劳缓解：@@1@@%",
+        "en": "Eyestrain Reduction",
+        "zh_cn": "视觉疲劳缓解",
         "owo": "Eyestrain Reduction: @@1@@%"
     },
     "optionsDisplayMode": {
-        "en": "Display Mode: @@1@@",
-        "zh_cn": "显示模式：@@1@@",
+        "en": "Display Mode",
+        "zh_cn": "显示模式",
         "owo": "Dispway mode: @@1@@"
     },
     "enumWindowed": {
@@ -479,8 +503,8 @@
         "owo": "WindOwOed"
     },
     "enumBorderless": {
-        "en": "Borderless Windowed",
-        "zh_cn": "无边框窗口",
+        "en": "Borderless",
+        "zh_cn": "无边框",
         "owo": "Bowdewwess windOwOed"
     },
     "enumFullscreen": {
@@ -556,7 +580,7 @@
     },
     "optionsJokes_randomScrollSpeed": {
         "en": "Randomize scroll speed",
-        "zh_cn": "随机化滚动速度"
+        "zh_cn": "随机滚动速度"
     },
     "optionsJokes_theNoteSniper": {
         "en": "Hire \"The Note Sniper\"",
@@ -572,7 +596,7 @@
     },
     "enumJokesExclusive": {
         "en": "only on April 1st",
-        "zh_cn": "只在4月1日"
+        "zh_cn": "只在 4 月 1 日"
     },
     "enumJokesAlways": {
         "en": "NEVERENDING",
@@ -589,8 +613,72 @@
     },
     "quitToMenu": {
         "en": "Quit to menu",
-        "zh_cn": "退出至主菜单",
+        "zh_cn": "返回主菜单",
         "owo": "Quwit to menuw"
+    },
+    "newOptionsEnabled": {
+        "en": "Enabled",
+        "zh_cn": "已启用"
+    },
+    "newOptionsDisabled": {
+        "en": "Disabled",
+        "zh_cn": "已禁用"
+    },
+    "optionsResetDefault": {
+        "en": "Reset Tab to Default",
+        "zh_cn": "重置当前标签页"
+    },
+    "optionsResetDefaultTitle": {
+        "en": "Reset Tab?",
+        "zh_cn": "重置标签页？"
+    },
+    "optionsResetDefaultDescription": {
+        "en": "Are you sure you want to reset all @@1@@ settings back to their default values? This can't be undone!",
+        "zh_cn": "确定要将所有@@1@@设置重置为默认值吗？此操作无法撤销！"
+    },
+    "optionsExtraOptions": {
+        "en": "Additional Settings",
+        "zh_cn": "更多设置"
+    },
+    "optionsKeyboardGameplay": {
+        "en": "Gameplay",
+        "zh_cn": "关卡内"
+    },
+    "optionsKeyboardMenu": {
+        "en": "Menu",
+        "zh_cn": "菜单"
+    },
+    "optionsKeyboardEditor": {
+        "en": "Editor",
+        "zh_cn": "编辑器"
+    },
+    "optionsKeyboardBinds": {
+        "en": "Mouse & Keyboard",
+        "zh_cn": "鼠标和键盘"
+    },
+    "optionsControllerBinds": {
+        "en": "Controller",
+        "zh_cn": "手柄"
+    },
+    "optionsEditorOptions": {
+        "en": "Editor",
+        "zh_cn": "编辑器"
+    },
+    "optionsDeleteKeybind": {
+        "en": "Remove Key?",
+        "zh_cn": "移除按键？"
+    },
+    "optionsDeleteKeybindDesc": {
+        "en": "Are you sure you want to remove this key from the action '@@1@@'?",
+        "zh_cn": "您确定要从操作‘@@1@@’中移除此按键吗？"
+    },
+    "optionsDeleteKeybindBlocked": {
+        "en": "You cannot remove all keys from an action! Please add another key before removing this one.",
+        "zh_cn": "不能移除该操作绑定的所有按键！请先绑定新按键，再移除此按键。"
+    },
+    "keybindsListening": {
+        "en": "Press any key to assign it to action '@@1@@'",
+        "zh_cn": "按下任意键以绑定至操作‘@@1@@’"
     },
     "optionsTestEnum": {
         "en": "Test enum: @@1@@",
@@ -887,7 +975,7 @@
     },
     "fishingEnergy": {
         "en": "Stamina: @@1@@/5",
-        "zh_cn": "体力：@@1@@/@@2@@"
+        "zh_cn": "体力：@@1@@/5"
     },
     "fishingFishCaught": {
         "en": "Fish: @@1@@/@@2@@",
@@ -1541,7 +1629,15 @@
     },
     "levelWhatsAKeygenDescription": {
         "en": "keygen (kee-jen)\n[font=main](noun)[reset]\n\nShorthand abbreviation for \"key generator\". Keygens are serial code generators, made for purposes of software validation, though popularized by their often illegitimate development.\n\n[font=main]Also see: \"cracktros\", \"demoscene\", \"torrents\"[reset]",
-        "zh_cn": "keygen (kee-jen)\n[font=main](noun)[reset]\n\n“key generator”的简写。Keygen 是一种序列号生成器，原本用于软件验证，但因其通常涉及非法开发而广为人知。\n\n[font=main]另请参见：“cracktros”“demoscene”“torrents”[reset]"
+        "zh_cn": "keygen (kee-jen)\n[font=main](名词)[reset]\n\n“key generator”的简写。Keygen 是一种序列号生成器，原本用于软件验证，但因常被用于非法用途而广为人知。\n\n[font=main]另请参见：“cracktros”“demoscene”“torrents”[reset]"
+    },
+    "levelRecollectionDescription": {
+        "en": "Distant memories can sometimes be hard to recall. Together, let's walk the corridors of ages past.",
+        "zh_cn": "遥远的记忆有时难以想起。让我们一起漫步于岁月的长廊。"
+    },
+    "levelDiscoBakeryDescription": {
+        "en": "A little four-on-the-floor, a dash of strings, and a bassline for some oomph- that's the bakery special!",
+        "zh_cn": "一点四拍底鼓，一抹弦乐，再加上带劲的低音贝斯——这就是面包店的招牌！"
     },
     "ttsIntro1": {
         "en": "This, is a [charspacing=1][xDuplicate=1]mine[charspacing=0][xDuplicate=0].",
@@ -1617,7 +1713,7 @@
     },
     "crashSavedBody": {
         "en": "A crash log has been saved to \"@@1@@\".",
-        "zh_cn": "崩溃日志已保存至 \"@@1@@\"。",
+        "zh_cn": "崩溃日志已保存至“@@1@@”。",
         "owo": "a cwash wog has been saved to \"@@1@@\"."
     },
     "crashYes": {
@@ -1632,12 +1728,12 @@
     },
     "notDemoLevel": {
         "en": "This level is not compatible with the Beatblock Demo. To play this level please purchase the full game at:\nhttps://store.steampowered.com/app/3045200/Beatblock/",
-        "zh_cn": "此关卡与《节奏方块》试玩版不兼容。要游玩此关卡，请在以下地址购买完整版游戏：\nhttps://store.steampowered.com/app/3045200/Beatblock/",
+        "zh_cn": "此关卡与 Beatblock 试玩版不兼容。要玩此关卡，请在以下地址购买完整版游戏：\nhttps://store.steampowered.com/app/3045200/Beatblock/",
         "owo": "This level is not compatible with the Beatblock Demo. To play this level please purchase the full game at:\nhttps://store.steampowered.com/app/3045200/Beatblock/"
     },
     "marathonLevelNotFound": {
         "en": "The level @@1@@ was not found! Please make sure the level name is correct.",
-        "zh_cn": "未找到关卡 @@1@@！请确保关卡名称正确。"
+        "zh_cn": "未找到关卡 @@1@@！请确认关卡名称正确。"
     },
     "keybindsAddNew": {
         "en": "Add",
@@ -1646,17 +1742,17 @@
     },
     "keybindsPressKey": {
         "en": "Press a Key...",
-        "zh_cn": "请按下一个按键……",
+        "zh_cn": "按下一个按键……",
         "owo": "Press a Key..."
     },
     "keybindspPressButton": {
         "en": "Press a Button...",
-        "zh_cn": "请按下一个按钮……",
+        "zh_cn": "按下一个按钮……",
         "owo": "Press a Button..."
     },
     "keybindsResetDefault": {
         "en": "Reset these keybinds",
-        "zh_cn": "重置这些键位",
+        "zh_cn": "重置所有按键",
         "owo": "Reset aww keybwinds in all categories"
     },
     "keybindsJoystick": {
@@ -1736,11 +1832,11 @@
     },
     "modifier": {
         "en": "modifier",
-        "zh_cn": "功能键",
+        "zh_cn": "修饰键",
         "owo": "modifier"
     },
     "save": {
-        "en": "save",
+        "en": "Save",
         "zh_cn": "保存",
         "owo": "save"
     },
@@ -2349,7 +2445,6 @@
         "en": "This absolute diva of a species are habitual party girls, most often found at the hidden gem of the M31, the Astro Lounge. Despite its interplanetary schmovement, Allstarfish are often struck with homesickness for their temperate lakeside condos. It just goes to show, you can take the girl out of the party, but you can't take the... You can't take the girl from... Oh shoot, I wrote this with my pen! I really need to get an editor...",
         "zh_cn": "这个物种绝对是天后级别的，她们是习惯性的派对女孩，最常出现在 M31 的隐秘瑰宝——天文酒廊。尽管能在星际间穿梭，全明星海星却常常思念它们温带湖畔的公寓。这正好说明：你可以把女孩带出派对，但你不能把……你不能把女孩从……哦糟糕，我是用钢笔写的这个！我真得找个编辑……"
     },
-    
     "fish_selfish": {
         "en": "Selfish",
         "zh_cn": "自私鱼"
@@ -2358,7 +2453,6 @@
         "en": "Not to be confused with the Sellfish, the heavily debated Wall St. strategy; or the bellfish, often found in commercial establishments; or the cellfish, which can be found working on spreadsheets all day; or the fellfish, known for its ability to find any way to make contact with the ground; or the gelfish, boasting a fashion sense that makes the commoners weep; or the tellfish, natural polyglots capable of speaking 48 different languages; or the yellfish, ancestor of the tellfish; or the wellfish, producer of 70%% of the world's water content; or the quellfish, predator of the yellfish and the tellfish; or the ",
         "zh_cn": "不要与以下物种混淆：备受争议的华尔街策略“售卖鱼”（Sellfish）；或是商业场所常见的“铃鱼”（bellfish）；或是整天埋头于电子表格的“单元格鱼”（cellfish）；或是擅长以各种方式接触地面的“跌倒鱼”（fellfish）；或是时尚品味让普通人泪流满面的“凝胶鱼”（gelfish）；或是天生通晓 48 种语言的多语者“讲述鱼”（tellfish）；或是讲述鱼的祖先“喊叫鱼”（yellfish）；或是贡献全球 70%% 水分的“井鱼”（wellfish）；或是捕食喊叫鱼和讲述鱼的“镇压鱼”（quellfish）；或是……"
     },
-    
     "fish_sharpen": {
         "en": "Sharpen",
         "zh_cn": "锐利鱼"
@@ -2367,7 +2461,6 @@
         "en": "Found commonly in small bodies of water near dilapidated computer labs, the Sharpen makes for a shockingly great low-budget starter pet. Its small stature and flexible diet, both of which are uncharacteristic of the Selachii division, boost its pet stats to great heights. Both of these oddities do check out when one considers the years it spent surviving art school.",
         "zh_cn": "锐利鱼常见于破旧计算机实验室附近的小片水域，是一种令人惊讶的廉价入门宠物。它体型小巧、食性灵活——这两点对于鲨形目来说都很不寻常——使其宠物属性大大提升。考虑到它在艺术学院熬过的那些年，这些奇特之处倒也说得通了。"
     },
-    
     "fish_ditheredfish": {
         "en": "Ditheredfish",
         "zh_cn": "迟疑鱼"
@@ -2473,8 +2566,8 @@
         "zh_cn": "下厨中。需要多年的经验才能掌握并佩戴它。"
     },
     "costume_chefhat_unlock": {
-        "en": "CURRENTLY NONE",
-        "zh_cn": "暂无"
+        "en": "a!Heated Battle! ~ Disco Bakery",
+        "zh_cn": "a!Heated Battle! ~ Disco Bakery"
     },
     "costume_gearshift": {
         "en": "Professor Gearshift",
@@ -2521,7 +2614,8 @@
         "zh_cn": "学会了基础！"
     },
     "costume_gradcap_unlock": {
-        "en": "a!Tutorial"
+        "en": "a!Tutorial",
+        "zh_cn": "a!Tutorial"
     },
     "costume_origami": {
         "en": "Origami Crane",
@@ -2532,7 +2626,8 @@
         "zh_cn": "据说，折叠一千只这样的纸鹤便能实现一个愿望。"
     },
     "costume_origami_unlock": {
-        "en": "a!Shinamon no Neko"
+        "en": "a!Shinamon no Neko",
+        "zh_cn": "a!Shinamon no Neko"
     },
     "costume_catears": {
         "en": "Cat Ears",
@@ -2544,6 +2639,7 @@
     },
     "costume_catears_unlock": {
         "en": "a!so stressed!",
+        "zh_cn": "a!so stressed!",
         "owo": "NULL"
     },
     "costume_square": {
@@ -2556,6 +2652,7 @@
     },
     "costume_square_unlock": {
         "en": "a!Rhythmic Shield",
+        "zh_cn": "a!Rhythmic Shield",
         "owo": "NULL"
     },
     "costume_mine": {
@@ -2568,6 +2665,7 @@
     },
     "costume_mine_unlock": {
         "en": "a!Through The Static",
+        "zh_cn": "a!Through The Static",
         "owo": "NULL"
     },
     "costume_cowboy": {
@@ -2578,7 +2676,8 @@
         "en": "cowboys 1 cowboys 2 cowboys s s s s 3 cowboys 8 still great"
     },
     "costume_cowboy_unlock": {
-        "en": "a!Gritted Strings"
+        "en": "a!Gritted Strings",
+        "zh_cn": "a!Gritted Strings"
     },
     "costume_antispiralglasses": {
         "en": "Cool Glasses",
@@ -2590,6 +2689,7 @@
     },
     "costume_antispiralglasses_unlock": {
         "en": "a!BLOW A FUSE",
+        "zh_cn": "a!BLOW A FUSE",
         "owo": "NULL"
     },
     "costume_antennae": {
@@ -2602,6 +2702,7 @@
     },
     "costume_antennae_unlock": {
         "en": "a!Ladybug Castle",
+        "zh_cn": "a!Ladybug Castle",
         "owo": "NULL"
     },
     "costume_triangle": {
@@ -2614,6 +2715,7 @@
     },
     "costume_triangle_unlock": {
         "en": "a!Cache",
+        "zh_cn": "a!Cache",
         "owo": "NULL"
     },
     "costume_spike": {
@@ -2625,7 +2727,8 @@
         "zh_cn": "好痛"
     },
     "costume_spike_unlock": {
-        "en": "a!Beatrock (get it?)"
+        "en": "a!Beatrock (get it?)",
+        "zh_cn": "a!Beatrock (get it?)"
     },
     "costume_bricks": {
         "en": "Bricks",
@@ -2637,6 +2740,7 @@
     },
     "costume_bricks_unlock": {
         "en": "a!Cobblestone Counterpoint",
+        "zh_cn": "a!Cobblestone Counterpoint",
         "owo": "NULL"
     },
     "costume_bunny": {
@@ -2649,6 +2753,7 @@
     },
     "costume_bunny_unlock": {
         "en": "a!Island of Orchids",
+        "zh_cn": "a!Island of Orchids",
         "owo": "NULL"
     },
     "costume_inverted": {
@@ -2661,6 +2766,7 @@
     },
     "costume_inverted_unlock": {
         "en": "a!ILOVEYOU.vbs",
+        "zh_cn": "a!ILOVEYOU.vbs",
         "owo": "NULL"
     },
     "costume_huxley": {
@@ -2673,6 +2779,7 @@
     },
     "costume_huxley_unlock": {
         "en": "a!público cautivo",
+        "zh_cn": "a!público cautivo",
         "owo": "NULL"
     },
     "costume_construction": {
@@ -2684,7 +2791,8 @@
         "zh_cn": "可以防护坠落物，但防不了上升物。"
     },
     "costume_construction_unlock": {
-        "en": "a!público cautivo"
+        "en": "a!público cautivo",
+        "zh_cn": "a!público cautivo"
     },
     "costume_shades": {
         "en": "Shades + Bowtie",
@@ -2696,6 +2804,7 @@
     },
     "costume_shades_unlock": {
         "en": "a!3-Bit Bebop",
+        "zh_cn": "a!3-Bit Bebop",
         "owo": "NULL"
     },
     "costume_antique": {
@@ -2707,7 +2816,8 @@
         "zh_cn": "古老而被遗忘，其运作原理未知。"
     },
     "costume_antique_unlock": {
-        "en": "a!Destroy, Destroy (ft. eili)"
+        "en": "a!Destroy, Destroy (ft. eili)",
+        "zh_cn": "a!Destroy, Destroy (ft. eili)"
     },
     "costume_lawrence": {
         "en": "Cyclotron",
@@ -2719,6 +2829,7 @@
     },
     "costume_lawrence_unlock": {
         "en": "a!Lawrence",
+        "zh_cn": "a!Lawrence",
         "owo": "NULL"
     },
     "costume_invisible": {
@@ -2730,7 +2841,8 @@
         "zh_cn": "你们都想看见我"
     },
     "costume_invisible_unlock": {
-        "en": "a!C-ミ B-ミ"
+        "en": "a!C-ミ B-ミ",
+        "zh_cn": "a!C-ミ B-ミ"
     },
     "costume_stache": {
         "en": "Electrifying 'Stache",
@@ -2742,6 +2854,7 @@
     },
     "costume_stache_unlock": {
         "en": "a!Omelette Cafe By Road 38",
+        "zh_cn": "a!Omelette Cafe By Road 38",
         "owo": "NULL"
     },
     "costume_bulb": {
@@ -2753,7 +2866,8 @@
         "zh_cn": "像节拍器一样挥动你的挡板！"
     },
     "costume_bulb_unlock": {
-        "en": "a!Omelette Cafe By Road 38"
+        "en": "a!Omelette Cafe By Road 38",
+        "zh_cn": "a!Omelette Cafe By Road 38"
     },
     "costume_novena": {
         "en": "John Novena",
@@ -2764,7 +2878,8 @@
         "zh_cn": "没有什么比一个 [offset=0,2][font=censorblock]XXXX[offset=0,0][font=digitalDisco] 假期更棒的了！"
     },
     "costume_novena_unlock": {
-        "en": "a!Novena"
+        "en": "a!Novena",
+        "zh_cn": "a!Novena"
     },
     "costume_heptagramme": {
         "en": "Saturday",
@@ -2775,7 +2890,8 @@
         "zh_cn": "我们这里有 Side，没有 Bumper。"
     },
     "costume_heptagramme_unlock": {
-        "en": "a!Heptagramme"
+        "en": "a!Heptagramme",
+        "zh_cn": "a!Heptagramme"
     },
     "costume_crown": {
         "en": "Crown",
@@ -2787,6 +2903,7 @@
     },
     "costume_crown_unlock": {
         "en": "a!DAMOCLISM",
+        "zh_cnen": "a!DAMOCLISM",
         "owo": "NULL"
     },
     "costume_blob": {
@@ -2799,6 +2916,7 @@
     },
     "costume_blob_unlock": {
         "en": "a!NISENEN",
+        "zh_cn": "a!NISENEN",
         "owo": "NULL"
     },
     "costume_fedora": {
@@ -2810,7 +2928,8 @@
         "zh_cn": "这太酷了！就像 Cranky 一样！"
     },
     "costume_fedora_unlock": {
-        "en": "a!+ERABY+E CONNEC+10N"
+        "en": "a!+ERABY+E CONNEC+10N",
+        "zh_cn": "a!+ERABY+E CONNEC+10N"
     },
     "costume_atom": {
         "en": "Atomic",
@@ -2822,6 +2941,7 @@
     },
     "costume_atom_unlock": {
         "en": "a!Era Chimæra",
+        "zh_cn": "a!Era Chimæra",
         "owo": "NULL"
     },
     "costume_samurai": {
@@ -2834,6 +2954,7 @@
     },
     "costume_samurai_unlock": {
         "en": "a!Lucky Break",
+        "zh_cn": "a!Lucky Break",
         "owo": "NULL"
     },
     "costume_2p5d": {
@@ -2846,6 +2967,7 @@
     },
     "costume_2p5d_unlock": {
         "en": "a!Code Remix",
+        "zh_cn": "a!Code Remix",
         "owo": "NULL"
     },
     "costume_ribbon": {
@@ -2857,7 +2979,8 @@
         "zh_cn": "让你的脸上永远挂着微笑。"
     },
     "costume_ribbon_unlock": {
-        "en": "a!Empty Diary"
+        "en": "a!Empty Diary",
+        "zh_cn": "a!Empty Diary"
     },
     "costume_0ssembli": {
         "en": ":0SSEMBLI",
@@ -2890,6 +3013,7 @@
     },
     "costume_cloudy_unlock": {
         "en": "a!cloud factory",
+        "zh_cn": "a!cloud factory",
         "owo": "NULL"
     },
     "costume_rfandf": {
@@ -2914,6 +3038,7 @@
     },
     "costume_jimspim_unlock": {
         "en": "a!Spin Cycle",
+        "zh_cn": "a!Spin Cycle",
         "owo": "NULL"
     },
     "costume__customCostumes": {
@@ -3097,16 +3222,16 @@
         "zh_cn": "干得不错。罗德尼为你感到骄傲。"
     },
     "achievement_desc_rodney_proud": {
-        "en": "Catch 39 fish in gone fishin'",
-        "zh_cn": "在“gone fishin'”中钓到39条鱼"
+        "en": "Catch 40 fish in gone fishin'",
+        "zh_cn": "在“gone fishin'”中钓到 40 条鱼"
     },
     "achievement_heavy_is_the_crown": {
         "en": "Heavy is the Crown",
         "zh_cn": "欲戴王冠，必承其重"
     },
     "achievement_desc_heavy_is_the_crown": {
-        "en": "Get an S rank on DAMOCLISM",
-        "zh_cn": "在《DAMOCLISM》中取得 S 评价"
+        "en": "Score an S rank or higher on DAMOCLISM",
+        "zh_cn": "在《DAMOCLISM》中取得 S 或更高评价"
     },
     "achievement_combo_meal": {
         "en": "7.65 Combo Meal",
@@ -3212,6 +3337,14 @@
         "en": "Score an S rank or higher on what's a keygen?",
         "zh_cn": "在《what's a keygen?》中获得 S 级或更高评价"
     },
+    "achievement_yeast_beast": {
+        "en": "Yeast Beast",
+        "zh_cn": "酵母怪兽"
+    },
+    "achievement_desc_yeast_beast": {
+        "en": "Score an S rank or higher on Heated Battle! ~ Disco Bakery",
+        "zh_cn": "在《Heated Battle! ~ Disco Bakery》中获得 S 级或更高评价"
+    },
     "achievementHiddenMessage": {
         "en": "and @@1@@ hidden achievements...",
         "zh_cn": "以及 @@1@@ 个隐藏成就……"
@@ -3309,7 +3442,7 @@
         "zh_cn": "愚人节快乐！是否要启用愚人节内容？你可以之后通过穿戴“小丑”装扮打开设置来更改你的决定。"
     },
     "popupAFWarningTurnAllOn": {
-        "en": "Excellent... We've enabled two gags by default, and if you'd like to go [rotate=1]ALL IN[rotate=0] and turn on EVERYTHING, you can enter the settings with the Jester costume on.\n\nOptions there may affect your enjoyment of the game!",
+        "en": "Excellent... We've enabled two gags by default, and if you'd like to go [rotate=1]ALL IN[rotate=0] and turn on EVERYTHING, you can enter the settings with the Jester costume on.\nOptions there may affect your enjoyment of the game!",
         "zh_cn": "太好了……我们默认启用了两个玩笑，如果你想[rotate=1]全力以赴[rotate=0]并开启所有内容，可以穿戴“小丑”装扮进入设置。\n\n其中的选项可能会影响你的游戏体验！"
     },
     "collabSourceBeatblock": {
@@ -3344,6 +3477,10 @@
         "en": "From the [rotateY=1]:0SSEMBLI x BEATBLOCK\n2024 Competition[rotateY=0].",
         "zh_cn": "来自 [rotateY=1]:0SSEMBLI x BEATBLOCK\n2024 Competition[rotateY=0]。"
     },
+    "collabSourceGambit": {
+        "en": "Song originally from\n[rotateY=1]The Gambit Lost to Time[rotateY=0].",
+        "zh_cn": "歌曲源于\n[rotateY=1]The Gambit Lost to Time[rotateY=0]。"
+    },
     "collabOpenSteam": {
         "en": "Click here to open its Steam page!",
         "zh_cn": "点击打开它的 Steam 页面"
@@ -3351,5 +3488,345 @@
     "collabOpenWebsite": {
         "en": "Click here to open their website!",
         "zh_cn": "点击打开他们的网站！"
+    },
+    "languageHint": {
+        "en": "Current game language.\nRequires a game restart to take effect.",
+        "zh_cn": "当前游戏语言。\n需要重启游戏才能生效。"
+    },
+    "displayModeHint": {
+        "en": "Current display mode. \n\"Borderless\" is borderless fullscreen.",
+        "zh_cn": "当前显示模式。\n“无边框”即无边框全屏。"
+    },
+    "VSyncHint": {
+        "en": "Prevents vertical tearing by forcing framerate to be divisible by your monitors' refresh rate. Can break Hall of Mirrors effects in levels when turned on!",
+        "zh_cn": "通过强制帧率可被显示器刷新率整除来防止垂直撕裂。开启后可能会破坏关卡中的“镜厅”效果！"
+    },
+    "HUDHint": {
+        "en": "The appearance of the game's HUD during gameplay.\n\"None\" shows no HUD, \"Simple\" shows your combo only,\n\"Expanded\" shows all information, and \"Complex\" additionally\nshows misses and barelies.",
+        "zh_cn": "游玩时的 HUD 显示样式。\n“无”不显示 HUD；“简单”仅显示连击数；\n“扩展”显示全部信息；“复杂”则额外\n显示 Miss（未击中）和 Barely（擦边）。"
+    },
+    "windowScaleHint": {
+        "en": "The current scale of the window, as a multiplier.",
+        "zh_cn": "窗口当前的缩放比例，以倍数表示。"
+    },
+    "inputOffsetHint": {
+        "en": "Moves the timing window of taps to account for audio delay.\nUse 'Calibrate' to set this automatically.",
+        "zh_cn": "调整判定窗口以补偿音频延迟。\n使用“校准”可自动设置此值。"
+    },
+    "muteOnFocusLossHint": {
+        "en": "Stop playing audio when the game window is unfocused.",
+        "zh_cn": "失去窗口焦点时是否静音。"
+    },
+    "MusicVolumeHint": {
+        "en": "Volume level of music, including the Menu and Levels.",
+        "zh_cn": "音乐音量，包含菜单与关卡音乐。"
+    },
+    "hitsoundsHint": {
+        "en": "Play a sound when a note is hit or missed.",
+        "zh_cn": "击中或漏掉音符时是否播放打击音。"
+    },
+    "SfxVolumeHint": {
+        "en": "Volume level of general sound effects.",
+        "zh_cn": "通用音效音量。"
+    },
+    "playMenuMusicHint": {
+        "en": "Play music in the menus.",
+        "zh_cn": "在菜单界面播放音乐。"
+    },
+    "circleSnapHint": {
+        "en": "Circle snapping restricts the cursor to a ring around Cranky, similar to an analogue stick.",
+        "zh_cn": "圆形吸附会将光标限制在 Cranky 周围的一个圆环内，类似于模拟摇杆。"
+    },
+    "flipAnalogHint": {
+        "en": "Use the right stick instead of the left stick for gameplay.",
+        "zh_cn": "游玩时使用右摇杆代替左摇杆。"
+    },
+    "circleSnapRadiusHint": {
+        "en": "The radius around the center of your screen where circle snap will keep your cursor, if enabled.",
+        "zh_cn": "启用后，圆形吸附会将光标限制在屏幕中心周围的指定半径内。"
+    },
+    "forceMouseKeyboardHint": {
+        "en": "Ignore all controller inputs and force Mouse & Keyboard gameplay.",
+        "zh_cn": "忽略所有手柄输入，强制使用键鼠游玩。"
+    },
+    "LockToWindowHint": {
+        "en": "Locks the mouse cursor to be within the game window during gameplay.",
+        "zh_cn": "在游玩时将光标锁定在游戏窗口内。"
+    },
+    "disableClickHint": {
+        "en": "Enables using the Left and Right click on your mouse as Tap and Alternate Tap actions.",
+        "zh_cn": "将鼠标左键和右键映射为 Tap（点击）和 Alt Tap（备用点击）操作。"
+    },
+    "customCursorInMenuHint": {
+        "en": "Use the custom cursor outside of levels.",
+        "zh_cn": "在关卡外使用自定义光标。"
+    },
+    "cursorModeHint": {
+        "en": "What mode the cursor is in.\n\"Default\" uses the operating system's cursor.\n\"Large\" draws a larger cursor to the screen.\n\"Invert\" draws a large cursor and inverts the colors below it.",
+        "zh_cn": "光标所处的模式。\n“默认”使用操作系统的光标。\n“大号”在屏幕上绘制大号光标。\n“反色”绘制大号光标，并反转其下方的颜色。"
+    },
+    "e": {
+        "en": "Tap notes are offset by this value, in milliseconds.",
+        "zh_cn": "Tap 音符的偏移量，单位为毫秒。"
+    },
+    "sidesHint": {
+        "en": "Modifies the behaviour of side notes.\n\"Lenient\" allows side notes to be hit with the middle of the paddle.\n\"Automatic\" always hits side notes regardless of performance.",
+        "zh_cn": "修改 Side 音符的判定行为。\n“宽松”允许使用 Paddle 中间击中 Side 音符。\n“自动”无视操作，自动击中所有 Side 音符。"
+    },
+    "strainReductionHint": {
+        "en": "Reduces brightness and increases the color temperature to help reduce eye strain.",
+        "zh_cn": "降低亮度并提高色温，以帮助缓解眼部疲劳。"
+    },
+    "VFXHint": {
+        "en": "Modifies the level of VFX present in the game, to help reduce visual strain.\n\"Decreased\" removes some full-screen distortion effects.\n\"None\" removes all VFX.",
+        "zh_cn": "调整关卡内视觉特效的级别，以减轻视觉疲劳。\n“减少”会移除部分全屏扭曲效果。\n“无”会移除所有视觉特效。"
+    },
+    "tapsHint": {
+        "en": "Modifies the behaviour of tap notes.\n\"Strict\" halves the timing window of tap notes (to 75ms).\n\"Lenient\" doubles the timing window of tap notes (to 300ms).\n\"Automatic\" always hits tap notes perfectly.",
+        "zh_cn": "修改 Tap 音符的判定行为。\n“严格”将判定窗口减半（至 75ms）。\n“宽松”将判定窗口加倍（至 300ms）。\n“自动”自动打出 Perfect 判定。"
+    },
+    "saturationHint": {
+        "en": "Modifies the saturation of colors on the screen.",
+        "zh_cn": "调整屏幕色彩的饱和度。"
+    },
+    "bareliesHint": {
+        "en": "Modifies the behaviour of barelies (hitting a note with the corner of the paddle).\n\"Strict\" causes the game to treat this as a miss.\n\"Lenient\" causes the game to treat this as a perfect.",
+        "zh_cn": "修改 Barely 判定（用 Paddle 的角落击中音符）的行为。\n“严格”会将 Barely 视为 Miss。\n“宽松”会将 Barely 视为 Perfect。"
+    },
+    "menu_downHint": {
+        "en": "Keybind to move down in menus,",
+        "zh_cn": "菜单中向下移动的按键。"
+    },
+    "menu_upHint": {
+        "en": "Keybind to move up in menus.",
+        "zh_cn": "菜单中向上移动的按键。"
+    },
+    "menu_leftHint": {
+        "en": "Keybind to move left in menus.",
+        "zh_cn": "菜单中向左移动的按键。"
+    },
+    "menu_rightHint": {
+        "en": "Keybind to move right in menus.",
+        "zh_cn": "菜单中向右移动的按键。"
+    },
+    "tab_leftHint": {
+        "en": "Opens the previous tab",
+        "zh_cn": "打开上一个标签页"
+    },
+    "tab_rightHint": {
+        "en": "Opens the next tab",
+        "zh_cn": "打开下一个标签页"
+    },
+    "backHint": {
+        "en": "Keybind to go back in menus.",
+        "zh_cn": "菜单中返回的按键。"
+    },
+    "selectHint": {
+        "en": "Keybind to select an option.",
+        "zh_cn": "选择选项的按键。"
+    },
+    "tapHint": {
+        "en": "Keybind to hit a tap note.",
+        "zh_cn": "击打 Tap 音符的按键。"
+    },
+    "restartHint": {
+        "en": "Keybind to instantly restart the current song.",
+        "zh_cn": "立即重新开始当前歌曲的按键。"
+    },
+    "extraOptionsHint": {
+        "en": "Miscellanious Control Settings",
+        "zh_cn": "杂项控制设置"
+    },
+    "crankModeHint": {
+        "en": "For arcade use only. Allows menus to be navigated with the Cranktroller.\nBliv, please remove.",
+        "zh_cn": "仅限街机使用。允许使用 Cranktroller 导航菜单。\nBliv，请移除。"
+    },
+    "controllerLightsHint": {
+        "en": "Enables custom lights for compatible controllers.",
+        "zh_cn": "为兼容的手柄启用自定义灯光。"
+    },
+    "pauseHint": {
+        "en": "Keybind to pause the game.",
+        "zh_cn": "暂停游戏的按键。"
+    },
+    "deleteHint": {
+        "en": "Keybind to delete an event in the editor.",
+        "zh_cn": "编辑器中删除事件的按键。"
+    },
+    "playHint": {
+        "en": "Keybind to playtest in the editor.",
+        "zh_cn": "编辑器中试玩谱面的按键。"
+    },
+    "keyboardGameplayHint": {
+        "en": "Keybinds that govern gameplay.",
+        "zh_cn": "控制游戏游玩的按键。"
+    },
+    "keyboardEditorHint": {
+        "en": "Keybinds that govern the editor.",
+        "zh_cn": "控制编辑器的按键。"
+    },
+    "keyboardMenuHint": {
+        "en": "Binds that affect navigation in the menus.",
+        "zh_cn": "影响菜单导航的按键绑定。"
+    },
+    "move_upHint": {
+        "en": "Keybind to move events forward in time in the editor.",
+        "zh_cn": "编辑器中让事件在时间轴上前移的按键。"
+    },
+    "move_leftHint": {
+        "en": "Keybind to decrease the angle of events in the editor.",
+        "zh_cn": "编辑器中减小事件角度的按键。"
+    },
+    "move_rightHint": {
+        "en": "Keybind to increase the angle of events in the editor.",
+        "zh_cn": "编辑器中增大事件角度的按键。"
+    },
+    "move_downHint": {
+        "en": "Keybind to move events backward in time in the editor.",
+        "zh_cn": "编辑器中让事件在时间轴上后移的按键。"
+    },
+    "modifierHint": {
+        "en": "Modifier key to hold when performing certain actions.",
+        "zh_cn": "执行某些操作时需要按住的修饰键。"
+    },
+    "saveHint": {
+        "en": "Keybind to save the chart in the editor.",
+        "zh_cn": "编辑器中保存谱面的按键。"
+    },
+    "Jokes_noCrankyHint": {
+        "en": "Removes Cranky from the game.\nCounts as an accessibility setting.\nCharts become unplayable without the assistance of another.",
+        "zh_cn": "从游戏中移除 Cranky。\n属于无障碍设置。\n若无他人协助，将无法游玩谱面。"
+    },
+    "Jokes_voicedGearshiftHint": {
+        "en": "Allows Professor Gearshift to chime in with commentary on your gameplay.\nOccasionally, even relevant commentary.",
+        "zh_cn": "允许 Gearshift 教授对你的游玩表现进行解说。\n偶尔，甚至会给出有用的点评。"
+    },
+    "Jokes_titleSplashHint": {
+        "en": "Displays a randomised title splash underneath the logo in the main menu.",
+        "zh_cn": "在主菜单 Logo 下方显示随机的标语。"
+    },
+    "Jokes_noSnapChartsHint": {
+        "en": "Shifts all notes very slightly, to simulate a chart created without the note snap setting enabled.",
+        "zh_cn": "将所有音符轻微偏移，以模拟未开启“音符吸附”时做出来的谱面。"
+    },
+    "Jokes_rateModWaveHint": {
+        "en": "Subtly increases and decreases game speed over the course of the song.",
+        "zh_cn": "在歌曲播放过程中，微妙地加快和减慢游戏速度。"
+    },
+    "Jokes_randomPaddleOffsetHint": {
+        "en": "Changes the offset of Cranky's paddle by a small amount at the start of the song.",
+        "zh_cn": "在歌曲开始时，轻微改变 Cranky 的 Paddle 的偏移量。"
+    },
+    "Jokes_randomScrollSpeedHint": {
+        "en": "Randomises the scroll speed of individual notes, within a small radius.",
+        "zh_cn": "在小范围内随机改变单个音符的下落速度。"
+    },
+    "Jokes_hueShifterHint": {
+        "en": "Pretty colors.\nShifts the hue of the entire screen subtly over the course of a song.",
+        "zh_cn": "漂亮的颜色。\n在歌曲播放过程中，微妙地改变整个屏幕的色相。"
+    },
+    "Jokes_enableHint": {
+        "en": "Whether joke settings should always be off, only active on April 1st, or always on.",
+        "zh_cn": "笑话设置是否应该始终关闭，仅在4月1日激活，或始终开启。"
+    },
+    "Jokes_theNoteSniperHint": {
+        "en": "Small chance for some notes to have an absurdly high or low scroll speed.",
+        "zh_cn": "部分音符有极小概率出现极高或极低的下落速度。"
+    },
+    "calibrateHint": {
+        "en": "Starts Input offset calibration.",
+        "zh_cn": "开始输入偏移校准。"
+    },
+    "lockToWindowHint": {
+        "en": "Whether the mouse is locked to the window during gameplay.",
+        "zh_cn": "游戏过程中鼠标是否锁定在窗口内。"
+    },
+    "tap1Hint": {
+        "en": "Keybind to tap notes.\nOpens cells in \"Through the Minefield\".",
+        "zh_cn": "击打 Tap 音符的按键。\n在《Through the Minefield》中翻开格子。"
+    },
+    "tap2Hint": {
+        "en": "Alternate keybind to tap notes.\nMarks cells in \"Through the Minefield\".",
+        "zh_cn": "击打 Tap 音符的备用按键。\n在《Through the Minefield》中标记格子。"
+    },
+    "optionsSelect": {
+        "en": "Select",
+        "zh_cn": "选择"
+    },
+    "optionsBack": {
+        "en": "Back",
+        "zh_cn": "返回"
+    },
+    "optionsMenu_up": {
+        "en": "Up (menus)",
+        "zh_cn": "上 (菜单)"
+    },
+    "optionsMenu_left": {
+        "en": "Left (menus)",
+        "zh_cn": "左 (菜单)"
+    },
+    "optionsMenu_right": {
+        "en": "Right (menus)",
+        "zh_cn": "右 (菜单)"
+    },
+    "optionsMenu_down": {
+        "en": "Down (menus)",
+        "zh_cn": "下 (菜单)"
+    },
+    "optionsTap1": {
+        "en": "Tap",
+        "zh_cn": "点击"
+    },
+    "optionsTap2": {
+        "en": "Tap (Alt.)",
+        "zh_cn": "点击 (备用)"
+    },
+    "optionsPause": {
+        "en": "Pause",
+        "zh_cn": "暂停"
+    },
+    "optionsRestart": {
+        "en": "Restart Level",
+        "zh_cn": "重新开始关卡"
+    },
+    "optionsTab_left": {
+        "en": "Previous Tab",
+        "zh_cn": "上一个标签"
+    },
+    "optionsTab_right": {
+        "en": "Next Tab",
+        "zh_cn": "下一个标签"
+    },
+    "optionsPlay": {
+        "en": "Playtest Level",
+        "zh_cn": "试玩关卡"
+    },
+    "optionsMove_up": {
+        "en": "Event forward",
+        "zh_cn": "事件前移"
+    },
+    "optionsMove_left": {
+        "en": "Event angle down",
+        "zh_cn": "事件角度减小"
+    },
+    "optionsMove_right": {
+        "en": "Event angle up",
+        "zh_cn": "事件角度增大"
+    },
+    "optionsMove_down": {
+        "en": "Event backward",
+        "zh_cn": "事件后移"
+    },
+    "optionsModifier": {
+        "en": "Modifier key",
+        "zh_cn": "修饰键"
+    },
+    "optionsSave": {
+        "en": "Save level",
+        "zh_cn": "保存关卡"
+    },
+    "optionsDelete": {
+        "en": "Delete event",
+        "zh_cn": "删除事件"
     }
 }

@@ -16,42 +16,42 @@
     },
     "Blocks": {
         "en": "Blocks",
-        "zh_cn": "方块",
+        "zh_cn": "Block",
         "owo": "Bwocks"
     },
     "Holds": {
         "en": "Holds",
-        "zh_cn": "长条",
+        "zh_cn": "Hold",
         "owo": "Howds"
     },
     "Taps": {
         "en": "Taps",
-        "zh_cn": "点击",
+        "zh_cn": "Tap",
         "owo": "Taps uwu"
     },
     "Mines": {
         "en": "Mines",
-        "zh_cn": "地雷",
+        "zh_cn": "Mine",
         "owo": "Mines uwu"
     },
     "Mineholds": {
         "en": "Mineholds",
-        "zh_cn": "长条地雷",
+        "zh_cn": "Minehold",
         "owo": "Minehowds"
     },
     "Sides": {
         "en": "Sides",
-        "zh_cn": "侧击",
+        "zh_cn": "Side",
         "owo": "Sides uwu"
     },
     "Inverses": {
         "en": "Inverses",
-        "zh_cn": "反向",
+        "zh_cn": "Inverse",
         "owo": "Invewses"
     },
     "Bounces": {
         "en": "Bounces",
-        "zh_cn": "弹跳",
+        "zh_cn": "Bounce",
         "owo": "Bounces uwu"
     },
     "Barely (plural is Barelies)": {
@@ -71,7 +71,7 @@
     },
     "playGame": {
         "en": "Play",
-        "zh_cn": "游玩",
+        "zh_cn": "开始游戏",
         "owo": "Pway owo"
     },
     "playSelect": {
@@ -134,22 +134,22 @@
     },
     "tutorialNagTitle": {
         "en": "Slow down!",
-        "zh_cn": "慢一点！",
+        "zh_cn": "别急！",
         "owo": "Woa thewe!! OmO"
     },
     "tutorialNag": {
         "en": "Please play the tutorial in the \"Play\" menu before playing custom levels. ",
-        "zh_cn": "在游玩自定义关卡前，请先在“游玩”菜单中体验教程。",
+        "zh_cn": "在游玩自定义关卡之前，请先去“开始游戏”菜单里过一遍教程。",
         "owo": "Pwease pway the tutowiaw in \"Pway demo levews\" befowe pwaying custom levews. "
     },
     "tutorialNagAltTitle": {
         "en": "Are you sure?",
-        "zh_cn": "您确定吗？",
+        "zh_cn": "你确定吗？",
         "owo": "Awe youw suwwe? owO"
     },
     "tutorialNagAlt": {
         "en": "Custom levels might contain note types that you haven't been taught how to play yet.\n\nIt might be a good idea to learn how they work in the \"Play\" menu first!",
-        "zh_cn": "自定义关卡中可能包含您尚未学习如何操作的音符类型。\n\n建议您先在“游玩”菜单中了解它们的作用！",
+        "zh_cn": "自定义关卡可能包含你还没学过的音符类型。\n\n建议先去“开始游戏”菜单里了解一下！",
         "owo": "Custom levews might contain note types that youw havent been tawt how to pway yet.\n\nIt might be a good idea to leawn how they work in the \"Pway\" menu fiwst!"
     },
     "menuWelcomeTitle": {
@@ -158,27 +158,27 @@
     },
     "menuWelcome1": {
         "en": "It looks like this is your first time playing Beatblock. \nWould you like an overview of the main menu?",
-        "zh_cn": "看起来这是你第一次玩 Beatblock。\n需要为你介绍一下主菜单吗？"
+        "zh_cn": "看起来你是第一次玩 Beatblock。\n需要为你介绍一下主菜单吗？"
     },
     "menuWelcome2": {
         "en": "Great! First up is the \"Play\" menu.\nHere, you can view levels grouped by category. For now you only have one unlocked, but by getting B ranks or above on levels you can unlock more!",
-        "zh_cn": "好的！首先是“游玩”菜单。\n在这里，你可以看到按类别分组的关卡。目前你只解锁了一个，但通过在关卡中获得 B 或更高的评级，你就可以解锁更多内容！"
+        "zh_cn": "好的！首先是“开始游戏”菜单。\n这里可以按分类查看关卡。目前你只解锁了一个，但只要拿到 B 或以上评价就能解锁更多！"
     },
     "menuWelcome3": {
         "en": "Next is \"Freeplay\".\nIn this menu, all of your unlocked songs are displayed in a convenient list!",
-        "zh_cn": "接下来是“自由模式”。\n在这个菜单中，你所有已解锁的歌曲都会在一个方便的列表中显示出来！"
+        "zh_cn": "接下来是“自由模式”。\n这里会把所有你已解锁的歌曲整齐列出来！"
     },
     "menuWelcome4": {
         "en": "After that is \"Custom Levels\".\nOnce you've gotten familiar with Beatblock, come over here to create your own levels, as well as play levels created by the community.",
-        "zh_cn": "再之后是“自定义关卡”。\n当你熟悉了 Beatblock 之后，可以来这里创建你自己的关卡，也可以玩社区玩家创建的关卡。"
+        "zh_cn": "然后是“自定义关卡”。\n等你熟悉 Beatblock 之后，可以来这里自己做关卡，也可以玩社区里别人做的关卡。"
     },
     "menuWelcome5": {
         "en": "The rest of the options should speak for themselves.\nMake sure to head over to \"Settings\" to configure the game to your liking, or jump right into the game with \"Play\"!",
-        "zh_cn": "其余的选项应该都一目了然了。\n记得去“设置”里根据你的喜好配置游戏，或者直接点击“游玩”来立刻体验吧！"
+        "zh_cn": "剩下的选项就不多说了。\n记得去“设置”里调成自己喜欢的样子，或者直接点“开始游戏”，立刻体验吧！"
     },
     "menuWelcomeNo": {
         "en": "Sounds good! Head into \"Play\" to get started unlocking new levels by getting B ranks or above.",
-        "zh_cn": "没问题！前往“游玩”，通过获得 B 或更高的评级来开始解锁新关卡吧。"
+        "zh_cn": "没问题！去“开始游戏”里拿 B 或以上评价来解锁新关卡吧。"
     },
     "menuWorkshopTitle": {
         "en": "Steam Workshop",
@@ -186,7 +186,7 @@
     },
     "menuWorkshop": {
         "en": "Looks like you aren't subscribed to any levels yet! After installing them, you will have to restart the game for them to show up here.",
-        "zh_cn": "看起来你还没有订阅任何关卡！安装关卡之后，你需要重启游戏才能在这里看到它们"
+        "zh_cn": "看起来你还没有订阅任何关卡！安装关卡后，需要重启游戏才能在这里看到。"
     },
     "menuNoLeaks": {
         "en": "Private Build!",
@@ -194,27 +194,27 @@
     },
     "returnToMenuPrompt_keyboard": {
         "en": "(press [input=back] to return to menu)",
-        "zh_cn": "（按下[input=back]返回菜单）",
+        "zh_cn": "（按[input=back]返回菜单）",
         "owo": "(pwess escape to wetuwwn to menuw)"
     },
     "returnToMenuPrompt_controller": {
         "en": "(press [input=back] to return to menu)",
-        "zh_cn": "（按下[input=back]返回菜单）",
+        "zh_cn": "（按[input=back]返回菜单）",
         "owo": "(pwess stawt to wetuwwn to menuw)"
     },
     "optionsHint": {
         "en": "(Left and Right to change values)",
-        "zh_cn": "（按左右键更改数值）",
+        "zh_cn": "（左右键切换选项）",
         "owo": "(left and right to change vawuwes)"
     },
     "optionsEnabled": {
         "en": ": Enabled",
-        "zh_cn": "：已启用",
+        "zh_cn": "：开",
         "owo": ": enabwed"
     },
     "optionsDisabled": {
         "en": ": Disabled",
-        "zh_cn": "：已禁用",
+        "zh_cn": "：关",
         "owo": ": disabwed"
     },
     "optionsHitsounds": {
@@ -259,7 +259,7 @@
     },
     "optionsGraphics": {
         "en": "Graphics",
-        "zh_cn": "图像",
+        "zh_cn": "画面",
         "owo": "Gwaphics"
     },
     "optionsFlipAnalog": {
@@ -312,12 +312,12 @@
     },
     "optionsDisableClick": {
         "en": "Disable Clicking on Taps",
-        "zh_cn": "禁用鼠标触发 Tap",
+        "zh_cn": "禁用鼠标点击 Tap",
         "owo": "Disable Clicking on Taps"
     },
     "optionsCustomCursorInMenu": {
         "en": "Use Custom Cursor in Menu",
-        "zh_cn": "在菜单中使用自定义光标"
+        "zh_cn": "菜单中使用自定义光标"
     },
     "optionsSaved": {
         "en": "Saved!",
@@ -325,19 +325,19 @@
     },
     "enumCircleSnapDisabled": {
         "en": "Disabled",
-        "zh_cn": "禁用"
+        "zh_cn": "关闭"
     },
     "enumCircleSnapStiff": {
         "en": "Stiff (locked to circle, crank-like)",
-        "zh_cn": "僵硬（锁定于圆周，曲柄式）"
+        "zh_cn": "僵硬（锁定圆周，曲柄式）"
     },
     "enumCircleSnapSnappy": {
         "en": "Snappy (locked to circle, joystick-like)",
-        "zh_cn": "灵敏（锁定于圆周，摇杆式）"
+        "zh_cn": "灵敏（锁定圆周，摇杆式）"
     },
     "enumCircleSnapDome": {
         "en": "Dome (free movement inside circle)",
-        "zh_cn": "圆顶（在圆内自由移动）"
+        "zh_cn": "圆顶（圆内自由移动）"
     },
     "enumCursorDefault": {
         "en": "Default",
@@ -405,7 +405,7 @@
     },
     "fancyMineholdWarning": {
         "en": "Warning! Fancy Mineholds are known to cause\nperformance issues on some devices.",
-        "zh_cn": "警告！花哨样式的 Minehold 可能会\n在部分设备上导致性能问题。",
+        "zh_cn": "警告！花哨样式 Minehold 在某些设备上\n可能会导致性能问题。",
         "owo": "Warning! Fancy Mineholds are known to cause\nperformance issues on some devices."
     },
     "optionsAccessibility": {
@@ -544,7 +544,7 @@
     },
     "optionsSaveScoresWithAccessibilitySettings": {
         "en": "Save scores with accessibility settings",
-        "zh_cn": "保存带有辅助功能设置的分数"
+        "zh_cn": "保存带辅助功能的成绩"
     },
     "optionsJokes": {
         "en": "Jokes",
@@ -552,7 +552,7 @@
     },
     "optionsJokes_enable": {
         "en": "The fun is...",
-        "zh_cn": "乐趣……"
+        "zh_cn": "乐趣已……"
     },
     "optionsJokes_noCranky": {
         "en": "Remove Cranky",
@@ -560,15 +560,15 @@
     },
     "optionsJokes_voicedGearshift": {
         "en": "Hear Gearshift's beautiful voice",
-        "zh_cn": "听 Gearshift 美妙的声音"
+        "zh_cn": "聆听 Gearshift 的美妙嗓音"
     },
     "optionsJokes_titleSplash": {
         "en": "Title screen splash text",
-        "zh_cn": "标题画面闪烁标语"
+        "zh_cn": "标题画面随机标语"
     },
     "optionsJokes_noSnapCharts": {
         "en": "Go back in time and uninvent snapping",
-        "zh_cn": "回到过去，取消对齐功能的发明"
+        "zh_cn": "回到过去，让对齐功能从未诞生"
     },
     "optionsJokes_rateModWave": {
         "en": "Let Game Speed ride a wave",
@@ -576,7 +576,7 @@
     },
     "optionsJokes_randomPaddleOffset": {
         "en": "Bump the paddle with a hammer",
-        "zh_cn": "用锤子敲击挡板"
+        "zh_cn": "用锤子敲一下挡板"
     },
     "optionsJokes_randomScrollSpeed": {
         "en": "Randomize scroll speed",
@@ -588,7 +588,7 @@
     },
     "optionsJokes_hueShifter": {
         "en": "Pretty colors",
-        "zh_cn": "漂亮的颜色"
+        "zh_cn": "花里胡哨的颜色"
     },
     "enumJokesDisabled": {
         "en": "over",
@@ -618,11 +618,11 @@
     },
     "newOptionsEnabled": {
         "en": "Enabled",
-        "zh_cn": "已启用"
+        "zh_cn": "开"
     },
     "newOptionsDisabled": {
         "en": "Disabled",
-        "zh_cn": "已禁用"
+        "zh_cn": "关"
     },
     "optionsResetDefault": {
         "en": "Reset Tab to Default",
@@ -634,7 +634,7 @@
     },
     "optionsResetDefaultDescription": {
         "en": "Are you sure you want to reset all @@1@@ settings back to their default values? This can't be undone!",
-        "zh_cn": "确定要将所有@@1@@设置重置为默认值吗？此操作无法撤销！"
+        "zh_cn": "确定要把所有@@1@@设置恢复默认吗？此操作无法撤销！"
     },
     "optionsExtraOptions": {
         "en": "Additional Settings",
@@ -670,15 +670,15 @@
     },
     "optionsDeleteKeybindDesc": {
         "en": "Are you sure you want to remove this key from the action '@@1@@'?",
-        "zh_cn": "您确定要从操作‘@@1@@’中移除此按键吗？"
+        "zh_cn": "确定要从操作“@@1@@”中移除此按键吗？"
     },
     "optionsDeleteKeybindBlocked": {
         "en": "You cannot remove all keys from an action! Please add another key before removing this one.",
-        "zh_cn": "不能移除该操作绑定的所有按键！请先绑定新按键，再移除此按键。"
+        "zh_cn": "不能移除该操作的所有按键！请先绑定新按键，再移除此按键。"
     },
     "keybindsListening": {
         "en": "Press any key to assign it to action '@@1@@'",
-        "zh_cn": "按下任意键以绑定至操作‘@@1@@’"
+        "zh_cn": "按下任意键以绑定到“@@1@@”"
     },
     "optionsTestEnum": {
         "en": "Test enum: @@1@@",
@@ -710,15 +710,15 @@
     },
     "resetSave1_description": {
         "en": "Resetting your save means that Cranky won't remember any of your progress! You'll be starting from scratch! The only thing that will remain is your custom levels.\n\nAre you sure you want to reset?",
-        "zh_cn": "重置存档意味着 Cranky 将不会记得您的任何进度！您将从零开始！唯一会保留的只有您的自定义关卡。\n\n您确定要重置吗？"
+        "zh_cn": "重置存档意味着 Cranky 将忘记你的所有进度！你将从头开始！唯一保留的只有你的自定义关卡。\n\n确定要重置吗？"
     },
     "resetSave2": {
         "en": "ARE YOU SURE?",
-        "zh_cn": "您确定吗？"
+        "zh_cn": "你确定吗？"
     },
     "resetSave2_description": {
         "en": "All of your ranks, your fish, your unlocks...poof! This is your final warning! There's no going back after this!\n\nDO YOU WANT TO RESET YOUR SAVE??",
-        "zh_cn": "您所有的评级、您的鱼、您的解锁内容……都会消失！这是您的最后警告！此操作无法撤销！\n\n您确定要重置您的存档吗？？"
+        "zh_cn": "你所有的评价、鱼、解锁内容……全都会消失！这是最后警告！此操作无法撤销！\n\n确定要重置存档吗？？"
     },
     "optionsLanguage": {
         "en": "Language",
@@ -732,10 +732,12 @@
     },
     "lang_jp": {
         "en": "Japanese",
-        "owo": "Japanese"
+        "owo": "Japanese",
+        "zh_cn": "日本語"
     },
     "lang_zh_hant": {
-        "en": "Traditional Chinese"
+        "en": "Traditional Chinese",
+        "zh_cn": "繁體中文"
     },
     "lang_zh_cn": {
         "en": "简体中文",
@@ -743,7 +745,8 @@
         "owo": "简体中文"
     },
     "lang_kr": {
-        "en": "Korean"
+        "en": "Korean",
+        "zh_cn": "한국어"
     },
     "lang_owo": {
         "en": "OwO",
@@ -782,7 +785,7 @@
     },
     "putLevelsInHere": {
         "en": "Put levels in here!",
-        "zh_cn": "将关卡放入此处！",
+        "zh_cn": "把关卡放这里！",
         "owo": "Puwt wevews in hewe! OwO"
     },
     "openSteamWorkshop": {
@@ -791,7 +794,7 @@
     },
     "workshopGetMoreLevels": {
         "en": "Get more levels here!",
-        "zh_cn": "在这儿获取更多关卡！"
+        "zh_cn": "在这里获取更多关卡！"
     },
     "bpm": {
         "en": "@@1@@ BPM",
@@ -805,11 +808,11 @@
     },
     "invalidLevel": {
         "en": "This level could not be loaded.",
-        "zh_cn": "无法加载这个关卡。"
+        "zh_cn": "无法加载此关卡。"
     },
     "explicitLyrics": {
         "en": "EXPLICIT LYRICS",
-        "zh_cn": "露骨的歌词"
+        "zh_cn": "包含露骨歌词"
     },
     "seizureWarning": {
         "en": "SEIZURE WARNING",
@@ -828,7 +831,7 @@
     },
     "restartOn": {
         "en": "Restart on: @@1@@",
-        "zh_cn": "于 @@1@@ 时重新开始",
+        "zh_cn": "自动重开：@@1@@",
         "owo": "Restart owon: @@1@@"
     },
     "optionsRestartOnMiss": {
@@ -852,7 +855,7 @@
     },
     "resultsRateDisplay": {
         "en": "@@1@@x speed",
-        "zh_cn": "@@1@@倍速",
+        "zh_cn": "@@1@@ 倍速",
         "owo": "@@1@@x speed"
     },
     "resultsAccessibilityLenient": {
@@ -881,12 +884,12 @@
     },
     "resultsAccessibilityTaps": {
         "en": "Tap Notes",
-        "zh_cn": "Tap 音符",
+        "zh_cn": "Tap",
         "owo": "Tap Notes"
     },
     "resultsAccessibilitySides": {
         "en": "Side Notes",
-        "zh_cn": "Side 音符",
+        "zh_cn": "Side",
         "owo": "Side Notes"
     },
     "resultsAccessibilityBarelies": {
@@ -895,7 +898,7 @@
     },
     "resultsUnpause": {
         "en": "Resumed from Pause",
-        "zh_cn": "从暂停中恢复",
+        "zh_cn": "从暂停恢复",
         "owo": "Resumed from Pawse"
     },
     "resultsUsedInvisiblePaddle": {
@@ -912,32 +915,32 @@
     },
     "optionsMenuDescription1": {
         "en": "Multiplier to overall game speed. Chart will become faster or slower.",
-        "zh_cn": "游戏整体速度的倍率。谱面会变得更快或更慢。",
+        "zh_cn": "游戏整体速度倍率。谱面会变快或变慢。",
         "owo": "Multiplier to overall game speed. Chart will become faster or slower."
     },
     "optionsMenuDescription2": {
         "en": "Reduces intensity of game visual effects, or removes visual effects entirely.",
-        "zh_cn": "降低游戏视觉特效的强度，或完全移除视觉特效。",
+        "zh_cn": "降低游戏视觉特效强度，或完全移除视觉特效。",
         "owo": "Reduces intensity of game visual effects, or removes visual effects entirely."
     },
     "optionsMenuDescription3": {
         "en": "Changes the leniency of tap notes, or allows you to hit tap notes automatically.",
-        "zh_cn": "调整 Tap 音符的判定宽松度，或允许自动点击。",
+        "zh_cn": "调整 Tap 音符的判定宽松度，或自动帮你点。",
         "owo": "Makes tap notes more lenient, or allows you to hit tap notes automatically."
     },
     "optionsMenuDescription4": {
         "en": "Makes side notes more lenient, or allows you to hit side notes automatically.",
-        "zh_cn": "调整 Side 音符的判定宽松度，或允许自动点击。",
+        "zh_cn": "让 Side 判定更宽松，或自动处理。",
         "owo": "Makes side notes more lenient, or allows you to hit side notes automatically."
     },
     "optionsMenuDescription5": {
         "en": "Turns barelies into hits (lenient) or misses (strict)",
-        "zh_cn": "将 Barely 视为 Hit（宽松）或 Miss（严格）",
+        "zh_cn": "将 Barely 视为 Perfect（宽松）或 Miss（严格）",
         "owo": "Removes the ability to obtain Barely judgements, causing a Miss in their place instead."
     },
     "optionsMenuDescription6": {
         "en": "Automatically restarts the level upon missing or hitting a barely.",
-        "zh_cn": "Miss 或 Barely 时自动重新启动关卡。",
+        "zh_cn": "Miss 或 Barely 时自动重新开始。",
         "owo": "Automatically restarts the level upon missing or hitting a barely."
     },
     "levelSortName": {
@@ -967,11 +970,11 @@
     },
     "earlyPreviewWarning1": {
         "en": "CAUTION! This chart is still\nin [rotateY=3]early development!",
-        "zh_cn": "小心！该谱面仍处于\n[rotateY=3]早期开发[rotateY=0]阶段！"
+        "zh_cn": "注意！此谱面仍处于\n[rotateY=3]早期开发[rotateY=0]阶段！"
     },
     "earlyPreviewWarning2": {
         "en": "This is an [rotateY=1]exclusive preview[rotateY=0], and details\nwill change between now and its final release!",
-        "zh_cn": "这是[rotateY=1]独家预览版[rotateY=0]，从现在到最终发布，\n详细信息将会发生变化！"
+        "zh_cn": "这是[rotateY=1]独家预览版[rotateY=0]，从现在到正式发布，\n细节可能会发生变化！"
     },
     "fishingEnergy": {
         "en": "Stamina: @@1@@/5",
@@ -987,189 +990,190 @@
     },
     "ttsHealth": {
         "en": "Health: @@1@@/@@2@@",
-        "zh_cn": "生命值：@@1@@/@@2@@"
+        "zh_cn": "生命：@@1@@/@@2@@"
     },
     "ttsMaxDifficultyCleared": {
         "en": "Highest diff.\ncleared: @@1@@",
-        "zh_cn": "已通关的\n最高难度: @@1@@"
+        "zh_cn": "已通关最高难度：@@1@@"
     },
     "editorWarning": {
         "en": "Hello, thanks for checking out the level editor!\nWhile its usable to create levels, it is currently not very user friendly, and is prone to glitches. \nAdditionally, the editor does not support controllers. If you are using a controller, please press [input=back] to quit.\nThat being said, have fun, and make sure to save often!\n\n(Press enter to go to editor, or escape to quit)",
-        "zh_cn": "您好，感谢您试用关卡编辑器！\n虽然编辑器可以用来创建关卡，但目前它的用户体验不佳，且容易出现故障。\n此外，编辑器不支持手柄操作。如果您正在使用手柄，请按[input=back]键退出。\n尽管如此，还是祝您玩得开心，并记得经常保存！\n\n（按 Enter 键进入编辑器，或按 Escape 键退出）",
+        "zh_cn": "你好，感谢试用关卡编辑器！\n虽然可以拿来做关卡，但目前体验不算友好，也容易出 bug。\n另外，编辑器不支持手柄。如果你正在用手柄，请按[input=back]退出。\n总之，玩得开心，记得经常保存！\n\n（按回车进入编辑器，按 Esc 退出）",
         "owo": "hewwo, thanks fow checking ouwt the wevew editow! OwO\nwhiwe its uwsabwe to cweate wevews, it is cuwwwentwy not vewy uwsew fwiendwy, and is pwone to gwitches. We pwan to smooth it ouwt ovew the couwwse of devewopment. Pwease considew the wevew editow in its cuwwwent state expewimentaw.\n that being said, have fuwn, and make suwwe to save often! OwO\n\n(pwess entew to go to editow, ow escape to quwit)"
     },
     "errorMessage": {
         "en": "Something broke while playing a level! Here are the details:\n@@1@@",
-        "zh_cn": "游玩关卡时出现错误！详情如下：\n@@1@@",
+        "zh_cn": "玩游戏时出了点问题！详情如下：\n@@1@@",
         "owo": "something bwoke whiwe pwaying a wevew! OwO hewe awe the detaiws:\n@@1@@"
     },
     "editorKeybinds": {
         "en": "Scroll Wheel - Change current time in song\nLeft, Right - Change selected event rotation (according to current snap)\nUp, Down - Change selected event time (according to current snap)\nLMB on an event - Select event\nRMB on an event - Delete event\nLMB or RMB on empty space - Deselect current event\nLMB and drag - Move event (works on hold ends too)\nShift + LMB - Multi select events\n  Click once to select start point, again to select end point\nAlt + LMB + drag - Multi select events (alternate)\n  Selects events only in the highlighted area\nAlt + Left/Right - Jump to next/previous section\nAlt + F4 - Quit Sibelius\nCtrl + LMB - Duplicate clicked event\nCtrl + Scroll Wheel - Zoom in/out\nHold Alt - Show navigation wheel\nShift + [ - Reduce ratemod by 0.1x (min. 0.25x)\nShift + ] - Increase ratemod by 0.1x (max. 2x)\n\nEsc - Exit editor\nS - Saves changes\nP - Plays level (from current beat)\nF - Jump to position of selected event(s)\nShift + P - Plays level (from bookmark before current beat)\nCtrl + P - Plays level (from start)\nCtrl + C - Copies selected events (only if multiselected)\nCtrl + V - Pastes copied events\nCtrl + R - Resets editor window positions\nCtrl + G - Opens \"Go to beat\" window if closed\nCtrl + I - Opens \"Level properties\" window if closed\nCtrl + D - Change the variant you're editing\nQ on an event - Sample currently hovered event (eyedropper tool)\n\nAll of the following keybinds only work during playtesting:\nP - Return to editor (at current beat)\nEsc - Return to editor (at playtest start beat)\nPeriod - Place a marker at the current beat\n[ - Reduce ratemod by 0.1x (min. 0.25x)\n] - Increase ratemod by 0.1x (max. 2x)\n",
-        "____zh_cn": "滚轮 - 更改歌曲中的当前时间\n左、右方向键 - 更改选中事件的旋转角度（根据当前对齐）\n上、下方向键 - 更改选中事件的时间位置（根据当前对齐）\n在事件上单击左键 - 选中事件\n在事件上单击右键 - 删除事件\n在空白处单击左键或右键 - 取消选中当前事件\n按住左键并拖动 - 移动事件（同样适用于长按尾端）\nShift + 左键 - 多选事件\n  单击一次选择起点，再次单击选择终点\nAlt + 左键 + 拖动 - 多选事件（备选方式）\n  仅选中高亮区域内的事件\nAlt + 左/右方向键 - 跳转到上一/下一段落\nAlt + F4 - 退出 Sibelius\nCtrl + 左键 - 复制点击的事件\nCtrl + 滚轮 - 缩放视图\n按住 Alt - 显示导航轮盘\nShift + [ - 将速率修正减少 0.1 倍（最小 0.25 倍）\nShift + ] - 将速率修正增加 0.1 倍（最大 2 倍）\n\nEsc - 退出编辑器\nS - 保存更改\nP - 试玩关卡（从当前节拍开始）\nF - 跳转到所选事件的位置\nShift + P - 试玩关卡（从当前节拍之前的书签开始）\nCtrl + P - 试玩关卡（从头开始）\nCtrl + C - 复制所选事件（仅当多选时）\nCtrl + V - 粘贴复制的事件\nCtrl + R - 重置编辑器窗口位置\nCtrl + G - 若“跳转到节拍”窗口已关闭，则将其打开\nCtrl + I - 若“关卡属性”窗口已关闭，则将其打开\nCtrl + D - 更改正在编辑的变体\n在事件上按 Q - 吸取当前悬停事件的样式（取色笔工具）\n\n以下所有快捷键仅在试玩期间生效：\nP - 返回编辑器（停留在当前节拍）\nEsc - 返回编辑器（返回到试玩开始时的节拍）\n句号 - 在当前节拍处放置一个标记\n[ - 将速率修正减少 0.1 倍（最小 0.25 倍）\n] - 将速率修正增加 0.1 倍（最大 2 倍）"
+        "____zh_cn": "滚轮 - 更改歌曲中的当前时间\n左、右方向键 - 更改选中事件的旋转角度（根据当前对齐）\n上、下方向键 - 更改选中事件的时间位置（根据当前对齐）\n在事件上单击左键 - 选中事件\n在事件上单击右键 - 删除事件\n在空白处单击左键或右键 - 取消选中当前事件\n按住左键并拖动 - 移动事件（同样适用于长按尾端）\nShift + 左键 - 多选事件\n  单击一次选择起点，再次单击选择终点\nAlt + 左键 + 拖动 - 多选事件（备选方式）\n  仅选中高亮区域内的事件\nAlt + 左/右方向键 - 跳转到上一/下一段落\nAlt + F4 - 退出 Sibelius\nCtrl + 左键 - 复制点击的事件\nCtrl + 滚轮 - 缩放视图\n按住 Alt - 显示导航轮盘\nShift + [ - 将速率修正减少 0.1 倍（最小 0.25 倍）\nShift + ] - 将速率修正增加 0.1 倍（最大 2 倍）\n\nEsc - 退出编辑器\nS - 保存更改\nP - 试玩关卡（从当前节拍开始）\nF - 跳转到所选事件的位置\nShift + P - 试玩关卡（从当前节拍之前的书签开始）\nCtrl + P - 试玩关卡（从头开始）\nCtrl + C - 复制所选事件（仅当多选时）\nCtrl + V - 粘贴复制的事件\nCtrl + R - 重置编辑器窗口位置\nCtrl + G - 若“跳转到节拍”窗口已关闭，则将其打开\nCtrl + I - 若“关卡属性”窗口已关闭，则将其打开\nCtrl + D - 更改正在编辑的变体\n在事件上按 Q - 吸取当前悬停事件的样式（取色笔工具）\n\n以下所有快捷键仅在试玩期间生效：\nP - 返回编辑器（停留在当前节拍）\nEsc - 返回编辑器（返回到试玩开始时的节拍）\n句号 - 在当前节拍处放置一个标记\n[ - 将速率修正减少 0.1 倍（最小 0.25 倍）\n] - 将速率修正增加 0.1 倍（最大 2 倍）",
+        "zh_cn": "滚轮 - 更改歌曲中的当前时间\n左、右方向键 - 更改选中事件的旋转角度（根据当前对齐）\n上、下方向键 - 更改选中事件的时间位置（根据当前对齐）\n在事件上单击左键 - 选中事件\n在事件上单击右键 - 删除事件\n在空白处单击左键或右键 - 取消选中当前事件\n按住左键并拖动 - 移动事件（同样适用于 Hold 尾端）\nShift + 左键 - 多选事件\n  单击一次选择起点，再次单击选择终点\nAlt + 左键 + 拖动 - 多选事件（备选方式）\n  仅选中高亮区域内的事件\nAlt + 左/右方向键 - 跳转到上一/下一段落\nAlt + F4 - 退出 Sibelius\nCtrl + 左键 - 复制点击的事件\nCtrl + 滚轮 - 缩放视图\n按住 Alt - 显示导航轮盘\nShift + [ - 将速率修正减少 0.1 倍（最小 0.25 倍）\nShift + ] - 将速率修正增加 0.1 倍（最大 2 倍）\n\nEsc - 退出编辑器\nS - 保存更改\nP - 试玩关卡（从当前节拍开始）\nF - 跳转到所选事件的位置\nShift + P - 试玩关卡（从当前节拍之前的书签开始）\nCtrl + P - 试玩关卡（从头开始）\nCtrl + C - 复制所选事件（仅当多选时）\nCtrl + V - 粘贴复制的事件\nCtrl + R - 重置编辑器窗口位置\nCtrl + G - 若“跳转到节拍”窗口已关闭，则将其打开\nCtrl + I - 若“关卡属性”窗口已关闭，则将其打开\nCtrl + D - 更改正在编辑的变体\n在事件上按 Q - 吸取当前悬停事件的样式（取色笔工具）\n\n以下所有快捷键仅在试玩期间生效：\nP - 返回编辑器（停留在当前节拍）\nEsc - 返回编辑器（返回到试玩开始时的节拍）\n句号 - 在当前节拍处放置一个标记\n[ - 将速率修正减少 0.1 倍（最小 0.25 倍）\n] - 将速率修正增加 0.1 倍（最大 2 倍）"
     },
     "tutorial_1": {
         "en": "So you want to block beats?\nIt's going to take an awful lot of practice.",
-        "zh_cn": "那么，你想来阻挡节奏吗？\n这可需要大量的练习。",
+        "zh_cn": "那么，你想来挡节拍？\n这可得练上好一阵子。",
         "owo": "so u want to bwock beats? UwU\nit's going to take an awfuww wot of pwactice."
     },
     "tutorial_2_mouse": {
         "en": "Let's start with the basics.\nFor Blocks and Holds, simply move your paddle with the mouse to hit them.",
-        "zh_cn": "让我们从基础开始吧。\n对于方块和长条，只需用鼠标移动您的挡板来接住它们。",
+        "zh_cn": "先从基础开始吧。\n遇到 Block 和 Hold，用鼠标移动挡板去接就行。",
         "owo": "let's stawt with the basics.\n fow bwocks and howds, simpwy move uw paddwe with the mouwse to hit them."
     },
     "tutorial_2_controller": {
         "en": "Let's start with the basics.\nFor Blocks and Holds, simply move your paddle with the analog stick to hit them.",
-        "zh_cn": "让我们从基础开始吧。\n对于方块和长条，只需用摇杆移动您的挡板来接住它们。",
+        "zh_cn": "先从基础开始吧。\n遇到 Block 和 Hold，用摇杆移动挡板去接就行。",
         "owo": "let's stawt with the basics.\n fow bwocks and howds, simpwy move uw paddwe with the anawog stick to hit them."
     },
     "tutorial_3": {
         "en": "Give it a go!",
-        "zh_cn": "来试试看吧！",
+        "zh_cn": "来试试！",
         "owo": "Give it a go! OwO"
     },
     "tutorial_4": {
         "en": "Not bad, but let's face it, that was easy.",
-        "zh_cn": "还不错，不过说实话，刚才的太简单了。",
+        "zh_cn": "还不错，不过说实话——刚才太简单了。",
         "owo": "Not bad, buwt wet's face it, that was easy."
     },
     "tutorial_5": {
         "en": "Time for Taps.\nThey can show up either on their own, or attatched to other notes.",
-        "zh_cn": "现在是 Tap 音符时间。\n它们可能单独出现，也可能附着在其他音符上。",
+        "zh_cn": "接下来是 Tap。\n它们可能单独出现，也可能附在其他音符上。",
         "owo": "time fow taps.\n they can show uwp eithew on theiw own, ow attatched to othew notes."
     },
     "tutorial_6_mouse": {
         "en": "To hit them, press Z or X when they reach your paddle.\nYou can also click with the mouse.",
-        "zh_cn": "当它们到达您的挡板时，按下 Z 或 X 键来点击它们。\n您也可以用鼠标点击。",
+        "zh_cn": "当它们到达挡板时，按 Z 或 X 键来打。\n也可以用鼠标点击。",
         "owo": "to hit them, pwess z ow x when they weach uw paddwe.\n youw can awso cwick with the mouwse."
     },
     "tutorial_6_controller": {
         "en": "To hit them, press (A) or (X) when they reach your paddle.",
-        "zh_cn": "当它们到达您的挡板时，按下 (A) 或 (X) 键来点击它们。",
+        "zh_cn": "当它们到达挡板时，按 (A) 或 (X) 键来打。",
         "owo": "To hit them, pwess (a) ow (x) when they weach uw paddwe."
     },
     "tutorial_7": {
         "en": "Why don't we take this to the next level?",
-        "zh_cn": "我们何不更上一层楼？",
+        "zh_cn": "让我们提升一点难度？",
         "owo": "Why don't we take this to the next wevew? OwO"
     },
     "tutorial_8": {
         "en": "I have to concede, that was impressive! Next are Mines and Sides.",
-        "zh_cn": "我得承认，刚才那下很棒！接下来是 Mine 和 Side 音符。",
+        "zh_cn": "得承认，刚才挺厉害的！接下来是 Mine 和 Side。",
         "owo": "I have to concede, that was impwessive! OwO next awe mines and sides."
     },
     "tutorial_9": {
         "en": "Mines just need to be avoided,\nand Sides need to be slammed into from the side.",
-        "zh_cn": "Mine 只需要避开，\n而 Side 音符则需要从侧面撞击。",
+        "zh_cn": "Mine 只需要躲开，\nSide 需要从侧面撞上去。",
         "owo": "mines juwst need to be avoided,\nand sides need to be swammed into fwom the side."
     },
     "tutorial_10": {
         "en": "For Sides, timing is key.\nDon't fall apart now!",
-        "zh_cn": "对于 Side 音符，时机是关键。\n可别现在就垮了！",
+        "zh_cn": "对于 Side 来说，时机是关键。\n可别现在掉链子！",
         "owo": "fow sides, timing is key.\n don't faww apawt now!"
     },
     "tutorial_inverse_1": {
         "en": "INVERSES AHEAD!",
-        "zh_cn": "前方 Inverse 音符！",
+        "zh_cn": "前方 Inverse！",
         "owo": "invewses ahead! OwO"
     },
     "tutorial_inverse_2": {
         "en": "hit these with the back of your paddle instead of the front!",
-        "zh_cn": "用你挡板的背面而不是正面来接这些音符！",
+        "zh_cn": "用挡板的背面来接这些，不是正面！",
         "owo": "hit these with the back of uw paddwe instead of the fwont! OwO"
     },
     "tutorial_mine_1": {
         "en": "MINES AHEAD!",
-        "zh_cn": "前方地雷！",
+        "zh_cn": "前方 Mine！",
         "owo": "MINES AHEAD!"
     },
     "tutorial_mine_2": {
         "en": "avoid touching these with your paddle!",
-        "zh_cn": "避免用你的挡板碰到这些！",
+        "zh_cn": "别用挡板碰到这些！",
         "owo": "avoid touching these with your paddle!"
     },
     "tutorial_side_1": {
         "en": "SIDES AHEAD!",
-        "zh_cn": "前方 Side 音符！",
+        "zh_cn": "前方 Side！",
         "owo": "SIDES AHEAD!"
     },
     "tutorial_side_2": {
         "en": "hit these by slamming into them with your paddle!",
-        "zh_cn": "用你的挡板撞击它们！",
+        "zh_cn": "用挡板撞上去！",
         "owo": "hit these by slamming into them with your paddle!"
     },
     "pressToContinue_mouse": {
         "en": "Press [input=select] to continue",
-        "zh_cn": "按下[input=select]继续",
+        "zh_cn": "按[input=select]继续",
         "owo": "pwess [input=select] to continuwe"
     },
     "pressToContinue_controller": {
         "en": "Press [input=select] to continue",
-        "zh_cn": "按下[input=select]继续",
+        "zh_cn": "按[input=select]继续",
         "owo": "pwess [input=select] to continuwe"
     },
     "tutorial_new_1": {
         "en": "So you want to block beats?\nIt's going to take an awful lot of practice.",
-        "zh_cn": "所以你想游玩节奏方块？\n这需要大量的练习。",
+        "zh_cn": "那么，你想来挡节拍？\n这可得练上好一阵子。",
         "owo": "so u want to bwock beats? UwU\nit's going to take an awfuww wot of pwactice."
     },
     "tutorial_new_2_mouse": {
         "en": "Move your paddle with the mouse to hit those BLOCKS.",
-        "zh_cn": "用鼠标移动你的挡板来格挡那些 Block。",
+        "zh_cn": "用鼠标移动挡板来接那些 Block。",
         "owo": "move youw paddwe with the mouse to hit those blocks."
     },
     "tutorial_new_2_controller": {
         "en": "Move your paddle with the analog stick to hit those BLOCKS.",
-        "zh_cn": "用摇杆移动你的挡板来格挡那些 Block。",
+        "zh_cn": "用摇杆移动挡板来接那些 Block。",
         "owo": "move youw paddwe with the anawog stick to hit those blocks."
     },
     "tutorial_new_3": {
         "en": "Give it a go!",
-        "zh_cn": "来试试吧！",
+        "zh_cn": "来试试！",
         "owo": "give it a go!"
     },
     "tutorial_new_4": {
         "en": "Let's introduce HOLDS.\nJust follow their path with your paddle.",
-        "zh_cn": "接下来介绍 Hold。\n只需用你的挡板跟随它们的轨迹即可。",
+        "zh_cn": "接下来介绍 Hold。\n跟着它的路径移动挡板就行。",
         "owo": "let's intwoduce holds.\njust fowwow theiw path with youw paddwe."
     },
     "tutorial_new_5_mouse": {
         "en": "Time for TAPS. Press [input=tap1] or [input=tap2] when\nthe circle reaches your paddle,\nor click with the mouse.",
-        "zh_cn": "现在是 Tap 时间。\n当圆圈到达你的挡板时，\n按下[input=tap1]或[input=tap2]，或单击鼠标。",
+        "zh_cn": "接下来是 Tap。当圆圈到达挡板时，\n按[input=tap1]或[input=tap2]，\n或者用鼠标点击。",
         "owo": "time fow taps. Pwess z ow x when\nthe ciwcwe weaches youw paddwe,\now cwick with the mouse."
     },
     "tutorial_new_5_controller": {
         "en": "Time for TAPS. Press [input=tap1] or [input=tap2] when\nthe circle reaches your paddle.",
-        "zh_cn": "现在是 Tap 时间。\n当圆圈到达你的挡板时，按下[input=tap1]或[input=tap2]。",
+        "zh_cn": "接下来是 Tap。当圆圈到达挡板时，\n按[input=tap1]或[input=tap2]。",
         "owo": "time fow taps. Pwess (a) ow (x) when\nthe ciwcwe weaches youw paddwe."
     },
     "tutorial_new_6": {
         "en": "Remember to keep hitting BLOCKS and HOLDS too!",
-        "zh_cn": "别忘了也要继续格挡 Block 和 Hold！",
+        "zh_cn": "别忘了也要继续接 Block 和 Hold！",
         "owo": "remembew to keep hitting blocks and holds too!"
     },
     "tutorial_new_7": {
         "en": "TAPS can also appear attached to BLOCKS and other note types. ",
-        "zh_cn": "Tap 也可能附着在 Block 和其他音符类型上。",
+        "zh_cn": "Tap 也可能附在 Block 和其他音符类型上。",
         "owo": "taps can awso appeaw attached to blocks and othew note types."
     },
     "tutorial_new_8_mouse": {
         "en": "TAPS on the ends of HOLDS \ncan also be hit by releasing the key!",
-        "zh_cn": "Hold 末端的 Tap\n也可以通过松开按键来完成！",
+        "zh_cn": "Hold 末端的 Tap\n松开按键也能打中！",
         "owo": "taps on the ends of holds \ncan awso be hit by weweasing the key!"
     },
     "tutorial_new_8_controller": {
         "en": "TAPS on the ends of HOLDS \ncan also be hit by releasing the button!",
-        "zh_cn": "Hold 末端的 Tap\n也可以通过松开按钮来完成！",
+        "zh_cn": "Hold 末端的 Tap\n松开按钮也能打中！",
         "owo": "taps on the ends of holds \ncan awso be hit by weweasing the button!"
     },
     "tutorial_new_9": {
         "en": "Not bad, but let's face it- that was easy.\nTime to put it all together.",
-        "zh_cn": "还不错，但说实话——那太简单了。\n是时候把所有东西都结合起来了。",
+        "zh_cn": "还不错，不过说实话——太简单了。\n是时候把所有东西都用上了。",
         "owo": "not bad, but wet's face it- that was easy.\ntime to put it aww togethew."
     },
     "tutorial_new_10": {
         "en": "You've got all the basics, so\nhere's your final test.\nDon't fall apart now!",
-        "zh_cn": "你已经掌握了所有基础知识，\n所以这是你的最终测试。\n可别现在就掉链子！",
+        "zh_cn": "基础你都掌握了，\n所以这是最后的考验。\n可别掉链子！",
         "owo": "you've got aww the basics, so\nhewe's youw finaw test.\ndon't faww apawt now!"
     },
     "MapRootTitle": {
@@ -1179,27 +1183,27 @@
     },
     "MapIntroTitle": {
         "en": "Introduction",
-        "zh_cn": "介绍",
+        "zh_cn": "入门",
         "owo": "Introwoduction"
     },
     "MapMinesTitle": {
         "en": "Mines",
-        "zh_cn": "地雷",
+        "zh_cn": "Mine",
         "owo": "Mines"
     },
     "MapSidesTitle": {
         "en": "Sides",
-        "zh_cn": "侧击",
+        "zh_cn": "Side",
         "owo": "Sides"
     },
     "MapInversesTitle": {
         "en": "Inverses",
-        "zh_cn": "反向",
+        "zh_cn": "Inverse",
         "owo": "Invewses"
     },
     "MapBouncesTitle": {
         "en": "Bounces",
-        "zh_cn": "弹跳",
+        "zh_cn": "Bounce",
         "owo": "Bounces"
     },
     "MapChallengeTitle": {
@@ -1219,12 +1223,12 @@
     },
     "calibration_1_mouse": {
         "en": "Press [input=tap1] to the beat.",
-        "zh_cn": "跟着节拍按下[input=tap1]。",
+        "zh_cn": "跟着节拍按[input=tap1]。",
         "owo": "Pwess z to the beat. OwO"
     },
     "calibration_1_controller": {
         "en": "Press [input=tap1] to the beat.",
-        "zh_cn": "跟着节拍按下[input=tap1]。",
+        "zh_cn": "跟着节拍按[input=tap1]。",
         "owo": "Pwess (A) to the beat. OwO"
     },
     "calibration_2": {
@@ -1234,17 +1238,17 @@
     },
     "calibration_3": {
         "en": "Change calibration from @@1@@ to @@2@@?",
-        "zh_cn": "要将校准值从 @@1@@ 更改为 @@2@@ 吗？",
+        "zh_cn": "要把校准值从 @@1@@ 改成 @@2@@ 吗？",
         "owo": "Change cawibwation fwom @@1@@ to @@2@@? UwU"
     },
     "calibration_4": {
         "en": "Change to @@1@@",
-        "zh_cn": "更改为 @@1@@",
+        "zh_cn": "改成 @@1@@",
         "owo": "Change to @@1@@"
     },
     "calibration_5": {
         "en": "Keep as @@1@@",
-        "zh_cn": "保持为 @@1@@",
+        "zh_cn": "保持 @@1@@",
         "owo": "Keep as @@1@@"
     },
     "averageOffset": {
@@ -1274,22 +1278,22 @@
     },
     "accuracyBarelySingular": {
         "en": " barely",
-        "zh_cn": " barely",
+        "zh_cn": " Barely",
         "owo": " bawewy"
     },
     "accuracyBarelyPlural": {
         "en": " barelies",
-        "zh_cn": " barely",
+        "zh_cn": " Barely",
         "owo": " bawewies"
     },
     "accuracyMissSingular": {
         "en": " miss",
-        "zh_cn": " miss",
+        "zh_cn": " Miss",
         "owo": " miss ;-;"
     },
     "accuracyMissPlural": {
         "en": " misses",
-        "zh_cn": " miss",
+        "zh_cn": " Miss",
         "owo": " misses ;-;"
     },
     "difficultySpecial": {
@@ -1426,7 +1430,7 @@
     },
     "marathonResults": {
         "en": "Marathon results:",
-        "zh_cn": "马拉松模式结算：",
+        "zh_cn": "马拉松结算：",
         "owo": "mawathon wesults:"
     },
     "marathonScore": {
@@ -1436,20 +1440,20 @@
     },
     "marathonAtXSpeed": {
         "en": "(at @@1@@x speed)",
-        "zh_cn": "（在 @@1@@ 倍速）"
+        "zh_cn": "（@@1@@ 倍速）"
     },
     "marathonAcc": {
         "en": "Total accuracy:",
-        "zh_cn": "总体精准度："
+        "zh_cn": "总精准度："
     },
     "marathonPerfect": {
         "en": "Incredible!!\nA perfect marathon!!",
-        "zh_cn": "不可思议！\n完美的马拉松！",
+        "zh_cn": "太强了！！\n完美马拉松！！",
         "owo": "Incredible!! A perfect marathon!!"
     },
     "marathonPerfectSlow": {
         "en": "A perfect marathon!",
-        "zh_cn": "完美的马拉松！"
+        "zh_cn": "完美马拉松！"
     },
     "lowerIsBetter": {
         "en": "(lower is better)",
@@ -1458,7 +1462,7 @@
     },
     "terabyteHint": {
         "en": "But something is still missing. Maybe if you didn't get any B ranks or lower...",
-        "zh_cn": "但似乎还缺点什么。也许你不该得到任何 B 或更低的评级……",
+        "zh_cn": "但好像还缺了点什么。也许你不该拿到任何 B 级或更低的评价……",
         "owo": "But something is still missing. Maybe if you didn't get any B ranks or lower..."
     },
     "levelTutorial": {
@@ -1468,12 +1472,12 @@
     },
     "levelTutorialDescription": {
         "en": "If you're playing for the first time, or just need a refresher on the basics, start here!",
-        "zh_cn": "如果你是第一次玩，或者只是想复习一下基础知识，就从这里开始吧！",
+        "zh_cn": "如果你第一次玩，或者想复习一下基础，从这里开始！",
         "owo": "If u'we pwaying fow the fiwst time, ow juwst need a wefweshew on the basics, stawt hewe! OwO"
     },
     "levelGrittedStringsDescription": {
         "en": "Watch the swaps between mines and blocks, and this duel is yours.",
-        "zh_cn": "注意地雷和方块之间的切换，拿下这场对决吧。",
+        "zh_cn": "注意 Mine 和 Block 之间的切换，这场对决就是你的了。",
         "owo": "watch the swaps between mines and bwocks, and this duwew is uws.\n \nmechanics uwsed: mines"
     },
     "levelSoStressedDescription": {
@@ -1488,7 +1492,7 @@
     },
     "levelLawrenceDescription": {
         "en": "No individual is alone responsible for a single stepping stone along the spiral of progress.\nAttack the nucleus. Break the atom.\n",
-        "zh_cn": "在螺旋式前进的道路上，没有任何一块垫脚石是由某一个人独立完成的。\n攻击原子核。击碎原子。\n",
+        "zh_cn": "在螺旋式前进的道路上，没有任何一块垫脚石是由某个人独自铺就的。\n攻击原子核。击碎原子。\n",
         "owo": "Mechanics uwsed: sides, mines"
     },
     "levelILOVEYOUDescription": {
@@ -1503,7 +1507,7 @@
     },
     "levelPublicoDescription": {
         "en": "A guided audio tour of the Side Note Museum.\n\n\"Ranked as the Most Popular Note in Beatblocker's Magazine, two years running.\"",
-        "zh_cn": "欢迎收听侧击音符博物馆的语音导览。\n\n“连续两年被《节奏方块人》杂志评为最受欢迎的音符。”",
+        "zh_cn": "欢迎收听 Side Note 博物馆的语音导览。\n\n“连续两年被《Beatblock 玩家》杂志评为最受欢迎音符。”",
         "owo": "a guided audio touw of the side note museum.\n \n\"ranked as the most popuwaw note in beatbwockew's magazine, two yeaws wunning.\""
     },
     "level3BitBebopDescription": {
@@ -1523,7 +1527,7 @@
     },
     "levelLuckyBreakDescription": {
         "en": "\"Shoulder hurts like hell, but I've got this handled.\"",
-        "zh_cn": "“肩膀疼得要死，但我搞得定。”"
+        "zh_cn": "“肩膀疼得要死，不过我还搞得定。”"
     },
     "levelIslandOfOrchidsDescription": {
         "en": "The orchids bloom, petals curled inwards.",
@@ -1535,7 +1539,7 @@
     },
     "levelSpinCycleDescription": {
         "en": "Place in mesh bag, run cold wash, air dry. Add 1 inverse pod per load before wash cycle.",
-        "zh_cn": "放入网袋，冷水洗涤，自然风干。每次洗涤前，请为每批衣物添加一个反向洗衣球。"
+        "zh_cn": "放入网袋，冷水洗涤，自然晾干。每次洗涤前加入一个 Inverse 洗衣球。"
     },
     "levelThroughTheStaticDescription": {
         "en": "Garbled instructions breach through the crackle of static...\n\"don't get blown up lmao\"",
@@ -1543,11 +1547,11 @@
     },
     "levelBEATROCKDescription": {
         "en": "Another busy day in the mines!\nHm? \"Watch out for falling bounce notes?...\"",
-        "zh_cn": "矿井里又是忙碌的一天！\n嗯？“小心掉落的弹跳音符？……”"
+        "zh_cn": "矿井里又是忙碌的一天！\n嗯？“小心掉落的 Bounce？……”"
     },
     "levelEmptyDiaryDescription": {
         "en": "\"Once you get over how exciting it is to start something new, you look at the rest of it.\"\n\n\"And it's... nothing.\"",
-        "zh_cn": "“当你克服了开始新事物的兴奋劲儿后，你再去看剩下的部分。”\n\n“然后发现……什么都没有。”"
+        "zh_cn": "“一旦你克服了开始新事物的兴奋劲儿，再去看剩下的部分。”\n\n“会发现……什么都没有。”"
     },
     "levelRhythmicShieldDescription": {
         "en": "Two intrepid heroes band together to face the monsters of the Rhythmic Realm!",
@@ -1597,7 +1601,7 @@
     },
     "levelNovenaDescription": {
         "en": "Blocking all those beats can be exhausting - take a scenic trip with our luxurious vacation package!\n\n...wait, we're being diverted to WHERE!?",
-        "zh_cn": "抵挡所有节拍可能令人疲惫不堪——选择我们的豪华度假套餐，来一次风景之旅吧！\n\n……等等，我们被改道去哪里了！？"
+        "zh_cn": "挡了这么多节拍一定累了吧——来体验我们的豪华度假套餐，享受一趟风景之旅！\n\n……等等，我们被改道去哪儿了！？"
     },
     "levelHeptagrammeDescription": {
         "en": "\"I feel like I'm falling endlessly through a space my brain could never begin to comprehend.\"\n\n\"And when I open my eyes, I can see something beautiful, something that transcends what we can process with our human minds.\"",
@@ -1605,7 +1609,7 @@
     },
     "levelTripletTestDescription": {
         "en": "Have you Practiced your Polyrhythms lately?",
-        "zh_cn": "你最近练习过复节奏吗？"
+        "zh_cn": "你最近练过复节奏吗？"
     },
     "levelSelfPortraitDescription": {
         "en": "For most people, the hardest thing they can do is to reflect on their own self-image.",
@@ -1613,15 +1617,15 @@
     },
     "levelUNDOUNDODescription": {
         "en": "\"if you make a mistake just hold the control button and hit Z\" - albert einstein",
-        "zh_cn": "“如果你犯了错，只需按住 Ctrl 键并按 Z”——阿尔伯特·爱因斯坦"
+        "zh_cn": "“如果你犯了错，按住 Ctrl 键然后按 Z 就行”——阿尔伯特·爱因斯坦"
     },
     "levelNightEchoFutureFunkMixDescription": {
         "en": "Soar over the skyline and learn the magic of bounces!",
-        "zh_cn": "翱翔于天际，领略弹跳的魔力！"
+        "zh_cn": "翱翔于天际，领略 Bounce 的魔力！"
     },
     "levelMoveRightAlongDescription": {
         "en": "Hustle through the aisles and pick up the essentials. And maybe the non-essentials?",
-        "zh_cn": "在过道里匆忙穿行，拿起必需品。也许还有非必需品？"
+        "zh_cn": "在过道里穿梭，拿起必需品。也许还有非必需品？"
     },
     "levelFragmentedExistenceDescription": {
         "en": "A world shattered into a thousand pieces, stitched together for observers to witness as it draws its final breath.",
@@ -1641,19 +1645,19 @@
     },
     "ttsIntro1": {
         "en": "This, is a [charspacing=1][xDuplicate=1]mine[charspacing=0][xDuplicate=0].",
-        "zh_cn": "这，是 一 颗 [charspacing=1][xDuplicate=1]地 雷[charspacing=0][xDuplicate=0]。"
+        "zh_cn": "这，是一颗 [charspacing=1][xDuplicate=1]Mine[charspacing=0][xDuplicate=0]。"
     },
     "ttsIntro2": {
         "en": "Here is some small advice:",
-        "zh_cn": "这里有个小建议："
+        "zh_cn": "给你个小建议："
     },
     "ttsIntro3": {
         "en": "It's probably [charspacing=1][xDuplicate=1]not a good idea[charspacing=0][xDuplicate=0] to touch them.",
-        "zh_cn": "碰它们可能[charspacing=1][xDuplicate=1]不是个好主意[charspacing=0][xDuplicate=0]。"
+        "zh_cn": "碰它可能[charspacing=1][xDuplicate=1]不是个好主意[charspacing=0][xDuplicate=0]。"
     },
     "ttsIntro3Alt": {
         "en": "It's still [charspacing=1][xDuplicate=1]not a good idea[charspacing=0][xDuplicate=0] to touch them.",
-        "zh_cn": "碰它们依然[charspacing=1][xDuplicate=1]不是个好主意[charspacing=0][xDuplicate=0]。"
+        "zh_cn": "碰它依然[charspacing=1][xDuplicate=1]不是个好主意[charspacing=0][xDuplicate=0]。"
     },
     "novenaInFlight1": {
         "en": "Attention: We have been diverted.",
@@ -1670,7 +1674,7 @@
     },
     "tripletTestInstructor1": {
         "en": "[rotateY=1][rotateX=0.5]You may begin.",
-        "zh_cn": "[rotateY=1][rotateX=0.5]你可以开始了。"
+        "zh_cn": "[rotateY=1][rotateX=0.5]可以开始了。"
     },
     "tripletTestInstructor2": {
         "en": "[rotateY=1][rotateX=0.5]Good. Continue.",
@@ -1686,7 +1690,7 @@
     },
     "tripletTestInstructor5": {
         "en": "[rotateY=1][rotateX=0.5]The refrain once more.",
-        "zh_cn": "[rotateY=1][rotateX=0.5]再来一次副歌。"
+        "zh_cn": "[rotateY=1][rotateX=0.5]副歌再来一次。"
     },
     "tripletTestInstructor6": {
         "en": "[rotateY=1][rotateX=0.5]Lastly, the conclusion.",
@@ -1698,12 +1702,12 @@
     },
     "crashTitle": {
         "en": "Beatblock has crashed!",
-        "zh_cn": "Beatblock 已崩溃！",
+        "zh_cn": "Beatblock 崩溃了！",
         "owo": "Beatbwock has cwashed! OwO"
     },
     "crashBody": {
         "en": "Beatblock crashed unexpectedly!\nWould you like to save a crash report? \nThis will create a text file that can then be sent to the developers.",
-        "zh_cn": "Beatblock 意外崩溃了！\n您想保存一份崩溃报告吗？\n这将创建一个文本文件，以便发送给开发人员。",
+        "zh_cn": "Beatblock 意外崩溃了！\n要保存崩溃报告吗？\n这会创建一个文本文件，可以发给开发者。",
         "owo": "beatbwock cwashed uwnexpectedwy! OwO\nwouwwd u wike to save a cwash wepowt? UwU \nthis wiww cweate a text fiwe that can then be sent to the devewopews."
     },
     "crashSavedTitle": {
@@ -1745,7 +1749,7 @@
         "zh_cn": "按下一个按键……",
         "owo": "Press a Key..."
     },
-    "keybindspPressButton": {
+    "keybindsPressButton": {
         "en": "Press a Button...",
         "zh_cn": "按下一个按钮……",
         "owo": "Press a Button..."
@@ -1762,7 +1766,7 @@
     },
     "keybindsAddJoystick": {
         "en": "Move a Joystick...",
-        "zh_cn": "请移动一个摇杆……",
+        "zh_cn": "移动一个摇杆……",
         "owo": "Move a Joystick..."
     },
     "tap1": {
@@ -1847,22 +1851,22 @@
     },
     "epilepsyWarning": {
         "en": "Beatblock has some visuals that may trigger epilepsy or photosensitivity issues for players. Proceed with caution, and please check the accessibility options for settings to remove visual effects if needed.",
-        "zh_cn": "Beatblock 包含可能诱发癫痫或光敏性反应的视觉效果。请谨慎游玩，并在需要时查看辅助功能选项以移除视觉特效。",
+        "zh_cn": "Beatblock 包含可能诱发癫痫或光敏性反应的视觉效果。请谨慎游玩，需要时可在辅助功能选项中关闭视觉特效。",
         "owo": "Beatblock has some visuals that may trigger epilepsy or photosensitivity issues for players. Proceed with caution, and please check the accessibility options for settings to remove visual effects if needed."
     },
     "demoWarning": {
         "en": "This game is currently still in a demo phase, and acts as a preview of a small section of the experience. The difficulty curve is not representative of the full game's planned scope & difficulty, and anything in this demo is subject to change between now and release.\nThank you for your understanding!",
-        "zh_cn": "本游戏目前仍处于试玩阶段，仅作为完整体验的一小部分预览。其难度曲线并不代表完整版游戏的计划范畴和难度，且试玩版中的任何内容在正式发布前都可能发生变化。\n感谢您的理解！",
+        "zh_cn": "本游戏目前仍处于试玩阶段，仅作为完整体验的一小部分预览。难度曲线不代表完整版游戏的范围与难度，试玩版中的任何内容在正式发布前都可能发生变化。\n感谢理解！",
         "owo": "This game is currently still in a demo phase, and acts as a preview of a small section of the experience. The difficulty curve is not representative of the full game's planned scope & difficulty, and anything in this demo is subject to change between now and release.\nThank you for your understanding!"
     },
     "eaWarning": {
         "en": "This game is currently in Early Access. As we develop the game, we plan to add additional visual effects, difficulties, levels, and overall polish across the game as a whole. If you come across any bugs, please report them on our GitHub so we can fix issues and make Beatblock the best game it can be! ",
-        "zh_cn": "本游戏目前处于抢先体验阶段。在游戏开发过程中，我们计划添加额外的视觉效果、难度、关卡，并对游戏整体进行打磨。如果您遇到任何 Bug，请在我们的 GitHub 上报告，以便我们修复问题，让 Beatblock 成为最好的游戏！",
+        "zh_cn": "本游戏目前处于抢先体验阶段。在开发过程中，我们计划添加更多视觉效果、难度、关卡，并对游戏整体进行打磨。如果遇到 Bug，请在 GitHub 上报告，帮助我们让 Beatblock 变得更好！",
         "owo": "This game is currently in Early Access. As we develop the game, we plan to add additional visual effects, difficulties, levels, and overall polish across the game as a whole. If you come across any bugs, please report them on our GitHub so we can fix issues and make Beatblock the best game it can be! "
     },
     "playtestWarning": {
         "en": "This is a PLAYTEST BUILD of Beatblock! Please DO NOT share the contents of this build outside of the designated playtesting channels. Thanks a ton!",
-        "zh_cn": "这是 Beatblock 的内部测试版本！请不要在指定的测试渠道之外分享此版本的内容。万分感谢！",
+        "zh_cn": "这是 Beatblock 的内部测试版本！请勿在指定的测试渠道之外分享此版本的内容。万分感谢！",
         "owo": "This is a PLAYTEST BUILD of Beatblock! Pleaase DO NOT share the contents of this build outside of the designated playtesting channels. Thanks a ton!"
     },
     "attentionPls": {
@@ -1872,7 +1876,7 @@
     },
     "terabyteIntro_initFailed": {
         "en": "Connection to \"LAWRENCE.lvl/results\" failed...",
-        "zh_cn": "连接至“LAWRENCE.lvl/results”失败……",
+        "zh_cn": "连接到“LAWRENCE.lvl/results”失败……",
         "owo": "Connection to \"LAWRENCE.lvl/results\" failed..."
     },
     "terabyteIntro_loadBackupAttempt": {
@@ -1882,7 +1886,7 @@
     },
     "terabyteIntro_connectToLevel": {
         "en": "Connecting to \"@@1@@.lvl\"...",
-        "zh_cn": "正在连接至“@@1@@.lvl”……",
+        "zh_cn": "正在连接到“@@1@@.lvl”……",
         "owo": "Connecting to \"@@1@@.lvl\"..."
     },
     "terabyteIntro_connectFailed": {
@@ -1907,7 +1911,7 @@
     },
     "terabyteIntro_narrator_2": {
         "en": "Are we... connected?",
-        "zh_cn": "我们……连接上了吗？",
+        "zh_cn": "我们……连上了吗？",
         "owo": "Are we... connected?"
     },
     "terabyteIntro_narrator_3": {
@@ -1932,12 +1936,12 @@
     },
     "terabyteIntro_narrator_7": {
         "en": "You should still take solace in your progress.",
-        "zh_cn": "你也应该为自己取得的进步而感到慰藉。",
+        "zh_cn": "你也应该为自己取得的进步感到欣慰。",
         "owo": "You should still take solace in your progress."
     },
     "terabyteIntro_narrator_8": {
         "en": "Your desire to see things through to the end, no matter the cost...",
-        "zh_cn": "你不惜一切代价，也要将事情进行到底的渴望……",
+        "zh_cn": "你不惜一切代价也要将事情进行到底的渴望……",
         "owo": "Your desire to see things through to the end, no matter the cost..."
     },
     "terabyteIntro_narrator_9": {
@@ -1970,17 +1974,17 @@
     },
     "fish_tutorial_0": {
         "en": "Swing your rod to cast.",
-        "zh_cn": "挥动你的鱼竿来抛竿。",
+        "zh_cn": "挥动鱼竿来抛竿。",
         "owo": "swing youw wod to cast."
     },
     "fish_tutorial_1": {
         "en": "When you get a bite, press [input=tap1] or click.",
-        "zh_cn": "当有鱼上钩时，按下[input=tap1]或点击鼠标。",
+        "zh_cn": "有鱼上钩时，按[input=tap1]或点击鼠标。",
         "owo": "when you get a bite, pwess (a) ow cwick."
     },
     "fish_tutorial_2": {
         "en": "Spin to reel it in!",
-        "zh_cn": "旋转以收线！",
+        "zh_cn": "旋转收线！",
         "owo": "spin to weew it in!"
     },
     "fish_status_0": {
@@ -1990,17 +1994,17 @@
     },
     "fish_status_1": {
         "en": "It got away...",
-        "zh_cn": "它逃走了……",
+        "zh_cn": "跑了……",
         "owo": "it got away..."
     },
     "fish_status_2": {
         "en": "You're too tired to fish. Maybe go do something else?",
-        "zh_cn": "你太累了，没法钓鱼。也许该去做点别的事情？",
+        "zh_cn": "你太累了，没法钓鱼。要不去做点别的？",
         "owo": "you'we too tiwed to fish. Maybe go do something ewse?"
     },
     "fish_now": {
         "en": "NOW!!",
-        "zh_cn": "就是现在！",
+        "zh_cn": "就现在！！",
         "owo": "MEOW!!"
     },
     "fish_book": {
@@ -2010,7 +2014,7 @@
     },
     "fish_book_description": {
         "en": "\"Dearest reader,\n\nThis book is a compendium of my experiences as a Certified Master Angler.\nOver the years, I have caught and catalogued hundreds of fish.\n\nThe time has now come for me to pass on my vast knowledge to future\ngenerations. Following the publication of this tome, I will retire from\nfishing and begin a new life in the healthcare industry.\n\nWhen not spending my time at the pier, I was secretly getting a medical\ndegree, as an elaborate joke. Turns out I'm really good at it, though.\n\nWith all that said, I hope this book is useful in your journey. And good luck.\"\n\n- Rodney Fields, foreword from \"Rodney's Fishin' Rounds\"",
-        "zh_cn": "“亲爱的读者，\n\n这本书是我作为一名持证钓鱼大师的经验汇编。\n多年来，我捕获并记录了数百种鱼类。\n\n现在，是时候将我渊博的知识传给后代了。\n在这本巨著出版后，我将从渔界隐退，并在医疗行业开始新的生活。\n\n在码头消磨时光之余，我偷偷地拿到了一个医学学位，\n这本是一个精心设计的玩笑。但结果发现，我在这方面还真挺有天赋的。\n\n说了这么多，我希望这本书能在你的旅途中有所帮助。祝你好运。”\n\n- 罗德尼·菲尔兹，《罗德尼的钓鱼巡礼》前言",
+        "zh_cn": "“亲爱的读者，\n\n这本书是我作为持证钓鱼大师的经验汇编。\n多年来，我捕获并记录了数百种鱼类。\n\n现在，是时候将我渊博的知识传给后代了。\n在这本巨著出版后，我将从渔界隐退，并在医疗行业开始新的生活。\n\n在码头消磨时光之余，我偷偷地拿到了一个医学学位，\n这本是一个精心设计的玩笑。但结果发现，我在这方面还真挺有天赋的。\n\n说了这么多，希望这本书能在你的旅途中有所帮助。祝你好运。”\n\n——罗德尼·菲尔兹，《罗德尼的钓鱼巡礼》前言",
         "owo": "\"deawest weadew,\n\nthis book is a compendium of my expewiences as a cewtified mastew angwew.\novew the yeaws, i have caught and catawogued hundweds of fish.\n \nthe time has now come fow me to pass on my vast knowwedge to futuwe\ngenewations. Fowwowing the pubwication of this tome, i wiww wetiwe fwom\nfishing and begin a new wife in the heawthcawe industwy.\n \nwhen not spending my time at the piew, i was secwetwy getting a medicaw\ndegwee, as an ewabowate joke. Tuwns out i'm weawwy good at it, though.\n \nwith aww that said, i hope this book is usefuw in youw jouwney. And good wuck.\"\n\n- rodnya fiewds, fowewowd fwom \"rodnya's fishin' rounds\""
     },
     "fish_rodneyQuote": {
@@ -2055,7 +2059,7 @@
     },
     "fish_blockjaw_description": {
         "en": "The Common Blockjaw tries to use its mundanity to avoid detection by predators.\nThis does not work.",
-        "zh_cn": "普通方块颌鱼试图利用它的平凡来躲避捕食者。\n但这招并不管用。",
+        "zh_cn": "普通方块颌鱼试图用平凡来躲避捕食者。\n但这招没用。",
         "owo": "the common bwockjaw twies to use its mundanity to avoid detection by pwedatows.\nthis does not wowk."
     },
     "fish_heeld": {
@@ -2065,7 +2069,7 @@
     },
     "fish_heeld_description": {
         "en": "The Common Heeld swims clumsily by wiggling its entire body, alerting all nearby creatures of its presence.\nIt may be placed above one's lip to mimic the appearance of a moustache.",
-        "zh_cn": "普通希尔德鱼通过扭动整个身体笨拙地游动，这会让附近的所有生物都注意到它的存在。\n可以把它放在嘴唇上方，模仿胡子的样子。",
+        "zh_cn": "普通希尔德鱼通过扭动整个身体笨拙地游动，让附近所有生物都知道它的存在。\n可以把它放在嘴唇上方，假装是胡子。",
         "owo": "the common heewd swims cwumsiwy by wiggwing its entiwe body, awewting aww neawby cweatuwes of its pwesence.\nit may be pwaced above one's wip to mimic the appeawance of a moustache."
     },
     "fish_puffermine": {
@@ -2075,7 +2079,7 @@
     },
     "fish_puffermine_description": {
         "en": "The Common Puffermine has evolved poisonous barbs to deter predators.\nUnfortunately, fish higher on the food chain have evolved to make use of these barbs as the key ingredient in a delicious seven-layer dip.",
-        "zh_cn": "普通河豚雷进化出了有毒的倒刺来吓退捕食者。\n不幸的是，食物链上层的鱼类已经进化到能利用这些倒刺，将其作为美味七层蘸酱的关键原料。",
+        "zh_cn": "普通河豚雷进化出了有毒的倒刺来吓退捕食者。\n不幸的是，食物链上层的鱼已经学会用这些倒刺做一道美味的七层蘸酱。",
         "owo": "the common puffewmine has evowved poisonous bawbs to detew pwedatows.\nunfowtunatewy, fish highew on the food chain have evowved to make use of these bawbs as the key ingwedient in a dewicious seven-wayew dip."
     },
     "fish_hammerside": {
@@ -2085,7 +2089,7 @@
     },
     "fish_hammerside_description": {
         "en": "When faced with a problem, the Common Hammerside makes use of its blunt head to smash any obstacle in its way.\nSadly, it cannot smash through the complications of repeated head injuries.",
-        "zh_cn": "当遇到问题时，普通侧锤鱼会用它钝钝的脑袋砸碎任何挡路的障碍。\n可悲的是，它砸不碎反复头部受伤带来的并发症。",
+        "zh_cn": "遇到问题时，普通侧锤鱼会用钝钝的脑袋砸碎挡路的障碍。\n可惜，它砸不碎反复头部受伤带来的并发症。",
         "owo": "when faced with a pwobwem, the common hammewside makes use of its bwunt head to smash any obstacwe in its way.\nsadwy, it cannot smash thwough the compwications of wepeated head injuwies."
     },
     "fish_inversalmon": {
@@ -2095,7 +2099,7 @@
     },
     "fish_inversalmon_description": {
         "en": "The Common Inversalmon has three primary habitats:\nThe Pacific Ocean, Orchid Lake, and ping-pong ball tossing games at carnivals worldwide.",
-        "zh_cn": "常见的逆鲑有三个主要栖息地：\n太平洋、兰花湖，以及世界各地嘉年华上的乒乓球投掷游戏。",
+        "zh_cn": "普通逆鲑有三个主要栖息地：\n太平洋、兰花湖，以及世界各地嘉年华上的乒乓球投掷游戏。",
         "owo": "the common invewsawmon has thwee pwimawy habitats:\nthe pacific ocean, owchid lake, and ping-pong baww tossing games at cawnivaws wowwdwide."
     },
     "fish_burbounce": {
@@ -2105,7 +2109,7 @@
     },
     "fish_burbounce_description": {
         "en": "The Common Burbounce, is just kind of nasty looking.\nI know I'm supposed to be impartial here, but this fish sucks.",
-        "zh_cn": "常见的弹跳噗，长得有点恶心。\n我知道我应该保持中立，但这条鱼真的很烂。",
+        "zh_cn": "普通弹跳噗，长得就挺恶心的。\n我知道我应该保持中立，但这鱼真的很烂。",
         "owo": "the common invewsawmon has thwee pwimawy habitats:\nthe pacific ocean, owchid lake, and ping-pong baww tossing games at cawnivaws wowwdwide."
     },
     "fish_tutorbass": {
@@ -2115,7 +2119,7 @@
     },
     "fish_tutorbass_description": {
         "en": "The noble Tutorbass more or less floats without a care in the world. \nIt wields a Master's in Education, which causes predators to entirely avoid it out of respect.",
-        "zh_cn": "高贵的鲈教授或多或少地在世间无忧无虑地漂浮。\n它拥有教育学硕士学位，这使得捕食者们出于敬意而完全避开它。",
+        "zh_cn": "高贵的鲈教授基本上无忧无虑地在世间漂浮。\n它拥有教育学硕士学位，捕食者们出于敬意会完全避开它。",
         "owo": "the nobwe tutowbass mowe ow wess fwoats without a cawe in the wowwd. \nit wiewds a mastew's in education, which causes pwedatows to entiwewy avoid it out of wespect."
     },
     "fish_cubelacanth": {
@@ -2125,7 +2129,7 @@
     },
     "fish_cubelacanth_description": {
         "en": "The Cubelacanth is an ancient species, but still remains populous and easy to catch to this day.\nHowever, it is rarely eaten as its cubical form makes it difficult to fit into most air fryers.",
-        "zh_cn": "方块鱼是一种古老的物种，但至今仍然数量众多且易于捕捉。\n然而，由于其立方体的形状很难放入大多数空气炸锅中，所以很少被食用。",
+        "zh_cn": "方块鱼是一种古老的物种，但至今仍然数量众多且容易捕捉。\n然而，由于其立方体形状很难放进大多数空气炸锅，所以很少被食用。",
         "owo": "the common invewsawmon has thwee pwimawy habitats:\nthe pacific ocean, owchid lake, and ping-pong baww tossing games at cawnivaws wowwdwide."
     },
     "fish_catgirlfish": {
@@ -2135,7 +2139,7 @@
     },
     "fish_catgirlfish_description": {
         "en": "Despite its appearance, this species has no relation to the\nWhatthecatfish or species in the order Siluriformes.\nIt has what can be charitably referred to as \"fur\" and triangular \nears that move independently of each other.",
-        "zh_cn": "尽管外表如此，但该物种与\n“什么鬼鲶鱼”或鲶形目中的物种没有任何关系。\n它拥有可以被善意地称之为“毛皮”的东西和能够\n独立移动的三角形耳朵。",
+        "zh_cn": "尽管外表如此，但该物种与\n“Whatthecatfish”或鲶形目物种没有任何关系。\n它有勉强能被称作“毛”的东西，以及能\n独立移动的三角形耳朵。",
         "owo": "despite its appeawance, this species has no wewation to the\nwhatthecatfish ow species in the owdew siwuwifowmes.\nit has what can be chawitabwy wefewwed to as \"fuw\" and twianguwaw \neaws that move independentwy of each othew."
     },
     "fish_armorana": {
@@ -2145,7 +2149,7 @@
     },
     "fish_armorana_description": {
         "en": "For centuries, humanity has attempted and failed to properly understand the Armorana's nigh indestructible defenses.\nAny attempt to contact the species has been thwarted, as the messages\nwere blocked.\nThe subsequent friend requests were also blocked. ",
-        "zh_cn": "几个世纪以来，人类一直试图理解装甲鱼那近乎坚不可摧的防御，但都失败了。\n任何试图联系该物种的尝试都遭到了挫败，因为信息\n被屏蔽了。\n随后的好友请求也被屏蔽了。",
+        "zh_cn": "几个世纪以来，人类一直试图理解装甲鱼那近乎坚不可摧的防御，但都失败了。\n任何试图联系该物种的尝试都遭到挫败，因为消息\n被屏蔽了。\n随后的好友请求也被屏蔽了。",
         "owo": "fow centuwies, humanity has attempted and faiwed to pwopewwy undewstand the awmowana's nigh indestwuctibwe defenses.\nany attempt to contact the species has been thwawted, as the messages\nwewe bwocked.\nthe subsequent fwiend wequests wewe awso bwocked. "
     },
     "fish_staticback": {
@@ -2155,7 +2159,7 @@
     },
     "fish_staticback_description": {
         "en": "Failure to connect to the book you are trying to read.\nPlease check your book connection and try again.",
-        "zh_cn": "无法连接到您正在尝试阅读的书籍。\n请检查您的书籍连接并重试。",
+        "zh_cn": "无法连接到你正在阅读的书籍。\n请检查书籍连接并重试。",
         "owo": "faiwuwe to connect to the book you awe twying to wead.\npwease check youw book connection and twy again."
     },
     "fish_gritgill": {
@@ -2165,7 +2169,7 @@
     },
     "fish_gritgill_description": {
         "en": "The Gritgill. Sharpshooter. Lone hunter. Slick hustler. Adjective noun.\nIt lacks an actual firearm, yet is capable of shooting bottles out of the air using only a mean-looking scowl.",
-        "zh_cn": "砂砾鳃。神枪手。独行猎人。狡猾的骗子。形容词名词。\n它没有真正的枪械，却仅凭一个凶狠的怒容就能将空中的瓶子击落。",
+        "zh_cn": "砂砾鳃。神枪手。独行猎人。狡猾的骗子。形容词名词。\n它没有真正的枪，却仅凭一个凶狠的怒容就能把空中的瓶子打下来。",
         "owo": "the gwitgiww. Shawpshootew. Lone huntew. Swick hustwew. Adjective noun.\nit wacks an actuaw fiweawm, yet is capabwe of shooting bottwes out of the aiw using onwy a mean-wooking scoww."
     },
     "fish_blowafish": {
@@ -2175,7 +2179,7 @@
     },
     "fish_blowafish_description": {
         "en": "Unlike what its name implies, the Blowafish lacks poisonous quills for self-defense. Instead, upon making contact with another organism, it spontaneously explodes. ",
-        "zh_cn": "与它的名字所暗示的不同，爆炸鱼没有用于自卫的毒刺。相反，一旦与另一个生物接触，它就会自发爆炸。",
+        "zh_cn": "与名字暗示的不同，爆炸鱼没有用于自卫的毒刺。相反，一旦与其他生物接触，它就会直接爆炸。",
         "owo": "the gwitgiww. Shawpshootew. Lone huntew. Swick hustwew. Adjective noun.\nit wacks an actuaw fiweawm, yet is capabwe of shooting bottwes out of the aiw using onwy a mean-wooking scoww."
     },
     "fish_ladybug": {
@@ -2185,7 +2189,7 @@
     },
     "fish_ladybug_description": {
         "en": "Hey, wait a minute! How'd you get here?",
-        "zh_cn": "嘿，等等！你是怎么到这儿来的？",
+        "zh_cn": "嘿，等等！你怎么跑这儿来了？",
         "owo": "codefish awe a noctuwnaw, sowitawy species that spends most\nof theiw awake houws wemaking its own base.\nrumows awe that they have been tempowawiwy empwoyed by bubbwetabby \nto wowk onthe highwy anticipated spin-off titwe, 'new supew cwanky dewuxe'."
     },
     "fish_goldfish": {
@@ -2195,7 +2199,7 @@
     },
     "fish_goldfish_description": {
         "en": "The Goldfish is a rare species, known worldwide as the only species that actively sinks in water. \nSome unscrupulous pet store owners sell fake Goldfish made of lead.",
-        "zh_cn": "金鱼是一种稀有物种，以其是唯一一种在水中会主动下沉的物种而闻名于世。\n一些无良的宠物店老板会出售用铅制成的假金鱼。",
+        "zh_cn": "金鱼是一种稀有物种，以唯一会在水中主动下沉的鱼而闻名于世。\n一些无良宠物店老板会出售用铅做的假金鱼。",
         "owo": "codefish awe a noctuwnaw, sowitawy species that spends most\nof theiw awake houws wemaking its own base.\nrumows awe that they have been tempowawiwy empwoyed by bubbwetabby \nto wowk onthe highwy anticipated spin-off titwe, 'new supew cwanky dewuxe'."
     },
     "fish_sheatrock": {
@@ -2205,7 +2209,7 @@
     },
     "fish_sheatrock_description": {
         "en": "The ever vigilant Sheatrock is a testament to nature's beautiful cruelty.\nBorn without the ability to sense rhythm, this stubborn predator once was a vulnerable species for extinction due to its limitations.\nAfter years of careful planning and systemic action, it has been confirmed that this fish tastes awful.",
-        "zh_cn": "时刻警惕的弊石鱼是大自然美丽残酷的证明。\n这种顽固的捕食者天生没有节奏感，曾因其局限性而一度濒临灭绝。\n经过多年的精心策划和系统性行动，现已证实这种鱼的味道糟透了。",
+        "zh_cn": "时刻警惕的弊石鱼是大自然美丽残酷的证明。\n这种顽固的捕食者天生没有节奏感，曾因局限性一度濒临灭绝。\n经过多年的精心策划和系统性行动，现已证实这鱼难吃极了。",
         "owo": "the evew vigiwant sheatwock is a testament to natuwe's beautifuw cwuewty.\nbown without the abiwity to sense whythm, this stubbown pwedatow once was a vuwnewabwe species fow extinction due to its wimitations.\naftew yeaws of cawefuw pwanning and systemic action, it has been confiwmed that this fish tastes awfuw."
     },
     "fish_signyfin": {
@@ -2215,7 +2219,7 @@
     },
     "fish_signyfin_description": {
         "en": "This sign was previously placed at the edge of the lake to let people know this was a good spot to go fishing.\nMiraculously, after falling into the water, the Signyfin gained a life of its own, and runs a landscaping company.",
-        "zh_cn": "这个标志之前被放置在湖边，用来告诉人们这里是钓鱼的好地方。\n神奇的是，在掉入水中后，标志鳍获得了自己的生命，并经营着一家园林绿化公司。",
+        "zh_cn": "这个标志之前放在湖边，告诉大家这里是钓鱼的好地方。\n神奇的是，掉进水里之后，标志鳍获得了自己的生命，现在还经营着一家园林绿化公司。",
         "owo": "codefish awe a noctuwnaw, sowitawy species that spends most\nof theiw awake houws wemaking its own base.\nrumows awe that they have been tempowawiwy empwoyed by bubbwetabby \nto wowk onthe highwy anticipated spin-off titwe, 'new supew cwanky dewuxe'."
     },
     "fish_orangeoarchid": {
@@ -2225,7 +2229,7 @@
     },
     "fish_orangeoarchid_description": {
         "en": "The Orange Oarchid was discovered by a man stranded on a raft,\nsuffering from a severe vitamin C deficiency.\nEnthralled by its vibrant colors, he became the leading expert\non the species after his eventual rescue.\nThat man's name? Albert Einstein.",
-        "zh_cn": "橙桨兰是由一个被困在木筏上的人发现的，\n他当时正严重缺乏维生素C。\n被其鲜艳的色彩所吸引，他在最终获救后成为了该物种的顶尖专家。\n那个人的名字？阿尔伯特·爱因斯坦。",
+        "zh_cn": "橙桨兰是由一个被困在木筏上的人发现的，\n他当时严重缺乏维生素C。\n迷上它鲜艳的色彩后，他在获救后成了该物种的顶尖专家。\n那人的名字？阿尔伯特·爱因斯坦。",
         "owo": "the owange oawchid was discovewed by a man stwanded on a waft,\nsuffewing fwom a sevewe vitamin c deficiency.\nenthwawwed by its vibwant cowows, he became the weading expewt\non the species aftew his eventuaw wescue.\nthat man's name? awbewt einstein."
     },
     "fish_suckerphish": {
@@ -2235,17 +2239,17 @@
     },
     "fish_suckerphish_description": {
         "en": "The cunning Suckerphish lures its prey in with flashy, worm-like tendrils. Once the victim is ensnared, the Suckerphish demands a tithe paid in sand dollars.\nIt also accepts JPEGs of apes.",
-        "zh_cn": "狡猾的网钓鱼用华丽的、蠕虫般的触手引诱猎物。一旦受害者被诱捕，网钓鱼就会要求对方用沙钱支付什一税。\n它也接受猿猴的 JPEG 图片。",
+        "zh_cn": "狡猾的网钓鱼用华丽的蠕虫状触手引诱猎物。一旦受害者被诱捕，网钓鱼就要求对方用沙钱支付什一税。\n也接受猿猴的 JPEG 图片。",
         "owo": "the cunning suckewphish wuwes its pwey in with fwashy, wowm-wike tendwiws. Once the victim is ensnawed, the suckewphish demands a tithe paid in sand dowwaws.\nit awso accepts jpegs of apes."
     },
     "fish_proofofperchase": {
         "en": "Proof of Perchase",
-        "zh_cn": "鲈鱼购买凭证",
+        "zh_cn": "购买凭鲈",
         "owo": "codefish"
     },
     "fish_proofofperchase_description": {
         "en": "Overall, commercial fishing is quite a profitable industry, with one very notable exception\nWhen caught by an unsuspecting fisher, the Proof of Perchase will instinctually leap at the nearest wallet, swallowing it whole.",
-        "zh_cn": "总的来说，商业捕鱼是一个利润相当丰厚的产业，但有一个非常显著的例外\n当被毫无戒心的渔夫抓住时，购买凭鲈会本能地扑向最近的钱包，并将其整个吞下。",
+        "zh_cn": "总的来说，商业捕鱼是个利润丰厚的行业，但有一个显著的例外。\n被毫无戒心的渔夫抓住时，购买凭鲈会本能地扑向最近的钱包，整个吞下去。",
         "owo": "codefish awe a noctuwnaw, sowitawy species that spends most\nof theiw awake houws wemaking its own base.\nrumows awe that they have been tempowawiwy empwoyed by bubbwetabby \nto wowk onthe highwy anticipated spin-off titwe, 'new supew cwanky dewuxe'."
     },
     "fish_bebocaccio": {
@@ -2255,7 +2259,7 @@
     },
     "fish_bebocaccio_description": {
         "en": "The Bebopaccio swings from side to side, drifting lazily in shallow waters and vibrant coral reefs. \nWhen agitated, it performs an act known as \"trumpeting\" where its entire body skews and distorts rapidly.",
-        "zh_cn": "波帕奇奥会在浅水区和充满活力的珊瑚礁中左右摇摆，懒洋洋地漂流。\n当被激怒时，它会表演一种被称为“吹号”的行为，整个身体会迅速扭曲变形。",
+        "zh_cn": "波帕奇奥在浅水区和鲜艳的珊瑚礁中左右摇摆，懒洋洋地漂流。\n被激怒时，它会表演一种叫做“吹号”的动作，整个身体迅速扭曲变形。",
         "owo": "codefish awe a noctuwnaw, sowitawy species that spends most\nof theiw awake houws wemaking its own base.\nrumows awe that they have been tempowawiwy empwoyed by bubbwetabby \nto wowk onthe highwy anticipated spin-off titwe, 'new supew cwanky dewuxe'."
     },
     "fish_bonesfish": {
@@ -2265,7 +2269,7 @@
     },
     "fish_bonesfish_description": {
         "en": "Despite its looks, this fish is doing just fine. The Bonesfish has evolved beyond the need for any organs or skin, and enjoys gardening in its free time.",
-        "zh_cn": "别看它长这样，这条鱼活得好着呢。骸骨鱼已经进化到不再需要任何器官或皮肤，并在闲暇时喜欢园艺。",
+        "zh_cn": "别看长这样，它活得好着呢。骸骨鱼已经进化到不再需要任何器官或皮肤，闲暇时喜欢园艺。",
         "owo": "codefish awe a noctuwnaw, sowitawy species that spends most\nof theiw awake houws wemaking its own base.\nrumows awe that they have been tempowawiwy empwoyed by bubbwetabby \nto wowk onthe highwy anticipated spin-off titwe, 'new supew cwanky dewuxe'."
     },
     "fish_gearstropod": {
@@ -2275,7 +2279,7 @@
     },
     "fish_gearstropod_description": {
         "en": "The mighty Gearstropod, a species known for their slow-moving ingenuity and construction prowess.\nReportedly, Gearstropods were responsible for 82 percent of the automobile repairs completed in the Atlantic Ocean last year.",
-        "zh_cn": "强大的齿轮腹足螺，一个以其缓慢移动的独创性和高超的建造能力而闻名的物种。\n据报道，去年大西洋完成的汽车维修中，有 82% 是由齿轮腹足螺负责的。",
+        "zh_cn": "强大的齿轮腹足螺，以行动缓慢但心灵手巧、擅长建造而闻名。\n据报道，去年大西洋完成的汽车维修中，有 82% 是齿轮腹足螺做的。",
         "owo": "the mighty geawstwopod, a species known fow theiw swow-moving ingenuity and constwuction pwowess.\nrepowtedwy, geawstwopods wewe wesponsibwe fow 82 pewcent of the automobiwe wepaiws compweted in the atwantic ocean wast yeaw."
     },
     "fish_deepcsmelt": {
@@ -2285,7 +2289,7 @@
     },
     "fish_deepcsmelt_description": {
         "en": "The Deep-C Smelt is a peaceful fish by nature, preferring to stay out of conflict. However, if cornered, it can unleash a brutally violent \"special attack\" through a series of quarter-circle rotations.",
-        "zh_cn": "深C胡瓜鱼天性平和，喜欢远离冲突。然而，如果被逼到绝境，它可以通过一系列的四分之一摇杆操作，释放出极其暴力的“特殊攻击”。",
+        "zh_cn": "深C胡瓜鱼天性平和，喜欢远离冲突。不过如果被逼到绝境，它能通过一系列四分之一圈摇杆操作释放极其暴力的“特殊攻击”。",
         "owo": "codefish awe a noctuwnaw, sowitawy species that spends most\nof theiw awake houws wemaking its own base.\nrumows awe that they have been tempowawiwy empwoyed by bubbwetabby \nto wowk onthe highwy anticipated spin-off titwe, 'new supew cwanky dewuxe'."
     },
     "fish_sunnyfish": {
@@ -2295,7 +2299,7 @@
     },
     "fish_sunnyfish_description": {
         "en": "The Sunnyfish is incredibly hot to the touch and if you are currently holding it you should not be doing that. If you are able to safely catch and transport it, the inside is already perfectly cooked.",
-        "zh_cn": "太阳鱼摸起来非常烫，如果你现在正拿着它，请立刻放下。如果你能安全地捕捉并运输它，它的内部已经完美地烹饪好了。",
+        "zh_cn": "太阳鱼摸起来非常烫，如果你现在正拿着它，赶紧放下。如果你能安全地捕捉并运输它，里面的肉已经完美烹熟了。",
         "owo": "codefish awe a noctuwnaw, sowitawy species that spends most\nof theiw awake houws wemaking its own base.\nrumows awe that they have been tempowawiwy empwoyed by bubbwetabby \nto wowk onthe highwy anticipated spin-off titwe, 'new supew cwanky dewuxe'."
     },
     "fish_stringfish": {
@@ -2305,7 +2309,7 @@
     },
     "fish_stringfish_description": {
         "en": "Originally thought to be closely related to the swordfish, the Stringfish has far more in common with the sturgeon.\nIt roams around the seabed, delighting in challenging authority and generally making poor life decisions.",
-        "zh_cn": "弦鱼最初被认为与剑鱼有密切关系，但实际上它与鲟鱼的共同点更多。\n它在海床上游荡，以挑战权威和做出糟糕的人生决定为乐。",
+        "zh_cn": "弦鱼最初被认为与剑鱼是近亲，但实际上跟鲟鱼更像。\n它在海床上游荡，以挑战权威和做一些糟糕的人生决定为乐。",
         "owo": "codefish awe a noctuwnaw, sowitawy species that spends most\nof theiw awake houws wemaking its own base.\nrumows awe that they have been tempowawiwy empwoyed by bubbwetabby \nto wowk onthe highwy anticipated spin-off titwe, 'new supew cwanky dewuxe'."
     },
     "fish_teradon": {
@@ -2315,7 +2319,7 @@
     },
     "fish_teradon_description": {
         "en": "The fierce Teradon is known to use its sharp teeth\nto tear undersea internet cables to shreds.\nScientists have recently identified the driving force behind this behavior as\n'a want to cause problems on purpose'.",
-        "zh_cn": "凶猛的忒拉顿以用其锋利的牙齿\n将海底网线撕成碎片而闻名。\n科学家最近确定了这种行为背后的驱动力是\n‘就是想故意找茬’。",
+        "zh_cn": "凶猛的忒拉顿以用锋利的牙齿\n把海底网线撕成碎片而闻名。\n科学家最近确定这种行为背后的驱动力是\n“就是故意想找茬”。",
         "owo": "the fiewce tewadon is known to use its shawp teeth\nto teaw undewsea intewnet cabwes to shweds.\nscientists have wecentwy identified the dwiving fowce behind this behaviow as\n'a want to cause pwobwems on puwpose'."
     },
     "fish_lefisheauchocolat": {
@@ -2335,7 +2339,7 @@
     },
     "fish_falsechimaera_description": {
         "en": "Masquerading as a single interconnected species, the False Chimaera works to entertain the ocean with dazzling lights and sounds.\nThis gang of glitchy friends originally met in an online chatroom about video games.",
-        "zh_cn": "伪奇美拉伪装成一个相互连接的单一物种，用耀眼的灯光和声音来娱乐海洋。\n这帮爱出故障的朋友们最初是在一个关于电子游戏的网络聊天室里认识的。",
+        "zh_cn": "伪装成一个相互连接的单一物种，伪奇美拉用耀眼的灯光和声音来娱乐海洋。\n这帮爱出故障的朋友们最初是在一个电子游戏聊天室里认识的。",
         "owo": "codefish awe a noctuwnaw, sowitawy species that spends most\nof theiw awake houws wemaking its own base.\nrumows awe that they have been tempowawiwy empwoyed by bubbwetabby \nto wowk onthe highwy anticipated spin-off titwe, 'new supew cwanky dewuxe'."
     },
     "fish_codefish": {
@@ -2345,7 +2349,7 @@
     },
     "fish_codefish_description": {
         "en": "Codefish are a nocturnal, solitary species that spends most\nof their awake hours remaking its own base.\nRumors are that they have been temporarily employed by Bubbletabby \nto work on the highly anticipated spin-off title, 'New Super Cranky Deluxe'.",
-        "zh_cn": "代码鱼是一种夜行性的独居物种，\n它们清醒的大部分时间都在重构自己的基地。\n有传言说，它们被泡泡猫咪暂时雇佣，\n去开发备受期待的衍生作品《新·超级 Cranky 豪华版》。",
+        "zh_cn": "代码鱼是一种夜行独居物种，\n清醒的大部分时间都在重构自己的代码库。\n有传言说，它们被 Bubbletabby 临时雇佣，\n去开发备受期待的衍生作品《New Super Cranky Deluxe》。",
         "owo": "codefish awe a noctuwnaw, sowitawy species that spends most\nof theiw awake houws wemaking its own base.\nrumows awe that they have been tempowawiwy empwoyed by bubbwetabby \nto wowk onthe highwy anticipated spin-off titwe, 'new supew cwanky dewuxe'."
     },
     "fish_homerudd": {
@@ -2355,7 +2359,7 @@
     },
     "fish_homerudd_description": {
         "en": "The Home Rudd is a persistent fish. Once it has its eyes on a goal, \nit will stop at nothing to achieve it, \nsometimes even injuring its fins through overexertion.\nA group of Home Rudds is known as a 'locker room'.",
-        "zh_cn": "本垒赤睛鱼是一种执着的鱼。一旦它盯上一个目标，\n它就会不惜一切代价去实现它，\n有时甚至会因过度劳累而伤到自己的鱼鳍。\n一群本垒赤睛鱼被称为‘更衣室’。",
+        "zh_cn": "本垒赤睛鱼是一种执着的鱼。一旦盯上目标，\n它会不惜一切代价去实现，\n有时甚至会因过度劳累伤到自己的鳍。\n一群本垒赤睛鱼叫做“更衣室”。",
         "owo": "the home rudd is a pewsistent fish. Once it has its eyes on a goaw, \nit wiww stop at nothing to achieve it, \nsometimes even injuwing its fins thwough ovewexewtion.\na gwoup of home rudds is known as a 'wockew woom'."
     },
     "fish_unbelugable": {
@@ -2365,7 +2369,7 @@
     },
     "fish_unbelugable_description": {
         "en": "The Unbelugable was once considered a rare delicacy in only the snootiest of societies. \nThey are known to exhibit consistent levels of indecisiveness, but act when prodded enough. You do not want to deal with an angry Unbelugable.",
-        "zh_cn": "曾经，只有最傲慢的社会才会将白鲸妙视为稀有美味。\n众所周知，他们表现出一贯的优柔寡断，但在受到足够的刺激时就会采取行动。你不想和一个愤怒的白鲸妙打交道。",
+        "zh_cn": "白鲸妙曾经只在最傲慢的社会中被视为稀有美味。\n它们以一贯的优柔寡断著称，但被刺激够了就会行动。你不会想惹毛一只白鲸妙的。",
         "owo": "the unbewugabwe was once considewed a wawe dewicacy in onwy the\nsnootiest of societies. \nbeing a twopicaw fish, it wewies heaviwy on the cowaw weef ecosystem to maintain its nonchawant coowness and sense of 'wike, whatevew man.'"
     },
     "fish_turntadpole": {
@@ -2375,7 +2379,7 @@
     },
     "fish_turntadpole_description": {
         "en": "Donning a stylish visor, the Turntadpole is the star of any\nundersea rave it attends.\nIts bombastic stage presence keeps parties spinning like a roulette wheel.",
-        "zh_cn": "戴着时髦的护目镜，嗨翻蝌蚪是它参加的任何\n海底派对的明星。\n它浮夸的舞台表现力让派对像轮盘赌一样不停旋转。",
+        "zh_cn": "戴着时髦的护目镜，嗨翻蝌蚪是它参加的任何\n海底派对的明星。\n它浮夸的舞台表现力让派对像轮盘赌一样转个不停。",
         "owo": "donning a stywish visow, the tuwntadpowe is the staw of any\nundewsea wave it attends.\nits bombastic stage pwesence keeps pawties spinning wike a wouwette wheew."
     },
     "fish_wholelobster": {
@@ -2395,7 +2399,7 @@
     },
     "fish_groovecroakster_description": {
         "en": "The Groove Croakster may look like an ordinary 1-bit frog at first glance.\nBut make no mistake! \nThis devious little amphibian absolutely adores line dancing.",
-        "zh_cn": "律动蛙呱初看之下可能只是一只普通的 1-bit 青蛙。\n但可别搞错了！\n这只狡猾的小两栖动物超级喜欢排排舞。",
+        "zh_cn": "律动蛙乍一看可能只是一只普通的 1-bit 青蛙。\n但可别搞错了！\n这只狡猾的小两栖动物超级喜欢排排舞。",
         "owo": "the gwoove cwoakstew may wook wike an owdinawy 1-bit fwog at fiwst gwance.\nbut make no mistake! \nthis devious wittwe amphibian absowutewy adowes wine dancing."
     },
     "fish_guitarherring": {
@@ -2405,7 +2409,7 @@
     },
     "fish_guitarherring_description": {
         "en": "The Guitar Herring is a highly sought-after oily bait fish that roams fishing banks and jam band concerts. \nA school of Guitar Herrings is called a \"genre oversaturation\".",
-        "zh_cn": "吉他鲱鱼是一种非常抢手的油性饵鱼，它们出没于渔场和即兴乐队的音乐会。\n一群吉他鲱鱼被称为“曲风过饱和”。",
+        "zh_cn": "吉他鲱鱼是一种抢手的油性饵鱼，出没于渔场和即兴乐队音乐会。\n一群吉他鲱鱼叫做“曲风过饱和”。",
         "owo": "the guitaw hewwing is a highwy sought-aftew oiwy bait fish that woams fishing banks and jam band concewts. \na schoow of guitaw hewwings is cawwed a \"genwe ovewsatuwation\"."
     },
     "fish_beatmantaray": {
@@ -2415,7 +2419,7 @@
     },
     "fish_beatmantaray_description": {
         "en": "At first, the Beatmantaray might look intimidating, but many of the knobs and dials along its body are purely for show.\nIt feasts on the various species of worms that live in the\nsoft land of the ocean floor.",
-        "zh_cn": "节拍蝠鲼乍一看可能很吓人，但它身上的许多旋钮和拨盘纯粹只是装饰。\n它以生活在海底软泥中的\n各种蠕虫为食。",
+        "zh_cn": "节拍蝠鲼乍一看可能很吓人，但它身上的许多旋钮和拨盘纯粹是装饰。\n它以生活在海底软泥中的\n各种蠕虫为食。",
         "owo": "at fiwst, the beatmantaway might wook intimidating, but many of the knobs and diaws awong its body awe puwewy fow show.\nit feasts on the vawious species of wowms that wive in the\nsoft wand of the ocean fwoow."
     },
     "fish_playdart": {
@@ -2425,7 +2429,7 @@
     },
     "fish_playdart_description": {
         "en": "The Playdart is notable for its crank-like appendage,\nprotruding from its blocky body. \nResearch has shown that the Playdart may be a much\nolder species than previously thought, with cave paintings depicting it being found\nin the remote ancient lands of Portland, Oregon.",
-        "zh_cn": "玩镖鱼以其从方块状身体中伸出的摇杆状附肢而闻名。\n研究表明，玩镖鱼可能是一个比之前想象的要古老得多的物种，\n在俄勒冈州波特兰市偏远的古老土地上发现了描绘它的洞穴壁画。",
+        "zh_cn": "玩镖鱼以从方块状身体中伸出的摇杆状附肢而闻名。\n研究表明，玩镖鱼可能比之前想的要古老得多，\n在俄勒冈州波特兰市的偏远古老地区发现了描绘它的洞穴壁画。",
         "owo": "the pwaydawt is notabwe fow its cwank-wike appendage,\npwotwuding fwom its bwocky body. \nreseawch has shown that the pwaydawt may be a much\nowdew species than pweviouswy thought, with cave paintings depicting it being found\nin the wemote ancient wands of powtwand, owegon."
     },
     "fish_jazzy": {
@@ -2443,7 +2447,7 @@
     },
     "fish_allstarfish_description": {
         "en": "This absolute diva of a species are habitual party girls, most often found at the hidden gem of the M31, the Astro Lounge. Despite its interplanetary schmovement, Allstarfish are often struck with homesickness for their temperate lakeside condos. It just goes to show, you can take the girl out of the party, but you can't take the... You can't take the girl from... Oh shoot, I wrote this with my pen! I really need to get an editor...",
-        "zh_cn": "这个物种绝对是天后级别的，她们是习惯性的派对女孩，最常出现在 M31 的隐秘瑰宝——天文酒廊。尽管能在星际间穿梭，全明星海星却常常思念它们温带湖畔的公寓。这正好说明：你可以把女孩带出派对，但你不能把……你不能把女孩从……哦糟糕，我是用钢笔写的这个！我真得找个编辑……"
+        "zh_cn": "这个绝对是天后级别的物种，她们是习惯性的派对女孩，最常出没于 M31 的隐秘瑰宝——天文酒廊。尽管能星际穿梭，全明星海星却常常思念温带湖畔的公寓。这正好说明：你可以把女孩带出派对，但你不能把……你不能把女孩从……哦糟糕，我用的钢笔写的这个！我真得找个编辑……"
     },
     "fish_selfish": {
         "en": "Selfish",
@@ -2451,7 +2455,7 @@
     },
     "fish_selfish_description": {
         "en": "Not to be confused with the Sellfish, the heavily debated Wall St. strategy; or the bellfish, often found in commercial establishments; or the cellfish, which can be found working on spreadsheets all day; or the fellfish, known for its ability to find any way to make contact with the ground; or the gelfish, boasting a fashion sense that makes the commoners weep; or the tellfish, natural polyglots capable of speaking 48 different languages; or the yellfish, ancestor of the tellfish; or the wellfish, producer of 70%% of the world's water content; or the quellfish, predator of the yellfish and the tellfish; or the ",
-        "zh_cn": "不要与以下物种混淆：备受争议的华尔街策略“售卖鱼”（Sellfish）；或是商业场所常见的“铃鱼”（bellfish）；或是整天埋头于电子表格的“单元格鱼”（cellfish）；或是擅长以各种方式接触地面的“跌倒鱼”（fellfish）；或是时尚品味让普通人泪流满面的“凝胶鱼”（gelfish）；或是天生通晓 48 种语言的多语者“讲述鱼”（tellfish）；或是讲述鱼的祖先“喊叫鱼”（yellfish）；或是贡献全球 70%% 水分的“井鱼”（wellfish）；或是捕食喊叫鱼和讲述鱼的“镇压鱼”（quellfish）；或是……"
+        "zh_cn": "不要与以下混淆：备受争议的华尔街策略“售卖鱼”（Sellfish）；或是商业场所常见的“铃鱼”（bellfish）；或是整天做表格的“单元格鱼”（cellfish）；或是擅长以各种方式接触地面的“跌倒鱼”（fellfish）；或是时尚品味让普通人泪流满面的“凝胶鱼”（gelfish）；或是天生通晓 48 种语言的“讲述鱼”（tellfish）；或是讲述鱼的祖先“喊叫鱼”（yellfish）；或是贡献全球 70% 水分的“井鱼”（wellfish）；或是捕食喊叫鱼和讲述鱼的“镇压鱼”（quellfish）；或是……"
     },
     "fish_sharpen": {
         "en": "Sharpen",
@@ -2459,7 +2463,7 @@
     },
     "fish_sharpen_description": {
         "en": "Found commonly in small bodies of water near dilapidated computer labs, the Sharpen makes for a shockingly great low-budget starter pet. Its small stature and flexible diet, both of which are uncharacteristic of the Selachii division, boost its pet stats to great heights. Both of these oddities do check out when one considers the years it spent surviving art school.",
-        "zh_cn": "锐利鱼常见于破旧计算机实验室附近的小片水域，是一种令人惊讶的廉价入门宠物。它体型小巧、食性灵活——这两点对于鲨形目来说都很不寻常——使其宠物属性大大提升。考虑到它在艺术学院熬过的那些年，这些奇特之处倒也说得通了。"
+        "zh_cn": "常见于破旧计算机实验室附近的小片水域，锐利鱼是一种令人惊讶的廉价入门宠物。体型小巧、食性灵活——这两点对于鲨形目来说很不寻常——让它作为宠物评分极高。考虑到它在艺术学院熬过的那些年，这些奇特之处倒也说得通。"
     },
     "fish_ditheredfish": {
         "en": "Ditheredfish",
@@ -2475,7 +2479,7 @@
     },
     "fish_pianosesolphin_description": {
         "en": "The Pianose Solphin can be found composing music with its pod and, in its spare time, enjoys arguing over whether \"thirty-second note\" or \"demisemiquaver\" is the correct name for the sheet music notation.",
-        "zh_cn": "钢琴独奏海豚常与它的族群一起作曲，闲暇时喜欢争论乐谱上的记号究竟该叫“三十二分音符”还是“半三十二分音符”才是正确的名称。"
+        "zh_cn": "钢琴独奏海豚常与族群一起作曲，闲暇时喜欢争论乐谱上的记号到底该叫“三十二分音符”还是“半三十二分音符”。"
     },
     "fish_seaplane": {
         "en": "Seaplane",
@@ -2483,7 +2487,7 @@
     },
     "fish_seaplane_description": {
         "en": "A good Seaplane is really freakin' hard to catch due to its \"big trick\", wherein it dives nose-first into the sea floor while emitting smoke - presumably to camoflauge as a natural underwater volcano. It stands to reason that this saltwater fish should stay in saltwater. It instead jumps between bodies of water, or whichever location has the best sunsets.",
-        "zh_cn": "一条优秀的水上飞机鱼真的非常非常难抓，因为它的“大招”是头朝下扎入海底并喷出烟雾——大概是伪装成天然海底火山。按理说这种咸水鱼应该待在咸水里，但它却喜欢在各种水域之间跳跃，或者去任何日落最美的地方。"
+        "zh_cn": "一条好的水上飞机鱼真的非常难抓，因为它的“大招”是头朝下扎入海底并喷出烟雾——大概是伪装成天然海底火山。按理说这种咸水鱼应该待在咸水里，但它却喜欢在不同水域之间跳来跳去，或者去日落最美的地方。"
     },
     "fish_twofish": {
         "en": "Twofish",
@@ -2491,7 +2495,7 @@
     },
     "fish_twofish_description": {
         "en": "Ohhhhh... there's TWO of them...?! Their synchronized and swingin' method of swimming loosely resembles that yin and yang stuff. While I would love to expound upon that, I am a deeply white man.",
-        "zh_cn": "哦哦哦……居然有两条……？！它们同步且摇摆的游泳方式隐约有点像那什么阴阳的东西。虽然我很想就此展开讲讲，但我是个彻头彻尾的白人。"
+        "zh_cn": "哦哦哦……居然有两条……？！它们同步摇摆的游泳方式隐约有点像那个什么阴阳。虽然我很想就此展开讲讲，但我是个彻头彻尾的白人。"
     },
     "costume_unlock_arank": {
         "en": "Get an A rank or higher on \"@@1@@\"",
@@ -2673,7 +2677,8 @@
         "zh_cn": "牛仔帽"
     },
     "costume_cowboy_description": {
-        "en": "cowboys 1 cowboys 2 cowboys s s s s 3 cowboys 8 still great"
+        "en": "cowboys 1 cowboys 2 cowboys s s s s 3 cowboys 8 still great",
+        "zh_cn": "牛仔一牛仔二牛仔嘶嘶嘶嘶三牛仔八依旧超棒"
     },
     "costume_cowboy_unlock": {
         "en": "a!Gritted Strings",
@@ -2711,7 +2716,7 @@
     },
     "costume_triangle_description": {
         "en": "Do not use this costume to reset your game of billiards.",
-        "zh_cn": "请勿使用此装扮来重置您的台球游戏。"
+        "zh_cn": "请勿使用此装扮来重置你的台球游戏。"
     },
     "costume_triangle_unlock": {
         "en": "a!Cache",
@@ -3555,7 +3560,7 @@
     },
     "disableClickHint": {
         "en": "Enables using the Left and Right click on your mouse as Tap and Alternate Tap actions.",
-        "zh_cn": "将鼠标左键和右键映射为点击和点击（备用）操作。"
+        "zh_cn": "启用后可以用鼠标左键和右键作为 Tap 和备用 Tap。"
     },
     "customCursorInMenuHint": {
         "en": "Use the custom cursor outside of levels.",
@@ -3658,12 +3663,12 @@
         "zh_cn": "编辑器中试玩谱面的按键。"
     },
     "keyboardGameplayHint": {
-        "en": "Keybinds that govern gameplay.",
-        "zh_cn": "控制游戏游玩的按键。"
+        "en": "Binds that affect gameplay in levels.",
+        "zh_cn": "影响关卡游玩的按键绑定。"
     },
     "keyboardEditorHint": {
-        "en": "Keybinds that govern the editor.",
-        "zh_cn": "控制编辑器的按键。"
+        "en": "Binds that affect controls in the editor.",
+        "zh_cn": "影响编辑器的按键绑定。"
     },
     "keyboardMenuHint": {
         "en": "Binds that affect navigation in the menus.",
@@ -3775,11 +3780,11 @@
     },
     "optionsTap1": {
         "en": "Tap",
-        "zh_cn": "点击"
+        "zh_cn": "Tap"
     },
     "optionsTap2": {
         "en": "Tap (Alt.)",
-        "zh_cn": "点击 (备用)"
+        "zh_cn": "Tap（备用）"
     },
     "optionsPause": {
         "en": "Pause",

@@ -98,12 +98,18 @@ if love.filesystem.exists('Mods/ChsMod') then
 
 	fonts['fusionPixel12Glitched'] = love.graphics.newImageFont('Mods/ChsMod/fonts/fp12Garbage.png', '介地弹反侧挑额联返连！击回动外战击向跳雷绍', 1)
 	fonts['fusionPixel8Glitched'] = love.graphics.newImageFont('Mods/ChsMod/fonts/fp8Garbage.png', '精准度', 1)
+	fonts['boutiqueBitmap7'] = love.graphics.newImageFont('Mods/ChsMod/fonts/BoutiqueBitmap7x7.png', '连接至“”失败…正在尝试加载备份我们上了吗？很好。那么，就让一起来测你能力的极限吧即便最后关头蹒跚不前也应该为自己取得进步而感到慰藉惜切代价要将事情行底渴望是这所有人联系现见识下形态', 1)
+	fonts['terminal2'] = love.graphics.newImageFont('assets/fonts/terminal.png', pixelArtCharacterMapFull, 2)
+
+	if fonts.changBanDianSong then fonts.changBanDianSong:setLineHeight(1.1) end
+
+	fonts.digitalDiscoGlitched:setFallbacks(fonts.fusionPixel12Glitched)
+	fonts.mainGlitched:setFallbacks(fonts.fusionPixel8Glitched)
+	fonts.terminal:setFallbacks(fonts.boutiqueBitmap7)
+	fonts.terminal2:setFallbacks(fonts.boutiqueBitmap7)
 else
 	print("ERROR: 'Mods/ChsMod' folder not exists!")
 end
-if fonts.changBanDianSong then fonts.changBanDianSong:setLineHeight(1.1) end
-fonts.digitalDiscoGlitched:setFallbacks(fonts.fusionPixel12Glitched)
-fonts.mainGlitched:setFallbacks(fonts.fusionPixel8Glitched)
 '''
 match_indent = true
 times = 1
@@ -116,14 +122,14 @@ position = "before"
 payload = '''
 if savedata.options.language == 'zh_cn' then
 	if savedata.options.fontMode == 'replace' then
-	if fonts.fusionPixel8 then
-		fonts.fusionPixel8:setLineHeight(0.75)
-		fonts.main = fonts.fusionPixel8
-	end
-	if fonts.fusionPixel12 then
-		fonts.fusionPixel12:setLineHeight(0.75)
-		fonts.digitalDisco = fonts.fusionPixel12
-		fonts.jfdot = fonts.fusionPixel12
+		if fonts.fusionPixel8 then
+			fonts.fusionPixel8:setLineHeight(0.75)
+			fonts.main = fonts.fusionPixel8
+		end
+		if fonts.fusionPixel12 then
+			fonts.fusionPixel12:setLineHeight(0.75)
+			fonts.digitalDisco = fonts.fusionPixel12
+			fonts.jfdot = fonts.fusionPixel12
 		end
 	else
 		if fonts.fusionPixel8 then
@@ -154,6 +160,34 @@ else
 	love.graphics.setFont(fonts.ancient)
 end
 '''
+match_indent = true
+times = 1
+
+[[patches]]
+[patches.pattern]
+target = "states/intros/TerabyteIntro.lua"
+pattern = """
+		love.graphics.rectangle('fill',
+			rtf:getBoundingRect(finaltext, project.res.x / 2, project.res.y / 2 - 20, fonts.terminal, 1, 1, -1, 'center'))
+		rtf:drawRich(finaltext, project.res.x / 2, project.res.y / 2 - 20, fonts.terminal, 1, 1, { 0, 255, 0, 1 }, -1,
+			'center')
+"""
+position = "at"
+payload = '''
+local fontToUse = fonts.terminal
+if savedata.options.language == 'zh_cn' then fontToUse = fonts.terminal2 end
+love.graphics.rectangle('fill', rtf:getBoundingRect(finaltext, project.res.x / 2, project.res.y / 2 - 20, fontToUse, 1, 1, -1, 'center'))
+rtf:drawRich(finaltext, project.res.x / 2, project.res.y / 2 - 20, fontToUse, 1, 1, { 0, 255, 0, 1 }, -1, 'center')
+'''
+match_indent = true
+times = 1
+
+[[patches]]
+[patches.pattern]
+target = "states/intros/TerabyteIntro.lua"
+pattern = "for i = 1, #text do"
+position = "at"
+payload = "for i = 1, utf8.len(text) do"
 match_indent = true
 times = 1
 

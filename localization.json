@@ -552,7 +552,7 @@
     },
     "optionsJokes_enable": {
         "en": "The fun is...@@1@@!",
-        "zh_cn": "乐趣……@@1@@！"
+        "zh_cn": "乐趣……"
     },
     "optionsJokes_noCranky": {
         "en": "Remove Cranky",
@@ -3727,7 +3727,7 @@
     },
     "Jokes_enableHint": {
         "en": "Whether joke settings should always be off, only active on April 1st, or always on.",
-        "zh_cn": "笑话设置是否应该始终关闭，仅在4月1日激活，或始终开启。"
+        "zh_cn": "玩笑设置是否应该始终关闭，仅在4月1日激活，或始终开启。"
     },
     "Jokes_theNoteSniperHint": {
         "en": "Small chance for some notes to have an absurdly high or low scroll speed.",

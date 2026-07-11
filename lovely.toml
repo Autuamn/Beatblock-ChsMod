@@ -93,11 +93,8 @@ payload = '''
 -- 加载自定义中文翻译
 print("=== Loading Chinese Localization ===")
 local newLanguage = 'zh_cn'
-local chsModPath = love.filesystem.getSaveDirectory() .. "/Mods/ChsMod"
-print("Mounting " .. chsModPath .. " to " .. "ChsMod")
-local mountSuccess = love.filesystem.mountFullPath(chsModPath, "ChsMod")
-if mountSuccess then
-	local chsLocJson = dpf.loadJson("ChsMod/localization.json", {})
+if love.filesystem.exists('Mods/ChsMod') then
+	local chsLocJson = dpf.loadJson("Mods/ChsMod/localization.json", {})
 
 	if chsLocJson then
 		local count = 0
@@ -117,11 +114,8 @@ if mountSuccess then
 	else
 		print("Failed to decode Json: ".. locPath)
 	end
-
-	print("Unmount " .. chsModPath)
-	love.filesystem.unmountFullPath(chsModPath)
 else
-	print("ERROR: Failed to mount path: " .. chsModPath)
+	print("ERROR: 'Mods/ChsMod' folder not exists!")
 end
 '''
 match_indent = true
@@ -135,20 +129,15 @@ position = "after"
 payload = '''
 -- 加载中文字体
 print("=== Loading Chinese Font ===")
-local chsModPath = love.filesystem.getSaveDirectory() .. "/Mods/ChsMod"
-print("Mounting " .. chsModPath .. " to " .. "ChsMod")
-local mountSuccess = love.filesystem.mountFullPath(chsModPath, "ChsMod")
-if mountSuccess then
-	local chineseFontPath = "ChsMod/fonts/"
+if love.filesystem.exists('Mods/ChsMod') then
 	local chineseFontList = {
 		fusionPixel8 = {fontFileName = "fusion-pixel-8px-proportional-zh_hans.ttf", fontSize = 8},
 		fusionPixel12 = {fontFileName = "fusion-pixel-12px-proportional-zh_hans.ttf", fontSize = 12},
 		changBanDianSong = {fontFileName = "ChangBanDianSong-16-SC.ttf", fontSize = 16},
 		unifont = {fontFileName = "unifont-17.0.04.otf", fontSize = 16},
 	}
-
 	for fontName, fontInfo in pairs(chineseFontList) do
-		local pathToFontFile = chineseFontPath .. fontInfo.fontFileName
+		local pathToFontFile = "Mods/ChsMod/fonts/" .. fontInfo.fontFileName
 		if love.filesystem.exists(pathToFontFile) then
 			print("Loading font: " .. fontInfo.fontFileName)
 
@@ -163,15 +152,12 @@ if mountSuccess then
 			print("ERROR: Font file not exists: " .. pathToFontFile)
 		end
 	end
-	fonts['fusionPixel12Glitched'] = love.graphics.newImageFont('ChsMod/fonts/fp12Garbage.png', '介地弹反侧挑额联返连！击回动外战击向跳雷绍', 1)
-	fonts['fusionPixel8Glitched'] = love.graphics.newImageFont('ChsMod/fonts/fp8Garbage.png', '精准度', 1)
 
-	print("Unmount " .. chsModPath)
-	love.filesystem.unmountFullPath(chsModPath)
+	fonts['fusionPixel12Glitched'] = love.graphics.newImageFont('Mods/ChsMod/fonts/fp12Garbage.png', '介地弹反侧挑额联返连！击回动外战击向跳雷绍', 1)
+	fonts['fusionPixel8Glitched'] = love.graphics.newImageFont('Mods/ChsMod/fonts/fp8Garbage.png', '精准度', 1)
 else
-	print("ERROR: Failed to mount path: " .. chsModPath)
+	print("ERROR: 'Mods/ChsMod' folder not exists!")
 end
-
 if fonts.changBanDianSong then fonts.changBanDianSong:setLineHeight(1.1) end
 fonts.digitalDiscoGlitched:setFallbacks(fonts.fusionPixel12Glitched)
 fonts.mainGlitched:setFallbacks(fonts.fusionPixel8Glitched)

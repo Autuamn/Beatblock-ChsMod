@@ -1,0 +1,43 @@
+{
+    "options": {
+        "language": {
+            "order": 1,
+            "values": {
+                "language": {
+                    "order": 1,
+                    "type": "enum",
+                    "options": [
+                        {
+                            "order": 0,
+                            "value": "en",
+                            "valueLoc": "lang_en"
+                        },
+                        {
+                            "order": 1,
+                            "value": "zh_cn",
+                            "valueLoc": "lang_zh_cn"
+                        }
+                    ],
+                    "var": "savedata.options.language"
+                },
+                "fontMode": {
+                    "order": 2,
+                    "type": "enum",
+                    "options": [
+                        {
+                            "order": 0,
+                            "value": "replace",
+                            "valueLoc": "enumFontModeReplace"
+                        },
+                        {
+                            "order": 1,
+                            "value": "fallback",
+                            "valueLoc": "enumFontModeFallback"
+                        }
+                    ],
+                    "var": "savedata.options.fontMode"
+                }
+            }
+        }
+    }
+}

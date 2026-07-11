@@ -4,83 +4,19 @@ priority = 0
 
 [[patches]]
 [patches.pattern]
-target = "states/Menu.lua"
-pattern = "langOption.languages = *"
+target = "states/NewOptionsMenu.lua"
+pattern = 'local data = dpf.loadJson("data/optionsMenuItems.json")'
 position = "after"
-payload = "table.insert(langOption.languages, 'zh_cn')"
+payload = 'data.options["language"] = dpf.loadJson("Mods/ChsMod/optionsMenuItems.json")["options"]["language"]'
 match_indent = true
 times = 1
 
 [[patches]]
 [patches.pattern]
-target = "states/Menu.lua"
-pattern = "--self.optionsMenu:addOption('optionsLanguage','language',optionsHeight*1)"
-position = "at"
-payload = "self.optionsMenu:addOption('optionsLanguage','language',optionsHeight*1)"
-match_indent = true
-times = 1
-
-[[patches]]
-[patches.pattern]
-target = "states/Menu.lua"
-pattern = "self.optionsMenu:addOption('optionsAccessibility','accessibility',optionsHeight*1)"
-position = "at"
-payload = "self.optionsMenu:addOption('optionsAccessibility','accessibility',optionsHeight*2)"
-match_indent = true
-times = 1
-
-[[patches]]
-[patches.pattern]
-target = "states/Menu.lua"
-pattern = "self.optionsMenu:addOption('optionsGraphics','graphics',optionsHeight*2)"
-position = "at"
-payload = "self.optionsMenu:addOption('optionsGraphics','graphics',optionsHeight*3)"
-match_indent = true
-times = 1
-
-[[patches]]
-[patches.pattern]
-target = "states/Menu.lua"
-pattern = "self.optionsMenu:addOption('optionsAudio','audio',optionsHeight*3)"
-position = "at"
-payload = "self.optionsMenu:addOption('optionsAudio','audio',optionsHeight*4)"
-match_indent = true
-times = 1
-
-[[patches]]
-[patches.pattern]
-target = "states/Menu.lua"
-pattern = "self.optionsMenu:addOption('optionsGameplay','gameplay',optionsHeight*4)"
-position = "at"
-payload = "self.optionsMenu:addOption('optionsGameplay','gameplay',optionsHeight*5)"
-match_indent = true
-times = 1
-
-[[patches]]
-[patches.pattern]
-target = "states/Menu.lua"
-pattern = "self.optionsMenu:addOption('optionsKeybinds', 'keybinds', optionsHeight*5)"
-position = "at"
-payload = "self.optionsMenu:addOption('optionsKeybinds', 'keybinds', optionsHeight*6)"
-match_indent = true
-times = 1
-
-[[patches]]
-[patches.pattern]
-target = "states/Menu.lua"
-pattern = '''
-		self.optionsMenu:addOption('optionsJokes',function()
-			self.jokesData = helpers.copytable(savedata.aprilFools,2)
-			self.optionsMenu:setSubmenu('jokes')
-		end,optionsHeight*6)
-'''
-position = "at"
-payload = '''
-		self.optionsMenu:addOption('optionsJokes',function()
-			self.jokesData = helpers.copytable(savedata.aprilFools,2)
-			self.optionsMenu:setSubmenu('jokes')
-		end,optionsHeight*7)
-'''
+target = "preload/sprites.lua"
+pattern = "return sprites"
+position = "before"
+payload = "sprites.optionsMenu['language'] = love.graphics.newImage('Mods/ChsMod/icons/language.png')"
 match_indent = true
 times = 1
 
@@ -110,6 +46,13 @@ if love.filesystem.exists('Mods/ChsMod') then
 		for k, v in pairs(loc.json.optionsLanguage) do
 			loc.json['lang_' .. newLanguage][k] = chsLocJson['lang_' .. newLanguage][newLanguage]
 		end
+		loc.json["optionsFontMode"] = {en = "Font Mode", zh_cn = "字体模式"}
+		loc.json["fontModeHint"] = {
+			en = "Works only in Simplified Chinese, and requires a game restart to take effect.\n\"Replace\" will replace the main font with 'Fusion Pixel';\n\"Set Fallback\" will use 'Fusion Pixel' when the main font lacks characters;\nDue to a bug in the LOVE2D engine, using 'Set Fallback' may sometimes cause issues such as mixed sorting.",
+			zh_cn = "主要字体（main 和 digitalDisco）的处理方式，需要重启游戏才能生效。\n“替换”会将主要字体替换为“缝合像素字体”；\n“设置回退”会在主要字体缺少字符时使用“缝合像素字体”；\n由于 LOVE2D 引擎的 bug，使用“设置回退”有时会导致中英文排序混乱等错误。"
+		}
+		loc.json["enumFontModeReplace"] = {en = "Replace", zh_cn = "替换"}
+		loc.json["enumFontModeFallback"] = {en = "Set Fallback", zh_cn = "设置回退"}
 		print(newLanguage .. " localization merged! Keys: " .. count)
 	else
 		print("Failed to decode Json: ".. locPath)
@@ -172,6 +115,7 @@ pattern = '--Demo save update code'
 position = "before"
 payload = '''
 if savedata.options.language == 'zh_cn' then
+	if savedata.options.fontMode == 'replace' then
 	if fonts.fusionPixel8 then
 		fonts.fusionPixel8:setLineHeight(0.75)
 		fonts.main = fonts.fusionPixel8
@@ -180,6 +124,15 @@ if savedata.options.language == 'zh_cn' then
 		fonts.fusionPixel12:setLineHeight(0.75)
 		fonts.digitalDisco = fonts.fusionPixel12
 		fonts.jfdot = fonts.fusionPixel12
+		end
+	else
+		if fonts.fusionPixel8 then
+			fonts.main:setFallbacks(fonts.fusionPixel8)
+		end
+		if fonts.fusionPixel12 then
+			fonts.digitalDisco:setFallbacks(fonts.fusionPixel12)
+			fonts.jfdot = fonts.fusionPixel12
+		end
 	end
 	if fonts.unifont then
 		fonts.jfdot2 = fonts.unifont
@@ -274,134 +227,3 @@ payload = "if not(self:isUnbreakChar(l)) and wrapLen > 0 then"
 times = 1
 match_indent = true
 
-[[patches]]
-[patches.pattern]
-target = "obj/GameManager.lua"
-pattern = "for i = 1, #combo_print do"
-position = "at"
-payload = "for i = 1, utf8.len(combo_print) do"
-times = 1
-match_indent = true
-
-[[patches]]
-[patches.pattern]
-target = "obj/GameManager.lua"
-pattern = "if i == 1 then combo_print = ' ' .. string.sub(combo_print, 2, -1) end"
-position = "at"
-payload = '''
-local bpos = utf8.offset(combo_print, i)
-local epos = utf8.offset(combo_print, i + 1) or (#combo_print + 1)
-if i == 1 then
-	combo_print = ' ' .. string.sub(combo_print, epos, -1)
-else
-'''
-times = 1
-match_indent = true
-
-[[patches]]
-[patches.pattern]
-target = "obj/GameManager.lua"
-pattern = "combo_print = string.sub(combo_print, 1, i) .. ' ' .. string.sub(combo_print, i+2, -1)"
-position = "at"
-payload = "combo_print = string.sub(combo_print, 1, bpos - 1) .. ' ' .. string.sub(combo_print, epos, -1) end"
-times = 1
-match_indent = true
-
-[[patches]]
-[patches.pattern]
-target = "obj/GameManager.lua"
-pattern = "for i = 1, #text_print do"
-position = "at"
-payload = "for i = 1, utf8.len(text_print) do"
-times = 2
-match_indent = true
-
-[[patches]]
-[patches.pattern]
-target = "obj/GameManager.lua"
-pattern = "if i == 1 then text_print = ' ' .. string.sub(text_print, 2, -1) end"
-position = "at"
-payload = '''
-local bpos = utf8.offset(text_print, i)
-local epos = utf8.offset(text_print, i + 1) or (#text_print + 1)
-if i == 1 then
-	text_print = ' ' .. string.sub(text_print, epos, -1)
-else
-'''
-times = 2
-match_indent = true
-
-[[patches]]
-[patches.pattern]
-target = "obj/GameManager.lua"
-pattern = "text_print = string.sub(text_print, 1, i) .. ' ' .. string.sub(text_print, i+2, -1)"
-position = "at"
-payload = "text_print = string.sub(text_print, 1, bpos - 1) .. ' ' .. string.sub(text_print, epos, -1) end"
-times = 2
-match_indent = true
-
-[[patches]]
-[patches.pattern]
-target = "obj/GameManager.lua"
-pattern = "for i = 1, #accStr do"
-position = "at"
-payload = "for i = 1, utf8.len(accStr) do"
-times = 1
-match_indent = true
-
-[[patches]]
-[patches.pattern]
-target = "obj/GameManager.lua"
-pattern = "if i == 1 then accStr = ' ' .. string.sub(accStr, 2, -1) end"
-position = "at"
-payload = '''
-local bpos = utf8.offset(accStr, i)
-local epos = utf8.offset(accStr, i + 1) or (#accStr + 1)
-if i == 1 then
-	accStr = ' ' .. string.sub(accStr, epos, -1)
-else
-'''
-times = 1
-match_indent = true
-
-[[patches]]
-[patches.pattern]
-target = "obj/GameManager.lua"
-pattern = "accStr = string.sub(accStr, 1, i) .. ' ' .. string.sub(accStr, i+2, -1)"
-position = "at"
-payload = "accStr = string.sub(accStr, 1, bpos - 1) .. ' ' .. string.sub(accStr, epos, -1) end"
-times = 1
-match_indent = true
-
-[[patches]]
-[patches.pattern]
-target = "obj/GameManager.lua"
-pattern = "for i = 1, #str do"
-position = "at"
-payload = "for i = 1, utf8.len(str) do"
-times = 1
-match_indent = true
-
-[[patches]]
-[patches.pattern]
-target = "obj/GameManager.lua"
-pattern = "if i == 1 then str = ' ' .. string.sub(str, 2, -1) end"
-position = "at"
-payload = '''
-local bpos = utf8.offset(str, i)
-local epos = utf8.offset(str, i + 1) or (#str + 1)
-if i == 1 then
-	str = ' ' .. string.sub(str, epos, -1)
-else
-'''
-times = 1
-match_indent = true
-
-[[patches]]
-[patches.pattern]
-target = "obj/GameManager.lua"
-pattern = "str = string.sub(str, 1, i) .. ' ' .. string.sub(str, i+2, -1)"
-position = "at"
-payload = "str = string.sub(str, 1, bpos - 1) .. ' ' .. string.sub(str, epos, -1) end"
-times = 1
-match_indent = true

@@ -739,7 +739,7 @@
     },
     "lang_zh_cn": {
         "en": "简体中文",
-        "zh_cn": "简体中文",
+        "zh_cn": "[font=fusionPixel12]简体中文",
         "owo": "简体中文"
     },
     "lang_kr": {
@@ -1254,22 +1254,22 @@
     },
     "combo": {
         "en": " combo!",
-        "zh_cn": " 连击！",
+        "zh_cn": " combo!",
         "owo": " combOwO!"
     },
     "comboPerfect": {
         "en": " COMBO!!",
-        "zh_cn": " 连击！",
+        "zh_cn": " COMBO!!",
         "owo": " COMBOwO!!"
     },
     "comboExpanded": {
         "en": "combo",
-        "zh_cn": "连击",
+        "zh_cn": "combo",
         "owo": "combowo"
     },
     "accuracyExpanded": {
         "en": "accuracy",
-        "zh_cn": "精准度",
+        "zh_cn": "accuracy",
         "owo": "accuwwacy"
     },
     "accuracyBarelySingular": {

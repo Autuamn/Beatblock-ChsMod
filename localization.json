@@ -31,12 +31,12 @@
     },
     "Mines": {
         "en": "Mines",
-        "zh_cn": "炸弹",
+        "zh_cn": "地雷",
         "owo": "Mines uwu"
     },
     "Mineholds": {
         "en": "Mineholds",
-        "zh_cn": "长条炸弹",
+        "zh_cn": "长条地雷",
         "owo": "Minehowds"
     },
     "Sides": {
@@ -224,7 +224,7 @@
     },
     "optionsInputOffset": {
         "en": "Input offset",
-        "zh_cn": "输入延迟",
+        "zh_cn": "输入偏移",
         "owo": "Inpuwt offset: @@1@@ ms"
     },
     "optionsCalibrate": {
@@ -551,7 +551,7 @@
         "zh_cn": "玩笑"
     },
     "optionsJokes_enable": {
-        "en": "The fun is...@@1@@!",
+        "en": "The fun is...",
         "zh_cn": "乐趣……"
     },
     "optionsJokes_noCranky": {
@@ -818,7 +818,7 @@
     },
     "noPRankMessage": {
         "en": "Ineligible for P-Ranks",
-        "zh_cn": "无法获得 P 评价",
+        "zh_cn": "无法获得 P 评级",
         "owo": "No Prank... ;w;"
     },
     "optionsMenuHeader": {
@@ -922,7 +922,7 @@
     },
     "optionsMenuDescription3": {
         "en": "Changes the leniency of tap notes, or allows you to hit tap notes automatically.",
-        "zh_cn": "调整点按 Tap 的判定宽松度，或允许自动点击。",
+        "zh_cn": "调整 Tap 音符的判定宽松度，或允许自动点击。",
         "owo": "Makes tap notes more lenient, or allows you to hit tap notes automatically."
     },
     "optionsMenuDescription4": {
@@ -932,7 +932,7 @@
     },
     "optionsMenuDescription5": {
         "en": "Turns barelies into hits (lenient) or misses (strict)",
-        "zh_cn": "将 Barely 变成 Hit（宽松）或 Miss（严格）",
+        "zh_cn": "将 Barely 视为 Hit（宽松）或 Miss（严格）",
         "owo": "Removes the ability to obtain Barely judgements, causing a Miss in their place instead."
     },
     "optionsMenuDescription6": {
@@ -1503,7 +1503,7 @@
     },
     "levelPublicoDescription": {
         "en": "A guided audio tour of the Side Note Museum.\n\n\"Ranked as the Most Popular Note in Beatblocker's Magazine, two years running.\"",
-        "zh_cn": "欢迎收听侧击音符博物馆的语音导览。\n\n“连续两年被《节奏方块》杂志评为最受欢迎的音符。”",
+        "zh_cn": "欢迎收听侧击音符博物馆的语音导览。\n\n“连续两年被《节奏方块人》杂志评为最受欢迎的音符。”",
         "owo": "a guided audio touw of the side note museum.\n \n\"ranked as the most popuwaw note in beatbwockew's magazine, two yeaws wunning.\""
     },
     "level3BitBebopDescription": {
@@ -2495,7 +2495,7 @@
     },
     "costume_unlock_arank": {
         "en": "Get an A rank or higher on \"@@1@@\"",
-        "zh_cn": "在《@@1@@》中获得 A 或更高评价"
+        "zh_cn": "在《@@1@@》中获得 A 或更高评级"
     },
     "costume_random": {
         "en": "Random",
@@ -2644,7 +2644,7 @@
     },
     "costume_square": {
         "en": "Square",
-        "zh_cn": "方块"
+        "zh_cn": "方形"
     },
     "costume_square_description": {
         "en": "The trash compactor got them.",
@@ -2775,7 +2775,7 @@
     },
     "costume_huxley_description": {
         "en": "The year was 1894...",
-        "zh_cn": "那是在1894年……"
+        "zh_cn": "那是在 1894 年……"
     },
     "costume_huxley_unlock": {
         "en": "a!público cautivo",
@@ -2883,7 +2883,7 @@
     },
     "costume_heptagramme": {
         "en": "Saturday",
-        "zh_cn": "星期六"
+        "zh_cn": "Saturday"
     },
     "costume_heptagramme_description": {
         "en": "We have sides here, not bumpers.",
@@ -2903,7 +2903,7 @@
     },
     "costume_crown_unlock": {
         "en": "a!DAMOCLISM",
-        "zh_cnen": "a!DAMOCLISM",
+        "zh_cn": "a!DAMOCLISM",
         "owo": "NULL"
     },
     "costume_blob": {
@@ -2993,7 +2993,7 @@
     },
     "costume_0ssembli_unlock": {
         "en": "Get an A rank or higher on \"BLOW A FUSE\", \"Destroy, Destroy (ft. eili)\", and \"Omelette Cafe By Road 38\"",
-        "zh_cn": "在《BLOW A FUSE》《Destroy, Destroy (ft. eili)》和《Omelette Cafe By Road 38》中取得 A 或更高的评价"
+        "zh_cn": "在《BLOW A FUSE》《Destroy, Destroy (ft. eili)》和《Omelette Cafe By Road 38》中取得 A 或更高的评级"
     },
     "costume_iforgor": {
         "en": "i forgor",
@@ -3022,7 +3022,7 @@
     },
     "costume_rfandf_description": {
         "en": "Mama always told me that Paddles keep wolves away...\nPlay Red: Flame & Fable on Steam for free!",
-        "zh_cn": "妈妈总是告诉我，Paddles 能驱赶狼群……\n在 Steam 上免费游玩《Red: Flame & Fable》吧！"
+        "zh_cn": "妈妈总是告诉我，挡板能驱赶狼群……\n在 Steam 上免费游玩《Red: Flame & Fable》吧！"
     },
     "costume_rfandf_unlock": {
         "en": "CURRENTLY NONE",
@@ -3095,7 +3095,7 @@
     },
     "achievement_desc_intro_boss_rank": {
         "en": "Score an S rank or higher on Rhythmic Shield",
-        "zh_cn": "在《Rhythmic Shield》中取得 S 或更高评价"
+        "zh_cn": "在《Rhythmic Shield》中取得 S 或更高评级"
     },
     "achievement_mine_boss_rank": {
         "en": "Defused",
@@ -3103,7 +3103,7 @@
     },
     "achievement_desc_mine_boss_rank": {
         "en": "Score an S rank or higher on BLOW A FUSE",
-        "zh_cn": "在《BLOW A FUSE》中取得 S 或更高评价"
+        "zh_cn": "在《BLOW A FUSE》中取得 S 或更高评级"
     },
     "achievement_side_boss_rank": {
         "en": "Past Relics",
@@ -3111,7 +3111,7 @@
     },
     "achievement_desc_side_boss_rank": {
         "en": "Score an S rank or higher on Destroy, Destroy",
-        "zh_cn": "在《Destroy, Destroy》中取得 S 或更高评价"
+        "zh_cn": "在《Destroy, Destroy》中取得 S 或更高评级"
     },
     "achievement_bounce_boss_rank": {
         "en": "Off the Rails",
@@ -3119,7 +3119,7 @@
     },
     "achievement_desc_bounce_boss_rank": {
         "en": "Score an S rank or higher on BEATROCK (get it?)",
-        "zh_cn": "在《BEATROCK (get it?)》中取得 S 或更高评价"
+        "zh_cn": "在《BEATROCK (get it?)》中取得 S 或更高评级"
     },
     "achievement_inverse_boss_rank": {
         "en": "Y2K",
@@ -3127,7 +3127,7 @@
     },
     "achievement_desc_inverse_boss_rank": {
         "en": "Score an S rank or higher on ILOVEYOU.vbs",
-        "zh_cn": "在《ILOVEYOU.vbs》中取得 S 或更高评价"
+        "zh_cn": "在《ILOVEYOU.vbs》中取得 S 或更高评级"
     },
     "achievement_now_you_c_mi": {
         "en": "Now you C-ミ, Now you don't",
@@ -3135,7 +3135,7 @@
     },
     "achievement_desc_now_you_c_mi": {
         "en": "Score an S rank or higher on C-ミ B-ミ",
-        "zh_cn": "在《C-ミ B-ミ》中取得 S 或更高评价"
+        "zh_cn": "在《C-ミ B-ミ》中取得 S 或更高评级"
     },
     "achievement_scientific_progress": {
         "en": "Scientific progress goes \"Boink\"",
@@ -3143,7 +3143,7 @@
     },
     "achievement_desc_scientific_progress": {
         "en": "Score an S rank or higher on Lawrence",
-        "zh_cn": "在《Lawrence》中取得 S 或更高评价"
+        "zh_cn": "在《Lawrence》中取得 S 或更高评级"
     },
     "achievement_dine_and_dash": {
         "en": "Dine and Dash",
@@ -3151,7 +3151,7 @@
     },
     "achievement_desc_dine_and_dash": {
         "en": "Score an S rank or higher on Omelette Cafe By Road 38",
-        "zh_cn": "在《Omelette Cafe By Road 38》中取得 S 或更高评价"
+        "zh_cn": "在《Omelette Cafe By Road 38》中取得 S 或更高评级"
     },
     "achievement_connection_established": {
         "en": "CONNEC+10N ES+ABL1SHED",
@@ -3159,7 +3159,7 @@
     },
     "achievement_desc_connection_established": {
         "en": "Score an S rank or higher on +ERABY+E CONNEC+10N",
-        "zh_cn": "在《+ERABY+E CONNEC+10N》中取得 S 或更高评价"
+        "zh_cn": "在《+ERABY+E CONNEC+10N》中取得 S 或更高评级"
     },
     "achievement_end_of_an_era": {
         "en": "End of an Era",
@@ -3167,7 +3167,7 @@
     },
     "achievement_desc_end_of_an_era": {
         "en": "Score an S rank or higher on Era Chimæra",
-        "zh_cn": "在《Era Chimæra》中取得 S 或更高评价"
+        "zh_cn": "在《Era Chimæra》中取得 S 或更高评级"
     },
     "achievement_sorry": {
         "en": "sorry...",
@@ -3175,7 +3175,7 @@
     },
     "achievement_desc_sorry": {
         "en": "Complete a level with a single miss",
-        "zh_cn": "以单次 Miss 完成一首歌曲"
+        "zh_cn": "以单次 Miss 完成一个关卡"
     },
     "achievement_not_sorry": {
         "en": "(i'm not sorry at all, actually)",
@@ -3183,7 +3183,7 @@
     },
     "achievement_desc_not_sorry": {
         "en": "Complete a level with a single barely",
-        "zh_cn": "以单次 Barely 完成一首歌曲"
+        "zh_cn": "以单次 Barely 完成一个关卡"
     },
     "achievement_perfect_score": {
         "en": "Perfect Score!",
@@ -3191,7 +3191,7 @@
     },
     "achievement_desc_perfect_score": {
         "en": "Score a P rank on any level",
-        "zh_cn": "在任意歌曲中取得 P 评价"
+        "zh_cn": "在任意关卡中取得 P 评级"
     },
     "achievement_ladybug_castle": {
         "en": "Our Ladybug is in Another Castle",
@@ -3207,7 +3207,7 @@
     },
     "achievement_desc_some_assembly_required": {
         "en": "Score an S rank or higher on Destroy Destroy, BLOW A FUSE, and Omelette Cafe",
-        "zh_cn": "在《Destroy Destroy》《BLOW A FUSE》和《Omelette Cafe》中取得 S 或更高的评价"
+        "zh_cn": "在《Destroy Destroy》《BLOW A FUSE》和《Omelette Cafe》中取得 S 或更高的评级"
     },
     "achievement_awesome_beats_blocked_quick": {
         "en": "Awesome Beats Blocked Quick",
@@ -3215,7 +3215,7 @@
     },
     "achievement_desc_awesome_beats_blocked_quick": {
         "en": "Pass a song (B- or higher) with ratemod at 2.0x",
-        "zh_cn": "在 2.0 倍速下通关任意歌曲（评价 B- 或更高）"
+        "zh_cn": "在 2.0 倍速下通关任意歌曲（评级 B- 或更高）"
     },
     "achievement_rodney_proud": {
         "en": "Good job. Rodney is very proud of you.",
@@ -3231,7 +3231,7 @@
     },
     "achievement_desc_heavy_is_the_crown": {
         "en": "Score an S rank or higher on DAMOCLISM",
-        "zh_cn": "在《DAMOCLISM》中取得 S 或更高评价"
+        "zh_cn": "在《DAMOCLISM》中取得 S 或更高评级"
     },
     "achievement_combo_meal": {
         "en": "7.65 Combo Meal",
@@ -3239,7 +3239,7 @@
     },
     "achievement_desc_combo_meal": {
         "en": "Get an S rank on NISENEN",
-        "zh_cn": "在《NISENEN》中取得 S 评价"
+        "zh_cn": "在《NISENEN》中取得 S 评级"
     },
     "achievement_we_are_all_connected": {
         "en": "We Are All Connected",
@@ -3295,7 +3295,7 @@
     },
     "achievement_desc_silver_lining": {
         "en": "Score an S rank or higher on cloud factory",
-        "zh_cn": "在《cloud factory》中获得 S 级或更高评价"
+        "zh_cn": "在《cloud factory》中获得 S 或更高评级"
     },
     "achievement_enjoy_flight": {
         "en": "Enjoy Your Flight!",
@@ -3311,7 +3311,7 @@
     },
     "achievement_desc_airline_food": {
         "en": "Score an S rank or higher on Novena",
-        "zh_cn": "在《Novena》中获得 S 级或更高评价"
+        "zh_cn": "在《Novena》中获得 S 或更高评级"
     },
     "achievement_shattered": {
         "en": "Shattered",
@@ -3319,7 +3319,7 @@
     },
     "achievement_desc_shattered": {
         "en": "Score an S rank or higher on Fragmented Existence",
-        "zh_cn": "在《Fragmented Existence》中获得 S 级或更高评价"
+        "zh_cn": "在《Fragmented Existence》中获得 S 或更高评级"
     },
     "achievement_hacked": {
         "en": "\\[hacker voice] I'm in.",
@@ -3335,7 +3335,7 @@
     },
     "achievement_desc_cracked": {
         "en": "Score an S rank or higher on what's a keygen?",
-        "zh_cn": "在《what's a keygen?》中获得 S 级或更高评价"
+        "zh_cn": "在《what's a keygen?》中获得 S 或更高评级"
     },
     "achievement_yeast_beast": {
         "en": "Yeast Beast",
@@ -3343,7 +3343,7 @@
     },
     "achievement_desc_yeast_beast": {
         "en": "Score an S rank or higher on Heated Battle! ~ Disco Bakery",
-        "zh_cn": "在《Heated Battle! ~ Disco Bakery》中获得 S 级或更高评价"
+        "zh_cn": "在《Heated Battle! ~ Disco Bakery》中获得 S 或更高评级"
     },
     "achievementHiddenMessage": {
         "en": "and @@1@@ hidden achievements...",
@@ -3443,7 +3443,7 @@
     },
     "popupAFWarningTurnAllOn": {
         "en": "Excellent... We've enabled two gags by default, and if you'd like to go [rotate=1]ALL IN[rotate=0] and turn on EVERYTHING, you can enter the settings with the Jester costume on.\nOptions there may affect your enjoyment of the game!",
-        "zh_cn": "太好了……我们默认启用了两个玩笑，如果你想[rotate=1]全力以赴[rotate=0]并开启所有内容，可以穿戴“小丑”装扮进入设置。\n\n其中的选项可能会影响你的游戏体验！"
+        "zh_cn": "太好了……我们默认启用了两个玩笑，如果你想[rotate=1]全力以赴[rotate=0]并开启所有内容，可以穿戴“小丑”装扮进入设置。\n其中的选项可能会影响你的游戏体验！"
     },
     "collabSourceBeatblock": {
         "en": "Beatblock Original Song",
@@ -3503,7 +3503,7 @@
     },
     "HUDHint": {
         "en": "The appearance of the game's HUD during gameplay.\n\"None\" shows no HUD, \"Simple\" shows your combo only,\n\"Expanded\" shows all information, and \"Complex\" additionally\nshows misses and barelies.",
-        "zh_cn": "游玩时的 HUD 显示样式。\n“无”不显示 HUD；“简单”仅显示连击数；\n“扩展”显示全部信息；“复杂”则额外\n显示 Miss（未击中）和 Barely（擦边）。"
+        "zh_cn": "游玩时的 HUD 显示样式。\n“无”不显示 HUD；“简洁”仅显示连击数；\n“扩展”显示全部信息；“复杂”则额外显示 Miss 和 Barely。"
     },
     "windowScaleHint": {
         "en": "The current scale of the window, as a multiplier.",
@@ -3555,7 +3555,7 @@
     },
     "disableClickHint": {
         "en": "Enables using the Left and Right click on your mouse as Tap and Alternate Tap actions.",
-        "zh_cn": "将鼠标左键和右键映射为 Tap（点击）和 Alt Tap（备用点击）操作。"
+        "zh_cn": "将鼠标左键和右键映射为点击和点击（备用）操作。"
     },
     "customCursorInMenuHint": {
         "en": "Use the custom cursor outside of levels.",
@@ -3571,7 +3571,7 @@
     },
     "sidesHint": {
         "en": "Modifies the behaviour of side notes.\n\"Lenient\" allows side notes to be hit with the middle of the paddle.\n\"Automatic\" always hits side notes regardless of performance.",
-        "zh_cn": "修改 Side 音符的判定行为。\n“宽松”允许使用 Paddle 中间击中 Side 音符。\n“自动”无视操作，自动击中所有 Side 音符。"
+        "zh_cn": "修改 Side 音符的判定行为。\n“宽松”允许使用挡板中间击中 Side 音符。\n“自动”无视操作，自动击中所有 Side 音符。"
     },
     "strainReductionHint": {
         "en": "Reduces brightness and increases the color temperature to help reduce eye strain.",
@@ -3591,7 +3591,7 @@
     },
     "bareliesHint": {
         "en": "Modifies the behaviour of barelies (hitting a note with the corner of the paddle).\n\"Strict\" causes the game to treat this as a miss.\n\"Lenient\" causes the game to treat this as a perfect.",
-        "zh_cn": "修改 Barely 判定（用 Paddle 的角落击中音符）的行为。\n“严格”会将 Barely 视为 Miss。\n“宽松”会将 Barely 视为 Perfect。"
+        "zh_cn": "修改 Barely 判定（用挡板的角落击中音符）的行为。\n“严格”会将 Barely 视为 Miss。\n“宽松”会将 Barely 视为 Perfect。"
     },
     "menu_downHint": {
         "en": "Keybind to move down in menus,",
@@ -3715,7 +3715,7 @@
     },
     "Jokes_randomPaddleOffsetHint": {
         "en": "Changes the offset of Cranky's paddle by a small amount at the start of the song.",
-        "zh_cn": "在歌曲开始时，轻微改变 Cranky 的 Paddle 的偏移量。"
+        "zh_cn": "在歌曲开始时，轻微改变 Cranky 挡板的偏移量。"
     },
     "Jokes_randomScrollSpeedHint": {
         "en": "Randomises the scroll speed of individual notes, within a small radius.",

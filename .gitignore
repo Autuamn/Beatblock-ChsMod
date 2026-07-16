@@ -5,6 +5,7 @@
 
 !.gitignore
 !Changelog.md
+!README.md
 !localization.json
 !optionsMenuItems.json
 !lovely.toml

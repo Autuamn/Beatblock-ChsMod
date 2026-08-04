@@ -235,12 +235,12 @@
     "optionsSfxVolume": {
         "en": "SFX volume",
         "zh_cn": "音效音量",
-        "owo": "Sfx vowuwme: @@1@@"
+        "owo": "Sfx vowuwme"
     },
     "optionsMusicVolume": {
         "en": "Music volume",
         "zh_cn": "音乐音量",
-        "owo": "Muwsic vowuwme: @@1@@"
+        "owo": "Muwsic vowuwme"
     },
     "optionsFullscreen": {
         "en": "Fullscreen",
@@ -250,7 +250,7 @@
     "optionsWindowScale": {
         "en": "Window scale",
         "zh_cn": "窗口缩放",
-        "owo": "Window scawe: @@1@@x"
+        "owo": "Window scawe"
     },
     "optionsPlayMenuMusic": {
         "en": "Play menu music",
@@ -265,6 +265,10 @@
     "optionsFlipAnalog": {
         "en": "Use Right Stick for Gameplay",
         "zh_cn": "使用右摇杆操作"
+    },
+    "optionsHidePaddle": {
+        "en": "Hide paddle",
+        "zh_cn": "隐藏挡板"
     },
     "optionsAudio": {
         "en": "Audio",
@@ -291,14 +295,15 @@
         "zh_cn": "强制键鼠模式",
         "owo": "Fowce mouwse+keyboawd"
     },
-    "optionsCircleSnap": {
-        "en": "Circle Snap",
-        "zh_cn": "圆形吸附",
-        "owo": "Ciwcwe snap: @@1@@"
+    "optionsCircleLock": {
+        "en": "Circle Lock",
+        "zh_cn": "圆形锁定",
+        "owo": "Ciwcwe wock"
     },
-    "optionsCircleSnapRadius": {
-        "en": "Circle Snap Radius",
-        "zh_cn": "圆形吸附半径"
+    "optionsCircleLockRadius": {
+        "en": "Circle Lock Radius",
+        "zh_cn": "圆形锁定半径",
+        "owo": "Ciwcwe wock wadius"
     },
     "optionsLockToWindow": {
         "en": "Lock Mouse to Window",
@@ -323,21 +328,21 @@
         "en": "Saved!",
         "zh_cn": "已保存！"
     },
-    "enumCircleSnapDisabled": {
+    "enumCircleLockDisabled": {
         "en": "Disabled",
         "zh_cn": "禁用"
     },
-    "enumCircleSnapStiff": {
-        "en": "Stiff (locked to circle, crank-like)",
-        "zh_cn": "僵硬（锁定于圆周，曲柄式）"
+    "enumCircleLockStiff": {
+        "en": "Stiff",
+        "zh_cn": "生硬"
     },
-    "enumCircleSnapSnappy": {
-        "en": "Snappy (locked to circle, joystick-like)",
-        "zh_cn": "灵敏（锁定于圆周，摇杆式）"
+    "enumCircleLockSnappy": {
+        "en": "Snappy",
+        "zh_cn": "弹性"
     },
-    "enumCircleSnapDome": {
-        "en": "Dome (free movement inside circle)",
-        "zh_cn": "圆顶（在圆内自由移动）"
+    "enumCircleLockDome": {
+        "en": "Dome",
+        "zh_cn": "圆顶"
     },
     "enumCursorDefault": {
         "en": "Default",
@@ -700,7 +705,7 @@
         "zh_cn": "三！",
         "owo": "three!"
     },
-    "resetSave": {
+    "optionsResetSave": {
         "en": "Reset Save",
         "zh_cn": "重置存档"
     },
@@ -1638,6 +1643,10 @@
     "levelDiscoBakeryDescription": {
         "en": "A little four-on-the-floor, a dash of strings, and a bassline for some oomph- that's the bakery special!",
         "zh_cn": "一点四拍底鼓，一抹弦乐，再加上带劲的低音贝斯——这就是面包店的招牌！"
+    },
+    "levelSmileDescription": {
+        "en": "Happiness can come in many forms.\n\n(like, for instance, making music with your friends in a group chat)",
+        "zh_cn": "快乐可以有很多种形式。\n\n（例如，和朋友们在群聊中一起创作音乐）"
     },
     "ttsIntro1": {
         "en": "This, is a [charspacing=1][xDuplicate=1]mine[charspacing=0][xDuplicate=0].",
@@ -2844,6 +2853,18 @@
         "en": "a!C-ミ B-ミ",
         "zh_cn": "a!C-ミ B-ミ"
     },
+    "costume_c-me": {
+        "en": "Beatmini",
+        "zh_cn": "Beatmini"
+    },
+    "costume_c-me_description": {
+        "en": "You are the DJ. Hit the key.",
+        "zh_cn": "你是 DJ。按下按键。"
+    },
+    "costume_c-me_unlock": {
+        "en": "a!C-ミ B-ミ",
+        "zh_cn": "a!C-ミ B-ミ"
+    },
     "costume_stache": {
         "en": "Electrifying 'Stache",
         "zh_cn": "带电胡子"
@@ -3345,6 +3366,14 @@
         "en": "Score an S rank or higher on Heated Battle! ~ Disco Bakery",
         "zh_cn": "在《Heated Battle! ~ Disco Bakery》中获得 S 或更高评级"
     },
+    "achievement_tiny_dm_concert": {
+        "en": "Tiny DM Concert",
+        "zh_cn": "小小 DM 演唱会"
+    },
+    "achievement_desc_tiny_dm_concert": {
+        "en": "Score an S rank or higher on :))))",
+        "zh_cn": "在《:))))》中获得 S 或更高评级"
+    },
     "achievementHiddenMessage": {
         "en": "and @@1@@ hidden achievements...",
         "zh_cn": "以及 @@1@@ 个隐藏成就……"
@@ -3533,17 +3562,17 @@
         "en": "Play music in the menus.",
         "zh_cn": "在菜单界面播放音乐。"
     },
-    "circleSnapHint": {
-        "en": "Circle snapping restricts the cursor to a ring around Cranky, similar to an analogue stick.",
-        "zh_cn": "圆形吸附会将光标限制在 Cranky 周围的一个圆环内，类似于模拟摇杆。"
+    "circleLockHint": {
+        "en": "Circle locking restricts mouse movements to a ring around Cranky.\nDome gives free movement in a circle around Cranky.\nSnappy locks the mouse to a ring, while still being somewhat loose like a joystick.\nStiff locks the mouse to a ring, but is more strict than Snappy, like a crank.",
+        "zh_cn": "圆形锁定将鼠标移动限制在 Cranky 周围的环形区域内。\n“圆顶”允许在 Cranky 周围的圆内自由移动。\n“弹性”将鼠标锁定在环形区域内，但仍然像摇杆一样带有松动性。\n“生硬”将鼠标锁定在环形区域内，但比“弹性”更严格，就像曲柄一样。"
     },
     "flipAnalogHint": {
         "en": "Use the right stick instead of the left stick for gameplay.",
         "zh_cn": "游玩时使用右摇杆代替左摇杆。"
     },
-    "circleSnapRadiusHint": {
-        "en": "The radius around the center of your screen where circle snap will keep your cursor, if enabled.",
-        "zh_cn": "启用后，圆形吸附会将光标限制在屏幕中心周围的指定半径内。"
+    "circleLockRadiusHint": {
+        "en": "The radius around Cranky where circle lock will keep your cursor, if enabled.",
+        "zh_cn": "启用后，圆形锁定会将光标限制在 Cranky 周围的指定半径内。"
     },
     "forceMouseKeyboardHint": {
         "en": "Ignore all controller inputs and force Mouse & Keyboard gameplay.",
@@ -3740,6 +3769,18 @@
     "lockToWindowHint": {
         "en": "Whether the mouse is locked to the window during gameplay.",
         "zh_cn": "游戏过程中鼠标是否锁定在窗口内。"
+    },
+    "hidePaddleHint": {
+        "en": "Hides the paddle during gameplay for an extra challenge!",
+        "zh_cn": "在游戏过程中隐藏挡板，增加额外挑战！"
+    },
+    "resetSaveHint": {
+        "en": "Clears your save file, as if you had just started again. Your settings will remain.\nThis is warning one out of three... are you sure you want to do this?",
+        "zh_cn": "清除存档文件，就像刚刚开始一样。设置将保持不变。\n这是三个警告中的第一个……确定要这样做吗？"
+    },
+    "saveScoresWithAccessibilitySettingsHint": {
+        "en": "Whether you want to save your scores with certain accessibility settings on, e.g. setting sides to lenient, or disabling VFX.\nUseful for practicing a chart!",
+        "zh_cn": "是否希望在某些辅助功能设置开启的情况下保存分数，例如将 Side 音符设置为宽松，或禁用视觉效果。\n这对于练习谱面很有用！"
     },
     "tap1Hint": {
         "en": "Keybind to tap notes.\nOpens cells in \"Through the Minefield\".",

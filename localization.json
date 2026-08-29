@@ -186,7 +186,7 @@
     },
     "menuWorkshop": {
         "en": "Looks like you aren't subscribed to any levels yet! After installing them, you will have to restart the game for them to show up here.",
-        "zh_cn": "看起来你还没有订阅任何关卡！安装关卡之后，你需要重启游戏才能在这里看到它们"
+        "zh_cn": "看起来你还没有订阅任何关卡！安装关卡之后，你需要重启游戏才能在这里看到它们。"
     },
     "menuNoLeaks": {
         "en": "Private Build!",
@@ -1010,7 +1010,7 @@
     },
     "editorKeybinds": {
         "en": "Scroll Wheel - Change current time in song\nLeft, Right - Change selected event rotation (according to current snap)\nUp, Down - Change selected event time (according to current snap)\nLMB on an event - Select event\nRMB on an event - Delete event\nLMB or RMB on empty space - Deselect current event\nLMB and drag - Move event (works on hold ends too)\nShift + LMB - Multi select events\n  Click once to select start point, again to select end point\nAlt + LMB + drag - Multi select events (alternate)\n  Selects events only in the highlighted area\nAlt + Left/Right - Jump to next/previous section\nAlt + F4 - Quit Sibelius\nCtrl + LMB - Duplicate clicked event\nCtrl + Scroll Wheel - Zoom in/out\nHold Alt - Show navigation wheel\nShift + [ - Reduce ratemod by 0.1x (min. 0.25x)\nShift + ] - Increase ratemod by 0.1x (max. 2x)\n\nEsc - Exit editor\nS - Saves changes\nP - Plays level (from current beat)\nF - Jump to position of selected event(s)\nShift + P - Plays level (from bookmark before current beat)\nCtrl + P - Plays level (from start)\nCtrl + C - Copies selected events (only if multiselected)\nCtrl + V - Pastes copied events\nCtrl + R - Resets editor window positions\nCtrl + G - Opens \"Go to beat\" window if closed\nCtrl + I - Opens \"Level properties\" window if closed\nCtrl + D - Change the variant you're editing\nQ on an event - Sample currently hovered event (eyedropper tool)\n\nAll of the following keybinds only work during playtesting:\nP - Return to editor (at current beat)\nEsc - Return to editor (at playtest start beat)\nPeriod - Place a marker at the current beat\n[ - Reduce ratemod by 0.1x (min. 0.25x)\n] - Increase ratemod by 0.1x (max. 2x)\n",
-        "____zh_cn": "滚轮 - 更改歌曲中的当前时间\n左、右方向键 - 更改选中事件的旋转角度（根据当前对齐）\n上、下方向键 - 更改选中事件的时间位置（根据当前对齐）\n在事件上单击左键 - 选中事件\n在事件上单击右键 - 删除事件\n在空白处单击左键或右键 - 取消选中当前事件\n按住左键并拖动 - 移动事件（同样适用于长按尾端）\nShift + 左键 - 多选事件\n  单击一次选择起点，再次单击选择终点\nAlt + 左键 + 拖动 - 多选事件（备选方式）\n  仅选中高亮区域内的事件\nAlt + 左/右方向键 - 跳转到上一/下一段落\nAlt + F4 - 退出 Sibelius\nCtrl + 左键 - 复制点击的事件\nCtrl + 滚轮 - 缩放视图\n按住 Alt - 显示导航轮盘\nShift + [ - 将速率修正减少 0.1 倍（最小 0.25 倍）\nShift + ] - 将速率修正增加 0.1 倍（最大 2 倍）\n\nEsc - 退出编辑器\nS - 保存更改\nP - 试玩关卡（从当前节拍开始）\nF - 跳转到所选事件的位置\nShift + P - 试玩关卡（从当前节拍之前的书签开始）\nCtrl + P - 试玩关卡（从头开始）\nCtrl + C - 复制所选事件（仅当多选时）\nCtrl + V - 粘贴复制的事件\nCtrl + R - 重置编辑器窗口位置\nCtrl + G - 若“跳转到节拍”窗口已关闭，则将其打开\nCtrl + I - 若“关卡属性”窗口已关闭，则将其打开\nCtrl + D - 更改正在编辑的变体\n在事件上按 Q - 吸取当前悬停事件的样式（取色笔工具）\n\n以下所有快捷键仅在试玩期间生效：\nP - 返回编辑器（停留在当前节拍）\nEsc - 返回编辑器（返回到试玩开始时的节拍）\n句号 - 在当前节拍处放置一个标记\n[ - 将速率修正减少 0.1 倍（最小 0.25 倍）\n] - 将速率修正增加 0.1 倍（最大 2 倍）"
+        "____zh_cn": "滚轮 - 更改歌曲中的当前时间\n左/右方向键 - 更改选中事件的旋转角度（按当前对齐吸附）\n上/下方向键 - 更改选中事件的时间（按当前对齐吸附）\n在事件上按左键 - 选中事件\n在事件上按右键 - 删除事件\n在空白处按左键或右键 - 取消选中当前事件\n按住左键拖动 - 移动事件（长条末端同样适用）\nShift + 左键 - 多选事件\n  单击一次选择起点，再次单击选择终点\nAlt + 左键拖动 - 多选事件（备用方式）\n  仅选中高亮区域内的事件\nAlt + 左/右方向键 - 跳转到上一段/下一段\nAlt + F4 - 退出 Sibelius\nCtrl + 左键 - 复制点击的事件\nCtrl + 滚轮 - 缩放视图\n按住 Alt - 显示导航轮盘\nShift + [ - 将游戏速度降低 0.1 倍（最低 0.25 倍）\nShift + ] - 将游戏速度提高 0.1 倍（最高 2 倍）\n\nEsc - 退出编辑器\nS - 保存更改\nP - 试玩关卡（从当前节拍开始）\nF - 跳转到所选事件的位置\nShift + P - 试玩关卡（从当前节拍之前的书签开始）\nCtrl + P - 试玩关卡（从头开始）\nCtrl + C - 复制所选事件（仅限多选时）\nCtrl + V - 粘贴复制的事件\nCtrl + R - 重置编辑器窗口位置\nCtrl + G - 若“跳转到节拍”窗口已关闭，则将其打开\nCtrl + I - 若“关卡属性”窗口已关闭，则将其打开\nCtrl + D - 切换正在编辑的变体\n在事件上按 Q - 吸取当前悬停事件的样式（取色器工具）\n\n以下快捷键仅在试玩期间生效：\nP - 返回编辑器（停留在当前节拍）\nEsc - 返回编辑器（返回到试玩开始时的节拍）\n句号 - 在当前节拍处放置标记\n[ - 将游戏速度降低 0.1 倍（最低 0.25 倍）\n] - 将游戏速度提高 0.1 倍（最高 2 倍）"
     },
     "tutorial_1": {
         "en": "So you want to block beats?\nIt's going to take an awful lot of practice.",
@@ -1540,11 +1540,11 @@
     },
     "levelSpinCycleDescription": {
         "en": "Place in mesh bag, run cold wash, air dry. Add 1 inverse pod per load before wash cycle.",
-        "zh_cn": "放入网袋，冷水洗涤，自然风干。每次洗涤前，请为每批衣物添加一个反向洗衣球。"
+        "zh_cn": "放入网袋，冷水洗涤，自然风干。洗涤前，请为每批衣物加入 1 颗反向洗衣凝珠。"
     },
     "levelThroughTheStaticDescription": {
         "en": "Garbled instructions breach through the crackle of static...\n\"don't get blown up lmao\"",
-        "zh_cn": "在噼啪作响的静电噪音中，传来一段含混不清的指令……\n“别被炸飞了笑死”"
+        "zh_cn": "在噼啪作响的静电噪音中，传来一段含混不清的指令……\n“别被炸飞了，哈哈”"
     },
     "levelBEATROCKDescription": {
         "en": "Another busy day in the mines!\nHm? \"Watch out for falling bounce notes?...\"",
@@ -1573,7 +1573,7 @@
     },
     "levelDestroyDestroyDescription": {
         "en": "A rusted witness sits idle in a field.\nOnly they remember the destruction of bygone days.",
-        "zh_cn": "一位锈迹斑斑的见证者静静地待在田野里。\n只有他们还记得昔日的毁灭。"
+        "zh_cn": "一位锈迹斑斑的见证者静静地待在田野里。\n只有它们还记得昔日的毁灭。"
     },
     "levelEraChimaeraDescription": {
         "en": "You've journeyed far to reach this point. Orbits converge.\nThe Chimæra awaits.",
@@ -2249,7 +2249,7 @@
     },
     "fish_proofofperchase": {
         "en": "Proof of Perchase",
-        "zh_cn": "鲈鱼购买凭证",
+        "zh_cn": "购买凭鲈",
         "owo": "codefish"
     },
     "fish_proofofperchase_description": {
@@ -2294,7 +2294,7 @@
     },
     "fish_deepcsmelt_description": {
         "en": "The Deep-C Smelt is a peaceful fish by nature, preferring to stay out of conflict. However, if cornered, it can unleash a brutally violent \"special attack\" through a series of quarter-circle rotations.",
-        "zh_cn": "深C胡瓜鱼天性平和，喜欢远离冲突。然而，如果被逼到绝境，它可以通过一系列的四分之一摇杆操作，释放出极其暴力的“特殊攻击”。",
+        "zh_cn": "深C胡瓜鱼天性平和，喜欢远离冲突。然而，如果被逼到绝境，它可以通过一系列的四分之一圈摇杆操作，释放出极其暴力的“特殊攻击”。",
         "owo": "codefish awe a noctuwnaw, sowitawy species that spends most\nof theiw awake houws wemaking its own base.\nrumows awe that they have been tempowawiwy empwoyed by bubbwetabby \nto wowk onthe highwy anticipated spin-off titwe, 'new supew cwanky dewuxe'."
     },
     "fish_sunnyfish": {
@@ -2476,7 +2476,7 @@
     },
     "fish_ditheredfish_description": {
         "en": "Whatever you do, do not look into the eyes of a Ditheredfish. They have a hypnotic effect that forces you to think about your dark past an-- AUGH!! Hm... This one's a real biter! Heh. Reel biter- wait why can't I reel it in further- IS THAT A NAVAL MINE",
-        "zh_cn": "无论如何，都不要直视迟疑鱼的眼睛。它们有催眠效果，会让你想起黑暗的过去——啊！！嗯……这家伙真会咬人！嘿，卷线咬人——等等，为什么卷不动了——那是水雷吗？！"
+        "zh_cn": "无论如何，都不要直视迟疑鱼的眼睛。它们有催眠效果，会让你想起黑暗的过去——啊！！嗯……这家伙可真咬人！嘿嘿，真咬钩——等等，怎么卷不动了——那是水雷吗？！"
     },
     "fish_pianosesolphin": {
         "en": "Pianose Solphin",
@@ -2484,7 +2484,7 @@
     },
     "fish_pianosesolphin_description": {
         "en": "The Pianose Solphin can be found composing music with its pod and, in its spare time, enjoys arguing over whether \"thirty-second note\" or \"demisemiquaver\" is the correct name for the sheet music notation.",
-        "zh_cn": "钢琴独奏海豚常与它的族群一起作曲，闲暇时喜欢争论乐谱上的记号究竟该叫“三十二分音符”还是“半三十二分音符”才是正确的名称。"
+        "zh_cn": "钢琴独奏海豚常与它的族群一起作曲，闲暇时喜欢争论乐谱上的记号究竟该叫“三十二分音符”还是“demisemiquaver”才是正确的名称。"
     },
     "fish_seaplane": {
         "en": "Seaplane",
@@ -2596,7 +2596,7 @@
     },
     "costume_jolly_description": {
         "en": "Happy nondescript gift giving holiday! Enjoy your weirdly uncomfortable hat.",
-        "zh_cn": "快乐又说不清是什么的送礼节日！享受你那顶奇怪又不舒服的帽子吧。"
+        "zh_cn": "祝你度过一个快乐的送礼节日——虽然这到底是个什么节也说不太清！好好享受你那顶奇怪又硌人的帽子吧。"
     },
     "costume_jolly_unlock": {
         "en": "CURRENTLY NONE",
@@ -2644,7 +2644,7 @@
     },
     "costume_catears_description": {
         "en": "cta",
-        "zh_cn": "cta"
+        "zh_cn": "猫猫"
     },
     "costume_catears_unlock": {
         "en": "a!so stressed!",
@@ -2670,7 +2670,7 @@
     },
     "costume_mine_description": {
         "en": "Don't get blown up lmao",
-        "zh_cn": "别被炸飞了笑死"
+        "zh_cn": "别被炸飞了，哈哈"
     },
     "costume_mine_unlock": {
         "en": "a!Through The Static",
@@ -2682,7 +2682,8 @@
         "zh_cn": "牛仔帽"
     },
     "costume_cowboy_description": {
-        "en": "cowboys 1 cowboys 2 cowboys s s s s 3 cowboys 8 still great"
+        "en": "cowboys 1 cowboys 2 cowboys s s s s 3 cowboys 8 still great",
+        "zh_cn": "牛仔 1，牛仔 2，牛仔 S、S、S、S、3，牛仔 8——依然很棒"
     },
     "costume_cowboy_unlock": {
         "en": "a!Gritted Strings",
@@ -2745,7 +2746,7 @@
     },
     "costume_bricks_description": {
         "en": "Adds 5 Ranged Defense to Cranky.\n(Unfortunately, notes do physical damage...)",
-        "zh_cn": "为 Cranky 增加5点防御。\n（不幸的是，音符造成直接伤害）"
+        "zh_cn": "为 Cranky 增加 5 点防御。\n（不幸的是，音符造成直接伤害）"
     },
     "costume_bricks_unlock": {
         "en": "a!Cobblestone Counterpoint",
@@ -2847,7 +2848,7 @@
     },
     "costume_invisible_description": {
         "en": "Y'ALL WANNA SEE ME",
-        "zh_cn": "你们都想看见我"
+        "zh_cn": "你们都想看到我"
     },
     "costume_invisible_unlock": {
         "en": "a!C-ミ B-ミ",
@@ -3030,7 +3031,7 @@
     },
     "costume_cloudy_description": {
         "en": "Get your head into the clouds.",
-        "zh_cn": "把你的头抬到云端。"
+        "zh_cn": "让思绪飘向云端。"
     },
     "costume_cloudy_unlock": {
         "en": "a!cloud factory",
@@ -3436,7 +3437,7 @@
     },
     "popupPhantasmQuitBody": {
         "en": "You will have to [rotateY=1]retry the unlock condition[rotateY=0] if you quit out now!",
-        "zh_cn": "如果你现在退出，将必须[rotateY=1]重新尝试解锁条件[rotateY=0]！"
+        "zh_cn": "如果你现在退出，就必须[rotateY=1]重新尝试解锁条件[rotateY=0]！"
     },
     "popupPhantasmQuitAccept": {
         "en": "Back to menu",
@@ -3512,7 +3513,7 @@
     },
     "collabOpenSteam": {
         "en": "Click here to open its Steam page!",
-        "zh_cn": "点击打开它的 Steam 页面"
+        "zh_cn": "点击打开它的 Steam 页面！"
     },
     "collabOpenWebsite": {
         "en": "Click here to open their website!",
@@ -3528,7 +3529,7 @@
     },
     "VSyncHint": {
         "en": "Prevents vertical tearing by forcing framerate to be divisible by your monitors' refresh rate. Can break Hall of Mirrors effects in levels when turned on!",
-        "zh_cn": "通过强制帧率可被显示器刷新率整除来防止垂直撕裂。开启后可能会破坏关卡中的“镜厅”效果！"
+        "zh_cn": "通过让帧率能被显示器刷新率整除，来防止画面垂直撕裂。开启后可能会破坏关卡中的“镜厅”效果！"
     },
     "HUDHint": {
         "en": "The appearance of the game's HUD during gameplay.\n\"None\" shows no HUD, \"Simple\" shows your combo only,\n\"Expanded\" shows all information, and \"Complex\" additionally\nshows misses and barelies.",
@@ -3756,7 +3757,7 @@
     },
     "Jokes_enableHint": {
         "en": "Whether joke settings should always be off, only active on April 1st, or always on.",
-        "zh_cn": "玩笑设置是否应该始终关闭，仅在4月1日激活，或始终开启。"
+        "zh_cn": "玩笑设置是否应该始终关闭，仅在 4 月 1 日激活，或始终开启。"
     },
     "Jokes_theNoteSniperHint": {
         "en": "Small chance for some notes to have an absurdly high or low scroll speed.",

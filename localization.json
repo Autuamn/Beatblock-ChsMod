@@ -1633,8 +1633,8 @@
         "zh_cn": "一个支离破碎的世界，被缝合在一起，供观察者见证它最后的呼吸。"
     },
     "levelWhatsAKeygenDescription": {
-        "en": "keygen (kee-jen)\n[font=main](noun)[reset]\n\nShorthand abbreviation for \"key generator\". Keygens are serial code generators, made for purposes of software validation, though popularized by their often illegitimate development.\n\n[font=main]Also see: \"cracktros\", \"demoscene\", \"torrents\"[reset]",
-        "zh_cn": "keygen (kee-jen)\n[font=main](名词)[reset]\n\n“key generator”的简写。Keygen 是一种序列号生成器，原本用于软件验证，但因常被用于非法用途而广为人知。\n\n[font=main]另请参见：“cracktros”“demoscene”“torrents”[reset]"
+        "en": "keygen [font=main][offset=0,4](noun)[reset]\n[font=keygenIPA]k[reset]\n\nShorthand abbreviation for \"key generator\". Keygens are serial code generators, made for purposes of software validation, though popularized by their often illegitimate development.\n\n[font=main]Also see: \"cracktros\", \"demoscene\", \"torrents\"[reset]",
+        "zh_cn": "keygen[font=main][offset=0,4]（名词）[reset]\n[font=keygenIPA]k[reset]\n\n“key generator”的简写。Keygen 是一种序列号生成器，原本用于软件验证，但因常被用于非法用途而广为人知。\n\n[font=main]另请参见：“cracktros”“demoscene”“torrents”[reset]"
     },
     "levelRecollectionDescription": {
         "en": "Distant memories can sometimes be hard to recall. Together, let's walk the corridors of ages past.",

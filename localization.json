@@ -1648,6 +1648,14 @@
         "en": "Happiness can come in many forms.\n\n(like, for instance, making music with your friends in a group chat)",
         "zh_cn": "快乐可以有很多种形式。\n\n（例如，和朋友们在群聊中一起创作音乐）"
     },
+    "levelFemmeFataleDescription": {
+        "en": "A man finds love at The Radiant, his sleazy local watering hole. But will he stick the landing? Probably not!",
+        "zh_cn": "一个男人在“The Radiant”找到了爱情，那是他常去的那家破酒吧。但他能完美收场吗？不太可能！"
+    },
+    "levelTakeANumberDescription": {
+        "en": "\"Alright, boys!\"\n\"As long as we [rotateY=1]stick with the plan[reset], this heist should go off without a hitch.\"\n\n\"Hopefully.\"\n\n\"...I think.\"",
+        "zh_cn": "“好了，伙计们！”\n“只要咱们[rotateY=1]按计划行事[reset]，这次抢劫应该不会出问题。”\n\n“但愿吧。”\n\n“……但愿。”"
+    },
     "ttsIntro1": {
         "en": "This, is a [charspacing=1][xDuplicate=1]mine[charspacing=0][xDuplicate=0].",
         "zh_cn": "这，是 一 颗 [charspacing=1][xDuplicate=1]地 雷[charspacing=0][xDuplicate=0]。"

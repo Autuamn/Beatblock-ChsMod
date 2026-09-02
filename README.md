@@ -1,6 +1,6 @@
 # Beatblock 简体中文汉化 Mod
 
-![Beatblock](https://img.shields.io/badge/Beatblock-1.8.0-blue)
+![Beatblock](https://img.shields.io/badge/Beatblock-1.9.0-blue)
 
 为节奏游戏 [**Beatblock**](https://bubbletabby.com/) 制作的简体中文汉化模组。
 

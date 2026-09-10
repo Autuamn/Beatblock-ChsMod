@@ -45,7 +45,9 @@
 
 启动游戏，在「Settings → Language」中选择「简体中文」，重启游戏即可生效。
 
-> [!NOTE] 禁用 lovely-injector 终端
+> [!NOTE]
+> 禁用 lovely-injector 终端
+> 
 > 不希望启动游戏时弹出命令行终端？
 > 
 > 在 Steam 中右键游戏，点击「属性」，在「启动选项」中填入 `--disable-console`

@@ -111,7 +111,7 @@ if love.filesystem.exists('Mods/ChsMod') then
 		end
 	end
 
-	fonts['fusionPixel12Glitched'] = love.graphics.newImageFont('Mods/ChsMod/fonts/fp12Garbage.png', '介地弹反侧挑额联返连！击回动外战击向跳雷绍', 1)
+	fonts['fusionPixel12Glitched'] = love.graphics.newImageFont('Mods/ChsMod/fonts/fp12Garbage.png', '介地弹反侧融精联返连！击回动通合击向跳雷绍', 1)
 	fonts['fusionPixel8Glitched'] = love.graphics.newImageFont('Mods/ChsMod/fonts/fp8Garbage.png', '精准度', 1)
 	fonts['boutiqueBitmap7'] = love.graphics.newImageFont('Mods/ChsMod/fonts/BoutiqueBitmap7x7.png', '连接至“”失败…正在尝试加载备份我们上了吗？很好。那么，就让一起来测你能力的极限吧即便最后关头蹒跚不前也应该为自己取得进步而感到慰藉惜切代价要将事情行底渴望是这所有人联系现见识下形态', 1)
 	fonts['terminal2'] = love.graphics.newImageFont('assets/fonts/terminal.png', pixelArtCharacterMapFull, 2)

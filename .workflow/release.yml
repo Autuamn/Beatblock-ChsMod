@@ -6,77 +6,77 @@ triggers:
   push:
     tags:
       prefix:
-      - v
+        - v
 variables:
   global:
-  - PRIVATE_TOKEN
+    - PRIVATE_TOKEN
 stages:
-- name: 自动发布
-  displayName: 自动发布
-  strategy: naturally
-  trigger: auto
-  steps:
-  - step: custom-build@custom
-    name: b570ad79-cc3e-45da-a8a4-039af4323cbf
-    displayName: 打包发布
-    upstreamArtifacts: []
-    commands: |
-      source setup python
-      git fetch --tags
-      export TAG_NAME="$(git tag --sort=-v:refname | head -n1)"
-      python3 - <<'PY'
-      import os
-      import re
-      tag = os.environ["TAG_NAME"]
-      with open("Changelog.md", encoding="utf-8") as f:
-          text = f.read()
-      # 匹配形如“### v4.4”的标题，提取其内容直到下一个标题（或文件末尾）
-      match = re.search(
-          r"^#{1,6}[ \t]+" + re.escape(tag) + r"[ \t]*\n(.*?)(?=\n#{1,6}[ \t]|\Z)",
-          text,
-          re.MULTILINE | re.DOTALL,
-      )
-      if not match:
-          raise SystemExit(
-              f"::error::Changelog.md 中没有版本 {tag} 的内容，请先添加形如“### {tag}”的标题"
+  - name: 自动发布
+    displayName: 自动发布
+    strategy: naturally
+    trigger: auto
+    steps:
+      - step: custom-build@custom
+        name: b570ad79-cc3e-45da-a8a4-039af4323cbf
+        displayName: 打包发布
+        upstreamArtifacts: []
+        commands: |
+          source setup python
+          git fetch --tags
+          export TAG_NAME="$(git tag --sort=-v:refname | head -n1)"
+          python3 - <<'PY'
+          import os
+          import re
+          tag = os.environ["TAG_NAME"]
+          with open("Changelog.md", encoding="utf-8") as f:
+              text = f.read()
+          # 匹配形如“### v4.4”的标题，提取其内容直到下一个标题（或文件末尾）
+          match = re.search(
+              r"^#{1,6}[ \t]+" + re.escape(tag) + r"[ \t]*\n(.*?)(?=\n#{1,6}[ \t]|\Z)",
+              text,
+              re.MULTILINE | re.DOTALL,
           )
-      body = match.group(1).strip()
-      with open("release_body.md", "w", encoding="utf-8") as f:
-          f.write(body + "\n")
-      print(f"已提取 {tag} 的更新内容（{len(body)} 字符）")
-      PY
-      mkdir -p package/ChsMod
-      cp -r README.md Changelog.md LICENSE localization.json optionsMenuItems.json lovely.toml fonts icons package/ChsMod/
-      cd package
-      zip -r -9 "../Beatblock-ChsMod-${TAG_NAME}.zip" ChsMod
-      cd ..
-      BODY_JSON=$(cat release_body.md | jq -R -s .)
-      RESP=$(curl -s -X POST "https://gitee.com/api/v5/repos/${GITEE_REPO}/releases" \
-          -H "Content-Type: application/json" \
-          -d "{
-              \"access_token\": \"${PRIVATE_TOKEN}\",
-              \"tag_name\": \"${TAG_NAME}\",
-              \"name\": \"${TAG_NAME}\",
-              \"body\": ${BODY_JSON},
-              \"target_commitish\": \"main\"
-          }")
-      RELEASE_ID=$(echo "$RESP" | jq -r '.id')
-      if [ "$RELEASE_ID" = "null" ]; then
-          echo "::error::Gitee Release 创建失败: $RESP"
-          exit 1
-      fi
-      echo "✅ Gitee Release 创建成功 (ID: ${RELEASE_ID})"
-      UPLOAD_RESP=$(curl -s -X POST "https://gitee.com/api/v5/repos/${GITEE_REPO}/releases/${RELEASE_ID}/attach_files" \
-                  -F "access_token=${PRIVATE_TOKEN}" \
-                  -F "file=@Beatblock-ChsMod-${TAG_NAME}.zip")
-      if echo "$UPLOAD_RESP" | jq -e '.browser_download_url' > /dev/null; then
-          echo "✅ Gitee 附件上传成功!"
-      else
-          echo "::warning::附件上传可能失败或重复: $UPLOAD_RESP"
-      fi
-    artifacts: []
-    strategy:
-      retry: "0"
-      resource:
-        cpu: "1"
-        memory: "2"
+          if not match:
+              raise SystemExit(
+                  f"::error::Changelog.md 中没有版本 {tag} 的内容，请先添加形如“### {tag}”的标题"
+              )
+          body = match.group(1).strip()
+          with open("release_body.md", "w", encoding="utf-8") as f:
+              f.write(body + "\n")
+          print(f"已提取 {tag} 的更新内容（{len(body)} 字符）")
+          PY
+          mkdir -p package/ChsMod
+          cp -r README.md Changelog.md LICENSE localization.json optionsMenuItems.json lovely.toml fonts icons package/ChsMod/
+          cd package
+          zip -r -9 "../Beatblock-ChsMod-${TAG_NAME}.zip" ChsMod
+          cd ..
+          BODY_JSON=$(cat release_body.md | jq -R -s .)
+          RESP=$(curl -s -X POST "https://gitee.com/api/v5/repos/${GITEE_REPO}/releases" \
+              -H "Content-Type: application/json" \
+              -d "{
+                  \"access_token\": \"${PRIVATE_TOKEN}\",
+                  \"tag_name\": \"${TAG_NAME}\",
+                  \"name\": \"${TAG_NAME}\",
+                  \"body\": ${BODY_JSON},
+                  \"target_commitish\": \"main\"
+              }")
+          RELEASE_ID=$(echo "$RESP" | jq -r '.id')
+          if [ "$RELEASE_ID" = "null" ]; then
+              echo "::error::Gitee Release 创建失败: $RESP"
+              exit 1
+          fi
+          echo "✅ Gitee Release 创建成功 (ID: ${RELEASE_ID})"
+          UPLOAD_RESP=$(curl -s -X POST "https://gitee.com/api/v5/repos/${GITEE_REPO}/releases/${RELEASE_ID}/attach_files" \
+                      -F "access_token=${PRIVATE_TOKEN}" \
+                      -F "file=@Beatblock-ChsMod-${TAG_NAME}.zip")
+          if echo "$UPLOAD_RESP" | jq -e '.browser_download_url' > /dev/null; then
+              echo "✅ Gitee 附件上传成功!"
+          else
+              echo "::warning::附件上传可能失败或重复: $UPLOAD_RESP"
+          fi
+        artifacts: []
+        strategy:
+          retry: "0"
+          resource:
+            cpu: "1"
+            memory: "2"

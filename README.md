@@ -1,6 +1,6 @@
 # Beatblock 简体中文汉化 Mod
 
-![Beatblock](https://img.shields.io/badge/Beatblock-1.9.1-blue)
+![Beatblock](https://img.shields.io/badge/Beatblock-1.9.2-blue) ![lovely-injector](https://img.shields.io/badge/lovely-0.9.0+-blue)
 
 为节奏游戏 [**Beatblock**](https://bubbletabby.com/) 制作的简体中文汉化模组。
 
@@ -11,19 +11,19 @@
 ### 安装 lovely-injector
 
 1. 下载 [lovely-injector](https://github.com/ethangreen-dev/lovely-injector/releases)
-2. 对于 Windows 平台，将解压的 `version.dll` 文件放到 Beatblock 根目录：
+2. 对于 Windows 平台，将解压的 `winmm.dll` 文件放到 Beatblock 根目录：
     ```
    steamapps/common/Beatblock/
                     ├── Beatblock.exe
-                    ├── version.dll
+                    ├── winmm.dll
                     └── ...
    ```
    其他平台详见 [Manual Installation](https://github.com/ethangreen-dev/lovely-injector#manual-installation)
 
 ### 安装 ChsMod
 
-1. [下载](https://github.com/Autuamn/Beatblock-ChsMod/archive/refs/heads/main.zip)本仓库
-2. 在 Beatblock 存档目录下的 `Mods` 文件夹中创建 `ChsMod` 文件夹，将解压出的内容放置于此，最终的目录结构应为：
+1. 在 [latest release](https://github.com/Autuamn/Beatblock-ChsMod/releases) 下载 Mod
+2. 将解压出的 `ChsMod` 文件夹放在 Beatblock 存档目录下的 `Mods` 文件夹中，最终的目录结构应为：
    ```
    beatblock/
    ├── ...

@@ -22,12 +22,10 @@ stages:
         upstreamArtifacts: []
         commands: |
           source setup python
-          git fetch --tags
-          export TAG_NAME="$(git tag --sort=-v:refname | head -n1)"
           python3 - <<'PY'
           import os
           import re
-          tag = os.environ["TAG_NAME"]
+          tag = os.environ["GITEE_BRANCH"]
           with open("Changelog.md", encoding="utf-8") as f:
               text = f.read()
           # 匹配形如“### v4.4”的标题，提取其内容直到下一个标题（或文件末尾）
@@ -48,15 +46,15 @@ stages:
           mkdir -p package/ChsMod
           cp -r README.md Changelog.md LICENSE localization.json optionsMenuItems.json lovely.toml fonts icons package/ChsMod/
           cd package
-          zip -r -9 "../Beatblock-ChsMod-${TAG_NAME}.zip" ChsMod
+          zip -r -9 "../Beatblock-ChsMod-${GITEE_BRANCH}.zip" ChsMod
           cd ..
           BODY_JSON=$(cat release_body.md | jq -R -s .)
           RESP=$(curl -s -X POST "https://gitee.com/api/v5/repos/${GITEE_REPO}/releases" \
               -H "Content-Type: application/json" \
               -d "{
                   \"access_token\": \"${PRIVATE_TOKEN}\",
-                  \"tag_name\": \"${TAG_NAME}\",
-                  \"name\": \"${TAG_NAME}\",
+                  \"tag_name\": \"${GITEE_BRANCH}\",
+                  \"name\": \"${GITEE_BRANCH}\",
                   \"body\": ${BODY_JSON},
                   \"target_commitish\": \"main\"
               }")
@@ -68,7 +66,7 @@ stages:
           echo "✅ Gitee Release 创建成功 (ID: ${RELEASE_ID})"
           UPLOAD_RESP=$(curl -s -X POST "https://gitee.com/api/v5/repos/${GITEE_REPO}/releases/${RELEASE_ID}/attach_files" \
                       -F "access_token=${PRIVATE_TOKEN}" \
-                      -F "file=@Beatblock-ChsMod-${TAG_NAME}.zip")
+                      -F "file=@Beatblock-ChsMod-${GITEE_BRANCH}.zip")
           if echo "$UPLOAD_RESP" | jq -e '.browser_download_url' > /dev/null; then
               echo "✅ Gitee 附件上传成功!"
           else

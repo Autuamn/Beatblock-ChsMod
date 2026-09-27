@@ -909,7 +909,7 @@
     },
     "restartOn": {
         "en": "Restart on: @@1@@",
-        "zh_cn": "于 @@1@@ 时重新开始",
+        "zh_cn": "重开时机：@@1@@",
         "owo": "Restart owon: @@1@@"
     },
     "optionsRestartOnMiss": {
@@ -1018,7 +1018,7 @@
     },
     "optionsMenuDescription6": {
         "en": "Automatically restarts the level upon missing or hitting a barely.",
-        "zh_cn": "Miss 或 Barely 时自动重新启动关卡。",
+        "zh_cn": "Miss 或 Barely 时自动重新开始关卡。",
         "owo": "Automatically restarts the level upon missing or hitting a barely."
     },
     "levelSortName": {

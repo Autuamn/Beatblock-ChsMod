@@ -302,3 +302,21 @@ position = "at"
 payload = 'local text_width = rtf:maxLineWidth(sanitizedName, fonts.digitalDisco)'
 times = 1
 match_indent = true
+
+[[patches]]
+[patches.pattern]
+target = "obj/OptionsList.lua"
+pattern = "love.graphics.print(v.text,x,y)"
+position = "at"
+payload = 'rtf:drawRich(v.text,x,y,fonts.digitalDisco)'
+times = 1
+match_indent = true
+
+[[patches]]
+[patches.pattern]
+target = "states/SongSelect.lua"
+pattern = "love.graphics.printf(descriptionString, 180+xBorder, 300,260,'left')"
+position = "at"
+payload = "rtf:drawRich({text = descriptionString, x = 180 + xBorder, y = 300, wrapLen = 260, justification = 'left'})"
+times = 1
+match_indent = true

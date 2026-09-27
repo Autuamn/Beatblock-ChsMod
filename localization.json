@@ -192,6 +192,78 @@
         "en": "Private Build!",
         "zh_cn": "私有构建！"
     },
+    "creditsProjectLead": {
+        "en": "Project Lead",
+        "zh_cn": "项目主管"
+    },
+    "creditsProducer": {
+        "en": "Producer",
+        "zh_cn": "制作人"
+    },
+    "creditsDevelopers": {
+        "en": "Developers",
+        "zh_cn": "开发者"
+    },
+    "creditsVoiceActing": {
+        "en": "Voice Acting",
+        "zh_cn": "配音"
+    },
+    "creditsLevelDesign": {
+        "en": "Level Design",
+        "zh_cn": "关卡设计"
+    },
+    "creditsDifficultyConsultant": {
+        "en": "Difficulty Consultant",
+        "zh_cn": "难度顾问"
+    },
+    "creditsMusicians": {
+        "en": "Musicians",
+        "zh_cn": "音乐"
+    },
+    "creditsArtists": {
+        "en": "Artists",
+        "zh_cn": "美术"
+    },
+    "creditsPublishingProducer": {
+        "en": "Publishing Producer",
+        "zh_cn": "发行制作人"
+    },
+    "creditsWebsiteDesign": {
+        "en": "Website Design",
+        "zh_cn": "网站设计"
+    },
+    "creditsPlaytesters": {
+        "en": "Playtesters",
+        "zh_cn": "测试玩家"
+    },
+    "creditsSpecialThanks": {
+        "en": "Special Thanks",
+        "zh_cn": "特别感谢"
+    },
+    "creditsST1": {
+        "en": "LÖVE engine developers",
+        "zh_cn": "LÖVE 引擎开发者"
+    },
+    "creditsST2": {
+        "en": "The NotITG community",
+        "zh_cn": "NotITG 社区"
+    },
+    "creditsST3": {
+        "en": "The Playdate community",
+        "zh_cn": "Playdate 社区"
+    },
+    "creditsST4": {
+        "en": "The Heaven Studio team",
+        "zh_cn": "Heaven Studio 团队"
+    },
+    "creditsST5": {
+        "en": "Lua library authors",
+        "zh_cn": "Lua 库作者们"
+    },
+    "creditsST6": {
+        "en": "(See license_game.txt for details)",
+        "zh_cn": "（详见 license_game.txt）"
+    },
     "returnToMenuPrompt_keyboard": {
         "en": "(press [input=back] to return to menu)",
         "zh_cn": "（按下[input=back]返回菜单）",
@@ -644,6 +716,10 @@
     "optionsExtraOptions": {
         "en": "Additional Settings",
         "zh_cn": "更多设置"
+    },
+    "optionsSorting": {
+        "en": "Open Level Sorting",
+        "zh_cn": "打开关卡排序"
     },
     "optionsKeyboardGameplay": {
         "en": "Gameplay",
@@ -1221,6 +1297,14 @@
         "en": "Collab",
         "zh_cn": "联动",
         "owo": "Collab"
+    },
+    "MapNewLevel": {
+        "en": "New Level Unlocked",
+        "zh_cn": "新关卡已解锁"
+    },
+    "MapLevelLocked": {
+        "en": "?????",
+        "zh_cn": "?????"
     },
     "calibration_1_mouse": {
         "en": "Press [input=tap1] to the beat.",
@@ -2622,6 +2706,18 @@
         "en": "CURRENTLY NONE",
         "zh_cn": "暂无"
     },
+    "costume_partyhat": {
+        "en": "Party Hat",
+        "zh_cn": "派对帽"
+    },
+    "costume_partyhat_description": {
+        "en": "Added in celebration of Beatblock 1.0 being out for a year!",
+        "zh_cn": "为庆祝 Beatblock 1.0 发布一周年而添加！"
+    },
+    "costume_partyhat_unlock": {
+        "en": "CURRENTLY NONE",
+        "zh_cn": "暂无"
+    },
     "costume_gradcap": {
         "en": "Grad Cap",
         "zh_cn": "毕业帽"
@@ -3877,5 +3973,119 @@
     "optionsDelete": {
         "en": "Delete event",
         "zh_cn": "删除事件"
+    },
+    "pickAFile": {
+        "en": "Choose a level to import!",
+        "zh_cn": "选择要导入的关卡！"
+    },
+    "importLevel": {
+        "en": "Import Level",
+        "zh_cn": "导入关卡"
+    },
+    "OpenFileDialog": {
+        "en": "Browse for Beatblock level files.",
+        "zh_cn": "浏览 Beatblock 关卡文件。"
+    },
+    "optionsComboDisplayPosition": {
+        "en": "Combo display position",
+        "zh_cn": "连击显示位置"
+    },
+    "optionsShowAccuracy": {
+        "en": "Show accuracy",
+        "zh_cn": "显示精准度"
+    },
+    "optionsShowPerfects": {
+        "en": "Show perfect count",
+        "zh_cn": "显示 Perfect 数"
+    },
+    "optionsShowBarelies": {
+        "en": "Show barely count",
+        "zh_cn": "显示 Barely 数"
+    },
+    "optionsShowMisses": {
+        "en": "Show miss count",
+        "zh_cn": "显示 Miss 数"
+    },
+    "optionsShowRank": {
+        "en": "Show rank",
+        "zh_cn": "显示评级"
+    },
+    "optionsShowProgressToNextRank": {
+        "en": "Show rank progress",
+        "zh_cn": "显示评级进度"
+    },
+    "optionsShowSongName": {
+        "en": "Show song name",
+        "zh_cn": "显示歌曲名"
+    },
+    "optionsShowSongDifficulty": {
+        "en": "Show difficulty",
+        "zh_cn": "显示难度"
+    },
+    "optionsUiSettings": {
+        "en": "Ingame HUD settings",
+        "zh_cn": "游戏内 HUD 设置"
+    },
+    "comboDisplayPositionHint": {
+        "en": "Sets the position of the combo display on the screen.\n\"None\" hides it entirely.",
+        "zh_cn": "设置连击数在屏幕上的显示位置。\n选择“无”则完全隐藏。"
+    },
+    "showAccuracyHint": {
+        "en": "Shows your current accuracy percentage during gameplay if enabled.",
+        "zh_cn": "启用后，在游戏过程中显示当前精准度百分比。"
+    },
+    "showPerfectsHint": {
+        "en": "Shows your current perfect count during gameplay.",
+        "zh_cn": "在游戏过程中显示当前的 Perfect 数。"
+    },
+    "showBareliesHint": {
+        "en": "Shows your current barely count (notes hit with the edge of your paddle) during gameplay.",
+        "zh_cn": "在游戏过程中显示当前的 Barely 数（用挡板边缘击中的音符）。"
+    },
+    "showMissesHint": {
+        "en": "Shows your current miss count (notes entirely missed, or mines hit) during gameplay.",
+        "zh_cn": "在游戏过程中显示当前的 Miss 数（完全漏掉的音符，或击中的地雷）。"
+    },
+    "showRankHint": {
+        "en": "Shows your current rank during gameplay.",
+        "zh_cn": "在游戏过程中显示当前评级。"
+    },
+    "showProgressToNextRankHint": {
+        "en": "Shows a ring surrounding your rank, indicating how close you are to the next rank.\nDoes nothing if Show Rank is disabled.",
+        "zh_cn": "在评级周围显示一个圆环，指示你距离下一评级有多近。\n若未启用“显示评级”，此选项无效。"
+    },
+    "showSongNameHint": {
+        "en": "Shows song name during gameplay in the bottom-left of the screen.",
+        "zh_cn": "在游戏过程中于屏幕左下角显示歌曲名。"
+    },
+    "showSongDifficultyHint": {
+        "en": "Shows song difficulty during gameplay in the bottom-right of the screen.",
+        "zh_cn": "在游戏过程中于屏幕右下角显示歌曲难度。"
+    },
+    "uiSettingsHint": {
+        "en": "Options for the in-game GUI.",
+        "zh_cn": "游戏内界面的相关选项。"
+    },
+    "off": {
+        "en": "Off",
+        "zh_cn": "关闭"
+    },
+    "bottomLeft": {
+        "en": "Bottom-left",
+        "zh_cn": "左下"
+    },
+    "topMiddle": {
+        "en": "Top-middle",
+        "zh_cn": "顶部居中"
+    },
+    "accuracyPerfectSingular": {
+        "en": " perfect",
+        "owo": " pwerfwect",
+        "zh_cn": " Perfect"
+    },
+    "accuracyPerfectPlural": {
+        "en": " perfects",
+        "owo": " pwerfwects",
+        "zh_cn": " Perfect"
     }
 }

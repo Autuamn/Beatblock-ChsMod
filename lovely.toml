@@ -245,6 +245,15 @@ function rtf:followingUnbreakSym(text, startPos, chrOffset)
 	return false
 end
 
+function rtf:maxLineWidth(s, font)
+	local maxWidth = 0
+	for line in (s .. "\n"):gmatch("(.-)\n") do
+		local w = font:getWidth(line)
+		if w > maxWidth then maxWidth = w end
+	end
+	return maxWidth
+end
+
 '''
 match_indent = true
 times = 1
@@ -276,3 +285,20 @@ payload = "if not(self:isUnbreakChar(l)) and wrapLen > 0 then"
 times = 1
 match_indent = true
 
+[[patches]]
+[patches.pattern]
+target = "states/AchievementViewer.lua"
+pattern = "love.graphics.print(loc.get('achievementHiddenMessage',{hidden}), x, math.floor(easeY) + 80)"
+position = "at"
+payload = "rtf:drawRich(loc.get('achievementHiddenMessage',{hidden}), x, math.floor(easeY) + 80, fonts.digitalDisco)"
+times = 1
+match_indent = true
+
+[[patches]]
+[patches.pattern]
+target = ["states/AtomMap.lua", "states/SongSelect.lua"]
+pattern = "local text_width = fonts.digitalDisco:getWidth(sanitizedName)"
+position = "at"
+payload = 'local text_width = rtf:maxLineWidth(sanitizedName, fonts.digitalDisco)'
+times = 1
+match_indent = true

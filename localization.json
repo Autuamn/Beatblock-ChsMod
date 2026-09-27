@@ -124,12 +124,12 @@
     },
     "discordLink": {
         "en": "Join our Discord!",
-        "zh_cn": "加入我们的 Discord！",
+        "zh_cn": "加入我们的 Discord!",
         "owo": "Join ouww discowd! OwO"
     },
     "twitterPlug": {
         "en": "Follow us on Bluesky! @beatblock.bsky.social",
-        "zh_cn": "在 Bluesky 上关注我们！@beatblock.bsky.social",
+        "zh_cn": "关注我们的 Bluesky! @beatblock.bsky.social",
         "owo": "Fowwow uws on bwuesky! @beatblock.bsky.social"
     },
     "tutorialNagTitle": {
@@ -262,7 +262,7 @@
     },
     "creditsST6": {
         "en": "(See license_game.txt for details)",
-        "zh_cn": "（详见 license_game.txt）"
+        "zh_cn": "(详见 license_game.txt)"
     },
     "returnToMenuPrompt_keyboard": {
         "en": "(press [input=back] to return to menu)",
@@ -820,7 +820,7 @@
     },
     "lang_zh_cn": {
         "en": "简体中文",
-        "zh_cn": "[font=fusionPixel12]简体中文",
+        "zh_cn": "[font=fusionPixel12]简体中文[reset]",
         "owo": "简体中文"
     },
     "lang_kr": {
@@ -2141,7 +2141,7 @@
     },
     "fish_bookPage": {
         "en": "Page @@1@@/@@2@@",
-        "zh_cn": "第 @@1@@/@@2@@ 页",
+        "zh_cn": "@@1@@/@@2@@",
         "owo": "page @@1@@/@@2@@"
     },
     "fish_bookUndiscovered": {
@@ -3616,7 +3616,7 @@
     },
     "collabOpenSteam": {
         "en": "Click here to open its Steam page!",
-        "zh_cn": "点击打开它的 Steam 页面"
+        "zh_cn": "点击打开它的 Steam 页面！"
     },
     "collabOpenWebsite": {
         "en": "Click here to open their website!",

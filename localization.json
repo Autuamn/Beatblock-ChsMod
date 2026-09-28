@@ -4022,6 +4022,10 @@
         "en": "Show difficulty",
         "zh_cn": "显示难度"
     },
+    "optionsShowAllHUDInEditor": {
+        "en": "Show all in editor",
+        "zh_cn": "在编辑器中显示全部"
+    },
     "optionsUiSettings": {
         "en": "Ingame HUD settings",
         "zh_cn": "游戏内 HUD 设置"
@@ -4066,6 +4070,10 @@
         "en": "Options for the in-game GUI.",
         "zh_cn": "游戏内界面的相关选项。"
     },
+    "showAllHUDInEditorHint": {
+        "en": "When enabled, playtesting levels in the editor forces ingame options to show all stats, with large rank and ring type display.\nUseful for testing GUI changes in levels.",
+        "zh_cn": "启用后，在编辑器中测试关卡时会强制显示所有游戏内选项，包括大的评级和环形评级进度显示。\n对于测试关卡中的 GUI 更改很有用。"
+    },
     "off": {
         "en": "Off",
         "zh_cn": "关闭"
@@ -4087,5 +4095,21 @@
         "en": " perfects",
         "owo": " pwerfwects",
         "zh_cn": " Perfect"
+    },
+	"small": {
+        "en": "Small",
+        "zh_cn": "小"
+    },
+    "large": {
+        "en": "Large",
+        "zh_cn": "大"
+    },
+    "ring": {
+        "en": "Ring",
+        "zh_cn": "环形"
+    },
+    "bar": {
+        "en": "Bar",
+        "zh_cn": "条形"
     }
 }

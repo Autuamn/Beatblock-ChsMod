@@ -1,6 +1,6 @@
 # Beatblock 简体中文汉化 Mod
 
-![Beatblock](https://img.shields.io/badge/Beatblock-1.9.2-blue) ![lovely-injector](https://img.shields.io/badge/lovely-0.9.0+-blue)
+![Beatblock](https://img.shields.io/badge/Beatblock-1.9.2a-blue) ![lovely-injector](https://img.shields.io/badge/lovely-0.9.0+-blue)
 
 为节奏游戏 [**Beatblock**](https://bubbletabby.com/) 制作的简体中文汉化模组。
 

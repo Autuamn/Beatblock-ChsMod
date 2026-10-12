@@ -22,7 +22,7 @@
 
 ### 安装 ChsMod
 
-1. 在 [latest release](https://github.com/Autuamn/Beatblock-ChsMod/releases) 下载 Mod
+1. 下载本 Mod： [github](https://github.com/Autuamn/Beatblock-ChsMod/releases/latest) | [gitee](https://gitee.com/Autuamn/Beatblock-ChsMod/releases/latest)
 2. 将解压出的 `ChsMod` 文件夹放在 Beatblock 存档目录下的 `Mods` 文件夹中，最终的目录结构应为：
    ```
    beatblock/
